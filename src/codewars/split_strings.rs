@@ -1,13 +1,10 @@
 fn solution(s: &str) -> Vec<String> {
-    let mut v = Vec::with_capacity(s.len()/2+1);
-    let mut c = s.chars();
-    for _ in (0..s.len()).step_by(2) {
-        let mut st = String::new();
-        st.push(c.next().unwrap());
-        st.push(c.next().unwrap_or('_'));
-        v.push(st);
-    }
-    v
+    let vec = s
+    .as_bytes()
+    .chunks(2)
+    .map(|x| format!("{:_<2}", std::str::from_utf8(x).unwrap())) // format!("{:_<2}") 印出兩個字，不足的用_代替
+    .collect();
+    vec
 }
 
 #[cfg(test)]
