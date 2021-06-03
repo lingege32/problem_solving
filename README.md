@@ -6,3 +6,4 @@
 * [Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/train/rust)
 * [Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b/train/rust)
 * [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4/train/rust)
+* [Primes in numbers](https://www.codewars.com/kata/54d512e62a5e54c96200019e/train/rust)
