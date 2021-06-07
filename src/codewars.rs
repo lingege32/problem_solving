@@ -7,3 +7,4 @@ mod roman_numerals_encoder;
 mod bit_counting;
 mod primes_in_number;
 mod bouncing_ball;
+mod anagrams;

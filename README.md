@@ -8,3 +8,4 @@
 * [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4/train/rust)
 * [Primes in numbers](https://www.codewars.com/kata/54d512e62a5e54c96200019e/train/rust)
 * [6kyu Bouncing Balls](https://www.codewars.com/kata/5544c7a5cb454edb3c000047/train/rust)
+* [5kyu Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1/train/rust)
