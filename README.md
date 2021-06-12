@@ -11,3 +11,4 @@
 * [5kyu Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1/train/rust)
 * [5kyu Common Denominators](https://www.codewars.com/kata/54d7660d2daf68c619000d95/train/rust)
 * [5kyu Integers: Recreation One](https://www.codewars.com/kata/55aa075506463dac6600010d/train/rust)
+* [4kyu Strings Mix](https://www.codewars.com/kata/5629db57620258aa9d000014/train/rust)

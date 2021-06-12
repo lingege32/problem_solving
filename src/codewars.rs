@@ -10,3 +10,4 @@ mod bouncing_ball;
 mod anagrams;
 mod convert_fracts;
 mod list_squared;
+mod string_mix;
