@@ -14,3 +14,4 @@
 * [4kyu Strings Mix](https://www.codewars.com/kata/5629db57620258aa9d000014/train/rust)
 * [4kyu Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050/train/rust)
 * [5kyu Buddy Pairs](https://www.codewars.com/kata/59ccf051dcc4050f7800008f/train/rust)
+* [4kyu Validate Sudoku with size `NxN`](https://www.codewars.com/kata/540afbe2dc9f615d5e000425/train/rust)
