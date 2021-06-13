@@ -12,3 +12,4 @@ mod convert_fracts;
 mod list_squared;
 mod string_mix;
 mod dbl_linear;
+mod buddy;
