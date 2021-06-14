@@ -14,3 +14,4 @@ mod string_mix;
 mod dbl_linear;
 mod buddy;
 mod sudoku_is_valid;
+mod last_digit;
