@@ -1,4 +1,5 @@
 
+// solution : https://learnku.com/articles/30221
 fn last_digit(lst: &[u64]) -> u64 {
     let mut r = 1;
     for &i in lst.iter().rev() {
@@ -8,7 +9,7 @@ fn last_digit(lst: &[u64]) -> u64 {
                 _ => r=0
             };
         } else {
-            let k = if r < 4 { r} else { r % 4 + 4 };
+            let k = if r < 2 { r} else { r % 4 + 4 };
             r = (i%100).pow(k as u32);
         }
     }
