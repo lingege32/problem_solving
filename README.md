@@ -16,3 +16,4 @@
 * [5kyu Buddy Pairs](https://www.codewars.com/kata/59ccf051dcc4050f7800008f/train/rust)
 * [4kyu Validate Sudoku with size `NxN`](https://www.codewars.com/kata/540afbe2dc9f615d5e000425/train/rust)
 * [3kyu Last digit of a huge number](https://www.codewars.com/kata/5518a860a73e708c0a000027/train/rust)
+* [4kyu Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/rust)
