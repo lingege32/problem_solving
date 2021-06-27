@@ -17,3 +17,4 @@ mod sudoku_is_valid;
 mod last_digit;
 mod format_duration;
 mod range_extraction;
+mod snail;

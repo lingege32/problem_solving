@@ -18,3 +18,4 @@
 * [3kyu Last digit of a huge number](https://www.codewars.com/kata/5518a860a73e708c0a000027/train/rust)
 * [4kyu Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/rust)
 * [4kyu Range Extraction](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f/train/rust)
+* [4kyu Snail](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/train/rust)
