@@ -1,0 +1,153 @@
+// Other's Solution achieve 100%
+
+// impl Solution {
+//     pub fn is_bipartite(graph: Vec<Vec<i32>>) -> bool {
+//         is_bipartite(
+//             &graph
+//                 .into_iter()
+//                 // These really ought to have been unsigned all along, if the graph is represented as a Vec
+//                 .map(|edges| edges.into_iter().map(|edge| edge as usize).collect())
+//                 .collect::<Vec<_>>(),
+//         )
+//     }
+// }
+
+// pub fn is_bipartite(graph: &[Vec<usize>]) -> bool {
+//     #[derive(Clone, Copy, PartialEq)]
+//     enum Set {
+//         A,
+//         B,
+//     }
+
+//     impl Set {
+//         fn other(&self) -> Self {
+//             use Set::*;
+
+//             match self {
+//                 A => B,
+//                 B => A,
+//             }
+//         }
+//     }
+
+//     fn visit(
+//         node: usize,
+//         set: Set,
+//         graph: &[Vec<usize>],
+//         visited: &mut Vec<Option<Set>>,
+//     ) -> bool {
+//         match visited[node] {
+//             None => {
+//                 visited[node] = Some(set);
+//                 graph[node]
+//                     .iter()
+//                     .map(|&node| visit(node, set.other(), graph, visited))
+//                     .all(|x| x)
+//             }
+//             Some(s) if s != set => false,
+//             _ => true,
+//         }
+//     }
+
+//     let mut visited = vec![None; graph.len()];
+
+//     (0..graph.len()).all(|node| {
+//         if visited[node].is_none() {
+//             visit(node, Set::A, graph, &mut visited)
+//         } else {
+//             true
+//         }
+//     })
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+use std::collections::VecDeque;
+struct Solution {}
+#[derive(Clone, PartialEq, Debug)]
+enum Part {
+    Unknow,
+    A,
+    B,
+}
+impl Part {
+    pub fn next(self) -> Self {
+        match self {
+            Self::A => Self::B,
+            Self::B => Self::A,
+            Self::Unknow => Self::Unknow,
+        }
+    }
+}
+impl Solution {
+    pub fn is_bipartite(graph: Vec<Vec<i32>>) -> bool {
+        let mut graph: Vec<(Part, Vec<usize>)> = graph
+            .into_iter()
+            .map(|x| (Part::Unknow, x.into_iter().map(|y| y as usize).collect()))
+            .collect();
+        
+        while let Some((root,_)) = graph.iter().enumerate().find(|x| (x.1).0 == Part::Unknow) {
+            
+        let mut part = Part::A;
+        let mut queue = VecDeque::new();
+        queue.push_back(root);
+        while !queue.is_empty() {
+            for _ in 0..queue.len() {
+                
+                let vertex = queue.pop_front().unwrap();
+                let vertex_info = &mut graph[vertex];
+                if vertex_info.0 == Part::Unknow {
+                    vertex_info.0 = part.clone();
+                    for adj in vertex_info.1.iter() {
+                        queue.push_back(*adj);
+                    }
+                } else if vertex_info.0 != part {
+                    return false;
+                }
+            }
+            
+            part = part.next();
+        }
+        }
+
+        true
+    }
+}
+
+#[cfg(test)]
+mod test_super {
+    use itertools::Itertools;
+
+    use super::*;
+
+    #[test]
+    fn test_1() {
+        let graph = [vec![1,2,3],vec![0,2],vec![0,1,3],vec![0,2]].to_vec();
+        assert!(!Solution::is_bipartite(graph));
+    }
+    #[test]
+    fn test_2() {
+        let graph = [[1,3],[0,2],[1,3],[0,2]].iter().map(|x| x.to_vec()).collect();
+        assert!(Solution::is_bipartite(graph));
+    }
+    #[test]
+    fn test_3() {
+        let graph = [vec![],vec![2,4,6],vec![1,4,8,9],vec![7,8],vec![1,2,8,9],vec![6,9],vec![1,5,7,8,9],vec![3,6,9],vec![2,3,4,6,9],vec![2,4,5,6,7,8]].to_vec();
+        assert!(!Solution::is_bipartite(graph));
+    }
+}
