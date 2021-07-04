@@ -60,23 +60,6 @@
 //     })
 // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 use std::collections::VecDeque;
 struct Solution {}
 #[derive(Clone, PartialEq, Debug)]
@@ -100,29 +83,27 @@ impl Solution {
             .into_iter()
             .map(|x| (Part::Unknow, x.into_iter().map(|y| y as usize).collect()))
             .collect();
-        
-        while let Some((root,_)) = graph.iter().enumerate().find(|x| (x.1).0 == Part::Unknow) {
-            
-        let mut part = Part::A;
-        let mut queue = VecDeque::new();
-        queue.push_back(root);
-        while !queue.is_empty() {
-            for _ in 0..queue.len() {
-                
-                let vertex = queue.pop_front().unwrap();
-                let vertex_info = &mut graph[vertex];
-                if vertex_info.0 == Part::Unknow {
-                    vertex_info.0 = part.clone();
-                    for adj in vertex_info.1.iter() {
-                        queue.push_back(*adj);
+
+        while let Some((root, _)) = graph.iter().enumerate().find(|x| (x.1).0 == Part::Unknow) {
+            let mut part = Part::A;
+            let mut queue = VecDeque::new();
+            queue.push_back(root);
+            while !queue.is_empty() {
+                for _ in 0..queue.len() {
+                    let vertex = queue.pop_front().unwrap();
+                    let vertex_info = &mut graph[vertex];
+                    if vertex_info.0 == Part::Unknow {
+                        vertex_info.0 = part.clone();
+                        for adj in vertex_info.1.iter() {
+                            queue.push_back(*adj);
+                        }
+                    } else if vertex_info.0 != part {
+                        return false;
                     }
-                } else if vertex_info.0 != part {
-                    return false;
                 }
+
+                part = part.next();
             }
-            
-            part = part.next();
-        }
         }
 
         true
@@ -137,17 +118,32 @@ mod test_super {
 
     #[test]
     fn test_1() {
-        let graph = [vec![1,2,3],vec![0,2],vec![0,1,3],vec![0,2]].to_vec();
+        let graph = [vec![1, 2, 3], vec![0, 2], vec![0, 1, 3], vec![0, 2]].to_vec();
         assert!(!Solution::is_bipartite(graph));
     }
     #[test]
     fn test_2() {
-        let graph = [[1,3],[0,2],[1,3],[0,2]].iter().map(|x| x.to_vec()).collect();
+        let graph = [[1, 3], [0, 2], [1, 3], [0, 2]]
+            .iter()
+            .map(|x| x.to_vec())
+            .collect();
         assert!(Solution::is_bipartite(graph));
     }
     #[test]
     fn test_3() {
-        let graph = [vec![],vec![2,4,6],vec![1,4,8,9],vec![7,8],vec![1,2,8,9],vec![6,9],vec![1,5,7,8,9],vec![3,6,9],vec![2,3,4,6,9],vec![2,4,5,6,7,8]].to_vec();
+        let graph = [
+            vec![],
+            vec![2, 4, 6],
+            vec![1, 4, 8, 9],
+            vec![7, 8],
+            vec![1, 2, 8, 9],
+            vec![6, 9],
+            vec![1, 5, 7, 8, 9],
+            vec![3, 6, 9],
+            vec![2, 3, 4, 6, 9],
+            vec![2, 4, 5, 6, 7, 8],
+        ]
+        .to_vec();
         assert!(!Solution::is_bipartite(graph));
     }
 }
