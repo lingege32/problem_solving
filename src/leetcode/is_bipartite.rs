@@ -1,114 +1,66 @@
 // Other's Solution achieve 100%
 
-// impl Solution {
-//     pub fn is_bipartite(graph: Vec<Vec<i32>>) -> bool {
-//         is_bipartite(
-//             &graph
-//                 .into_iter()
-//                 // These really ought to have been unsigned all along, if the graph is represented as a Vec
-//                 .map(|edges| edges.into_iter().map(|edge| edge as usize).collect())
-//                 .collect::<Vec<_>>(),
-//         )
-//     }
-// }
-
-// pub fn is_bipartite(graph: &[Vec<usize>]) -> bool {
-//     #[derive(Clone, Copy, PartialEq)]
-//     enum Set {
-//         A,
-//         B,
-//     }
-
-//     impl Set {
-//         fn other(&self) -> Self {
-//             use Set::*;
-
-//             match self {
-//                 A => B,
-//                 B => A,
-//             }
-//         }
-//     }
-
-//     fn visit(
-//         node: usize,
-//         set: Set,
-//         graph: &[Vec<usize>],
-//         visited: &mut Vec<Option<Set>>,
-//     ) -> bool {
-//         match visited[node] {
-//             None => {
-//                 visited[node] = Some(set);
-//                 graph[node]
-//                     .iter()
-//                     .map(|&node| visit(node, set.other(), graph, visited))
-//                     .all(|x| x)
-//             }
-//             Some(s) if s != set => false,
-//             _ => true,
-//         }
-//     }
-
-//     let mut visited = vec![None; graph.len()];
-
-//     (0..graph.len()).all(|node| {
-//         if visited[node].is_none() {
-//             visit(node, Set::A, graph, &mut visited)
-//         } else {
-//             true
-//         }
-//     })
-// }
-
-use std::collections::VecDeque;
-struct Solution {}
-#[derive(Clone, PartialEq, Debug)]
-enum Part {
-    Unknow,
-    A,
-    B,
-}
-impl Part {
-    pub fn next(self) -> Self {
-        match self {
-            Self::A => Self::B,
-            Self::B => Self::A,
-            Self::Unknow => Self::Unknow,
-        }
-    }
-}
+struct Solution();
 impl Solution {
     pub fn is_bipartite(graph: Vec<Vec<i32>>) -> bool {
-        let mut graph: Vec<(Part, Vec<usize>)> = graph
-            .into_iter()
-            .map(|x| (Part::Unknow, x.into_iter().map(|y| y as usize).collect()))
-            .collect();
-
-        while let Some((root, _)) = graph.iter().enumerate().find(|x| (x.1).0 == Part::Unknow) {
-            let mut part = Part::A;
-            let mut queue = VecDeque::new();
-            queue.push_back(root);
-            while !queue.is_empty() {
-                for _ in 0..queue.len() {
-                    let vertex = queue.pop_front().unwrap();
-                    let vertex_info = &mut graph[vertex];
-                    if vertex_info.0 == Part::Unknow {
-                        vertex_info.0 = part.clone();
-                        for adj in vertex_info.1.iter() {
-                            queue.push_back(*adj);
-                        }
-                    } else if vertex_info.0 != part {
-                        return false;
-                    }
-                }
-
-                part = part.next();
-            }
-        }
-
-        true
+        is_bipartite(
+            &graph
+                .into_iter()
+                // These really ought to have been unsigned all along, if the graph is represented as a Vec
+                .map(|edges| edges.into_iter().map(|edge| edge as usize).collect())
+                .collect::<Vec<_>>(),
+        )
     }
 }
+
+pub fn is_bipartite(graph: &[Vec<usize>]) -> bool {
+    #[derive(Clone, Copy, PartialEq)]
+    enum Set {
+        A,
+        B,
+    }
+
+    impl Set {
+        fn other(&self) -> Self {
+            use Set::*;
+
+            match self {
+                A => B,
+                B => A,
+            }
+        }
+    }
+
+    fn visit(
+        node: usize,
+        set: Set,
+        graph: &[Vec<usize>],
+        visited: &mut Vec<Option<Set>>,
+    ) -> bool {
+        match visited[node] {
+            None => {
+                visited[node] = Some(set);
+                graph[node]
+                    .iter()
+                    .map(|&node| visit(node, set.other(), graph, visited))
+                    .all(|x| x)
+            }
+            Some(s) if s != set => false,
+            _ => true,
+        }
+    }
+
+    let mut visited = vec![None; graph.len()];
+
+    (0..graph.len()).all(|node| {
+        if visited[node].is_none() {
+            visit(node, Set::A, graph, &mut visited)
+        } else {
+            true
+        }
+    })
+}
+
 
 #[cfg(test)]
 mod test_super {
