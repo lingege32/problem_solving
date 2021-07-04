@@ -25,3 +25,4 @@
 
 * [Medium - 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 * [Medium - 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+* [Medium - 886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
