@@ -24,3 +24,4 @@
 --- LeetCode - https://leetcode.com/
 
 * [Medium - 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+* [Medium - 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
