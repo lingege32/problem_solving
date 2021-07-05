@@ -52,7 +52,7 @@ impl Solution {
         let row_num = grid.len();
         let col_num = grid[0].len();
         let mut land_id = 0;
-        let mut root_island = vec![vec! {None; col_num}; row_num];
+        let mut root_island = vec![vec! [None; col_num]; row_num];
         for row_idx in 0..row_num {
             for col_idx in 0..col_num {
                 if Self::is_land(grid[row_idx][col_idx]) && root_island[row_idx][col_idx].is_none()
@@ -81,8 +81,7 @@ impl Solution {
         root_island: &mut [Vec<Option<i32>>],
         grid: &[Vec<char>],
     ) {
-        let mut stack = Vec::new();
-        stack.push((row_idx, col_idx));
+        let mut stack = vec![(row_idx, col_idx)];
         while !stack.is_empty() {
             let (row, col) = stack.pop().unwrap();
             if root_island[row][col].is_some() {
