@@ -29,3 +29,4 @@
 * [Medium - 785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
 * [Medium - 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 * [Medium - 695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+* [Medium - 1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
