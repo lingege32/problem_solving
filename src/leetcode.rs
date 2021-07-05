@@ -6,3 +6,4 @@ mod num_islands;
 mod max_area_of_island;
 mod largest_submatrix;
 mod sort_colors;
+mod unique_paths;
