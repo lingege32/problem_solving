@@ -16,7 +16,7 @@ fn mix(s1: &str, s2: &str) -> String {
     }
     vec.iter_mut().for_each(|(_, s1, s2)| {
         match s1.cmp(&s2) {
-            std::cmp::Ordering::Equal => *s3 = 3,
+            std::cmp::Ordering::Equal => *s2 = 3,
             std::cmp::Ordering::Less => {
                 *s1 = *s2;
                 *s2 = 2;
