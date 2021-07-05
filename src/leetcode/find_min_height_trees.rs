@@ -84,7 +84,7 @@ impl Graph {
             m_g: vec![HashSet::new(); n],
         }
     }
-    pub fn add_edges(&mut self, edges: &Vec<Vec<i32>>) {
+    pub fn add_edges(&mut self, edges: &[Vec<i32>]) {
         edges.iter().for_each(|x| {
             self.m_g[x[0] as usize].insert(x[1] as usize);
             self.m_g[x[1] as usize].insert(x[0] as usize);

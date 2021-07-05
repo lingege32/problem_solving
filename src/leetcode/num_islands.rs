@@ -45,7 +45,7 @@
 struct Solution {}
 impl Solution {
     pub fn num_islands(grid: Vec<Vec<char>>) -> i32 {
-        if grid.len() == 0 || grid[0].len() == 0 {
+        if grid.is_empty() || grid[0].is_empty() {
             return 0;
         }
 
@@ -78,8 +78,8 @@ impl Solution {
         col_idx: usize,
         col_limit: usize,
         land_id: i32,
-        root_island: &mut Vec<Vec<Option<i32>>>,
-        grid: &Vec<Vec<char>>,
+        root_island: &mut [Vec<Option<i32>>],
+        grid: &[Vec<char>],
     ) {
         let mut stack = Vec::new();
         stack.push((row_idx, col_idx));
@@ -114,10 +114,7 @@ impl Solution {
         }
     }
     fn is_land(c: char) -> bool {
-        match c {
-            '1' => true,
-            _ => false,
-        }
+        matches!(c, '1')
     }
     fn is_valid_index(row_idx: usize, row_limit: usize, col_idx: usize, col_limit: usize) -> bool {
         row_idx < row_limit && col_idx < col_limit

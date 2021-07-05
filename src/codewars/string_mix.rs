@@ -15,13 +15,13 @@ fn mix(s1: &str, s2: &str) -> String {
         vec[(c as u8 - 'a' as u8) as usize].2 += 1;
     }
     vec.iter_mut().for_each(|(_, s1, s2)| {
-        if s1 == s2 {
-            *s2 = 3;
-        } else if s1 < s2 {
-            *s1 = *s2;
-            *s2 = 2;
-        } else {
-            *s2 = 1;
+        match s1.cmp(&s2) {
+            std::cmp::Ordering::Equal => *s3 = 3,
+            std::cmp::Ordering::Less => {
+                *s1 = *s2;
+                *s2 = 2;
+            },
+            std::cmp::Ordering::Greater => *s2 = 1,
         }
     });
     vec.sort_by(|(_, llen, lmask), (_, rlen, rmask)| match rlen.cmp(llen) {

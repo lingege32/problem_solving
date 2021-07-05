@@ -29,8 +29,7 @@ impl Solution {
         if grid[row_idx][col_idx] == 0 {
             0
         } else {
-            let mut stack = Vec::new();
-            stack.push((row_idx, col_idx));
+            let mut stack = vec![(row_idx, col_idx)];
             let mut area = 0;
             while !stack.is_empty() {
                 let (row, col) = stack.pop().unwrap();

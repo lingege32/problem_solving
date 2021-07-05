@@ -11,14 +11,14 @@ impl Solution {
                 _ => {}
             }
         });
-        for idx in 0..r {
-            nums[idx] = 0;
+        for item in nums.iter_mut().take(r) {
+            *item = 0;
         }
-        for idx in r..r+g {
-            nums[idx] = 1;
+        for item in nums.iter_mut().skip(r).take(r+g) {
+            *item = 1;
         }
-        for idx in r+g..r+g+b {
-            nums[idx] = 2;
+        for item in nums.iter_mut().skip(r+g).take(b) {
+            *item = 1;
         }
     }
 }

@@ -3,16 +3,20 @@ fn dbl_linear(n: u32) -> u32 {
     while v.len() <= n as usize {
         let a = 2 * v[x] + 1;
         let b = 3 * v[y] + 1;
-        if a < b {
-            v.push(a);
-            x += 1;
-        } else if a > b {
-            v.push(b);
-            y += 1;
-        } else {
-            v.push(a);
-            x += 1;
-            y += 1;
+        match a.cmp(&b) {
+            std::cmp::Ordering::Less => {
+                v.push(a);
+                x += 1;
+            }
+            std::cmp::Ordering::Greater => {
+                v.push(b);
+                y += 1;
+            }
+            std::cmp::Ordering::Equal => {
+                v.push(a);
+                x += 1;
+                y += 1;
+            }
         }
     }
     v[n as usize]
