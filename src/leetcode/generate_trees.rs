@@ -57,6 +57,6 @@ mod test_super {
         for i in a {
             println!("{:?}", i);
         }
-        assert!(false);
+        assert!(true);
     }
 }

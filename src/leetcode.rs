@@ -9,3 +9,4 @@ mod sort_colors;
 mod unique_paths;
 mod unique_paths_with_obstacles;
 mod generate_trees;
+mod generate_trees_num;

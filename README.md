@@ -34,3 +34,4 @@
 * [Medium - 62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 * [Medium - 63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 * [Medium - 95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+* [Medium - 96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
