@@ -8,3 +8,4 @@ mod largest_submatrix;
 mod sort_colors;
 mod unique_paths;
 mod unique_paths_with_obstacles;
+mod generate_trees;
