@@ -24,7 +24,6 @@ impl Solution {
         } else {
             let mut head = head;
             let mut h = head.as_mut();
-            let mut a = 0;
             loop {
                 let n = h.unwrap();
                 if n.next.is_none() {
