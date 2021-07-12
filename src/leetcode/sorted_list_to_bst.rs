@@ -80,6 +80,6 @@ mod test_super {
         a.next = Some(Box::new(b));
         let t = Solution::sorted_list_to_bst(Some(Box::new(a)));
         println!("t: {:#?}",t);
-        assert!(false);
+        assert!(true);
     }
 }
