@@ -46,3 +46,4 @@
 * [Medium - 109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 * [Medium - 108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 * [Medium - 341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
+* [Medium - 114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
