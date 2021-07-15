@@ -48,3 +48,4 @@
 * [Medium - 341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
 * [Medium - 114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 * [Medium - 47. Permutations II](https://leetcode.com/problems/permutations-ii/)
+* [Medium - 45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
