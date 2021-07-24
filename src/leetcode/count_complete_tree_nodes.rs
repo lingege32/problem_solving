@@ -32,16 +32,15 @@ impl Solution {
                 for _ in 0..len {
                     let node = queue.pop_front().unwrap();
                     let option_left = node.borrow().left.clone();
-                    
+
                     if let Some(left) = option_left {
                         queue.push_back(left.clone());
                     }
                     let option_right = node.borrow().right.clone();
-                    
+
                     if let Some(right) = option_right {
                         queue.push_back(right.clone());
                     }
-
                 }
             }
         }
@@ -49,10 +48,7 @@ impl Solution {
     }
 }
 
-
-
 // other's 100% Solutionuse std::cell::RefCell;
-// use std::rc::Rc;
 // impl Solution {
 //     pub fn count_nodes(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
 //         Self::count_nodes_recursive(&root, None, None)
