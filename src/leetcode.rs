@@ -28,3 +28,4 @@ mod path_sum_ii;
 mod sum_root_to_leaf_numbers;
 mod binary_search_tree_iterator;
 mod kth_smallest_in_binary_tree;
+mod count_complete_tree_nodes;

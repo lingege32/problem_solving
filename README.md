@@ -53,3 +53,4 @@
 * [Medium - 129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 * [Medium - 173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 * [Medium - 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+* [Medium - 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
