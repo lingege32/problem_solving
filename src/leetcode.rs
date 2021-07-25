@@ -29,3 +29,4 @@ mod sum_root_to_leaf_numbers;
 mod binary_search_tree_iterator;
 mod kth_smallest_in_binary_tree;
 mod count_complete_tree_nodes;
+mod right_side_view;
