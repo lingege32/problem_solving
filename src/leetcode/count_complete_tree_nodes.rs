@@ -17,34 +17,52 @@ impl TreeNode {
     }
 }
 struct Solution {}
-use std::cell::RefCell;
 use std::collections::VecDeque;
+use std::cell::RefCell;
 use std::rc::Rc;
 impl Solution {
     pub fn count_nodes(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
-        let mut result = 0;
         if let Some(r) = root {
-            let mut queue = VecDeque::new();
-            queue.push_back(r);
-            while !queue.is_empty() {
-                let len = queue.len();
-                result += len;
-                for _ in 0..len {
-                    let node = queue.pop_front().unwrap();
-                    let option_left = node.borrow().left.clone();
-
-                    if let Some(left) = option_left {
-                        queue.push_back(left.clone());
-                    }
-                    let option_right = node.borrow().right.clone();
-
-                    if let Some(right) = option_right {
-                        queue.push_back(right.clone());
-                    }
-                }
-            }
+            Self::recursive_check(r, None, None)
+        } else {
+            0
         }
-        result as i32
+    }
+    fn recursive_check(
+        root: Rc<RefCell<TreeNode>>,
+        left_deep: Option<i32>,
+        right_deep: Option<i32>,
+    ) -> i32 {
+        let ld = left_deep.unwrap_or_else(|| Self::check_left_deep(&root));
+        let rd = right_deep.unwrap_or_else(|| Self::check_right_deep(&root));
+        println!("root: {}, left: {}, right: {}", root.borrow().val, ld, rd);
+        if ld == rd {
+            i32::pow(2, ld as u32) - 1
+        } else if rd == 1 {
+            2
+        } else {
+            let new_ld = Some(ld - 1);
+            let new_rd = Some(rd - 1);
+            let left_total =
+                Self::recursive_check(root.borrow().left.clone().unwrap(), new_ld, None);
+            let right_total =
+                Self::recursive_check(root.borrow().right.clone().unwrap(), None, new_rd);
+            left_total + 1 + right_total
+        }
+    }
+    fn check_left_deep(root: &Rc<RefCell<TreeNode>>) -> i32 {
+        let b = root.borrow();
+        match b.left {
+            Some(ref l) => 1 + Self::check_left_deep(l),
+            None => 1,
+        }
+    }
+    fn check_right_deep(root: &Rc<RefCell<TreeNode>>) -> i32 {
+        let b = root.borrow();
+        match b.right {
+            Some(ref l) => 1 + Self::check_right_deep(l),
+            None => 1,
+        }
     }
 }
 
@@ -89,5 +107,38 @@ impl Solution {
 //     }
 //     fn volume_from_height(n: i32) -> i32 {
 //         i32::pow(2, n as u32) - 1
+//     }
+// }
+
+
+// my BFS solution
+// use std::cell::RefCell;
+// use std::collections::VecDeque;
+// use std::rc::Rc;
+// impl Solution {
+//     pub fn count_nodes(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+//         let mut result = 0;
+//         if let Some(r) = root {
+//             let mut queue = VecDeque::new();
+//             queue.push_back(r);
+//             while !queue.is_empty() {
+//                 let len = queue.len();
+//                 result += len;
+//                 for _ in 0..len {
+//                     let node = queue.pop_front().unwrap();
+//                     let option_left = node.borrow().left.clone();
+
+//                     if let Some(left) = option_left {
+//                         queue.push_back(left.clone());
+//                     }
+//                     let option_right = node.borrow().right.clone();
+
+//                     if let Some(right) = option_right {
+//                         queue.push_back(right.clone());
+//                     }
+//                 }
+//             }
+//         }
+//         result as i32
 //     }
 // }
