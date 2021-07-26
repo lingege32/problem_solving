@@ -32,3 +32,4 @@ mod count_complete_tree_nodes;
 mod right_side_view;
 mod level_order_bottom;
 mod lowest_common_ancestor;
+mod house_robber;
