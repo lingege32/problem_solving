@@ -61,3 +61,4 @@
 * [Medium - 213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
 * [Medium - 337. House Robber III](https://leetcode.com/problems/house-robber-iii/)
 * [Medium - 103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+* [Medium - 48. Rotate Image](https://leetcode.com/problems/rotate-image/)
