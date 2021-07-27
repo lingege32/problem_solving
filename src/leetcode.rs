@@ -37,3 +37,4 @@ mod house_robber_ii;
 mod house_robber_iii;
 mod zigzag_level_order;
 mod rotate_image;
+mod group_anagrams;
