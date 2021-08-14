@@ -65,4 +65,5 @@
 * [Medium - 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 * [Medium - 78. Subsets](https://leetcode.com/problems/subsets/)
 * [Medium - 79. Word Search](https://leetcode.com/problems/word-search/)
-* [Medium - 128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/https://leetcode.com/problems/longest-consecutive-sequence/)
+* [Medium - 128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+* [Medium - 139. Word Break](https://leetcode.com/problems/word-break/)
