@@ -40,7 +40,14 @@ impl Solution {
         }
         inner(s, &word_map)
 
-        /* my Time limite exception code */
+        /* my Time limite exception code
+         * the inner2 may execute multiple times at one location.
+         * for s = "aaab"
+         * patterns = ["a", "aa"];
+         * inner2(s[3..]) is called twice when
+         *  - we try "a" -> "aa" and "aa" -> "a"
+         * but dynamic programming method always execute once at one location.
+         */
         // fn inner2(s: &[u8], hm: &HashMap<u8, Vec<&[u8]>>) -> bool {
         //     if s.is_empty() {
         //         return true;
