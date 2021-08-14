@@ -1,5 +1,6 @@
 mod codewars;
 mod leetcode;
+mod leetcode_2;
 
 #[cfg(test)]
 mod test {

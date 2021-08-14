@@ -39,3 +39,4 @@ mod zigzag_level_order;
 mod rotate_image;
 mod group_anagrams;
 mod subsets;
+mod word_search;
