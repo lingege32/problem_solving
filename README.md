@@ -68,3 +68,4 @@
 * [Medium - 128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 * [Medium - 139. Word Break](https://leetcode.com/problems/word-break/)
 * [Medium - 148. Sort List](https://leetcode.com/problems/sort-list/)
+* [Medium - 152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
