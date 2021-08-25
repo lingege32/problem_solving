@@ -70,3 +70,4 @@
 * [Medium - 148. Sort List](https://leetcode.com/problems/sort-list/)
 * [Medium - 152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 * [Medium - 207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+* [Easy - 1. Two Sum](https://leetcode.com/problems/two-sum/)
