@@ -71,3 +71,4 @@
 * [Medium - 152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 * [Medium - 207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 * [Easy - 1. Two Sum](https://leetcode.com/problems/two-sum/)
+* [Medium - 43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
