@@ -73,3 +73,4 @@
 * [Easy - 1. Two Sum](https://leetcode.com/problems/two-sum/)
 * [Medium - 43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 * [Medium - 57. Insert Interval](https://leetcode.com/problems/insert-interval/)
+* [Medium - 71. Simplify Path](https://leetcode.com/problems/simplify-path/)
