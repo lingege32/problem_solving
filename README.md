@@ -74,3 +74,4 @@
 * [Medium - 43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 * [Medium - 57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 * [Medium - 71. Simplify Path](https://leetcode.com/problems/simplify-path/)
+* [Medium - 73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)

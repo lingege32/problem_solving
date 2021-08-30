@@ -7,3 +7,4 @@ mod two_sum;
 mod multiply_string;
 mod insert_interval;
 mod simplify_path;
+mod set_zeroes;
