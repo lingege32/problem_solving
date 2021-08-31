@@ -75,3 +75,4 @@
 * [Medium - 57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 * [Medium - 71. Simplify Path](https://leetcode.com/problems/simplify-path/)
 * [Medium - 73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+* [Hard - 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
