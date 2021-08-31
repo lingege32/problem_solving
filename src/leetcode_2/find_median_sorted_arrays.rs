@@ -88,6 +88,6 @@ mod test_super {
     fn test_6() {
         let nums1 = vec![0,0,0,0,0];
         let nums2 = vec![-1,0,0,0,0,0,1];
-        assert_eq!(0, Solution::find_median_sorted_arrays(nums1, nums2));
+        assert_eq!(0.0, Solution::find_median_sorted_arrays(nums1, nums2));
     }
 }
