@@ -11,3 +11,4 @@ mod set_zeroes;
 mod find_median_sorted_arrays;
 mod is_match;
 mod is_valid_parentheses;
+mod longest_valid_parentheses;
