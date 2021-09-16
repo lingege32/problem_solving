@@ -79,3 +79,4 @@
 * [Hard - 10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/), need to review!
 * [Easy - 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * [Hard - 32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/), need to review!
+* [Hard - 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
