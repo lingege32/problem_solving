@@ -81,3 +81,4 @@
 * [Hard - 32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/), need to review!
 * [Hard - 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 * [Hard - 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+* [Easy - 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
