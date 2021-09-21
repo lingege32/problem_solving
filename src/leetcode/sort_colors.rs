@@ -18,7 +18,7 @@ impl Solution {
             *item = 1;
         }
         for item in nums.iter_mut().skip(r+g).take(b) {
-            *item = 1;
+            *item = 2;
         }
     }
 }
