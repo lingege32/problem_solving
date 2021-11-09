@@ -83,3 +83,4 @@
 * [Hard - 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 * [Easy - 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 * [Easy - 70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+* [Easy - 94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
