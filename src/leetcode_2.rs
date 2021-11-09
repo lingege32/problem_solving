@@ -16,8 +16,5 @@ mod first_missing_positive;
 mod trapping_rain_watter;
 mod max_sub_array;
 mod climb_stairs;
-<<<<<<< HEAD
 mod inorder_traversal;
-=======
 mod reverse_k_group;
->>>>>>> 6f186e3084774789ee074b493656d410af610401
