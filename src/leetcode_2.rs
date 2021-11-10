@@ -19,3 +19,4 @@ mod climb_stairs;
 mod inorder_traversal;
 mod reverse_k_group;
 mod is_symmetric;
+mod max_profit;
