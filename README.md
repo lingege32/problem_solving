@@ -87,3 +87,4 @@
 * [Hard - 25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 * [Easy - 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 * [Easy - 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+* [Easy - 136. Single Number](https://leetcode.com/problems/single-number/)
