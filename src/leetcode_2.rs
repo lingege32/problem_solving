@@ -22,3 +22,4 @@ mod is_symmetric;
 mod max_profit;
 mod single_number;
 mod min_stack;
+mod majority_element;
