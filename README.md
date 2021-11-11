@@ -90,3 +90,4 @@
 * [Easy - 136. Single Number](https://leetcode.com/problems/single-number/)
 * [Easy - 155. Min Stack](https://leetcode.com/problems/min-stack/)
 * [Easy - 169. Majority Element](https://leetcode.com/problems/majority-element/)
+* [Easy - 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
