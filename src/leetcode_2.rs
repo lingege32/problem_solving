@@ -23,4 +23,4 @@ mod max_profit;
 mod single_number;
 mod min_stack;
 mod majority_element;
-mod reverse_list;
+mod is_palindrome;
