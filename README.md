@@ -88,3 +88,4 @@
 * [Easy - 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 * [Easy - 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * [Easy - 136. Single Number](https://leetcode.com/problems/single-number/)
+* [Easy - 155. Min Stack](https://leetcode.com/problems/min-stack/)

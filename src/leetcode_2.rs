@@ -21,3 +21,4 @@ mod reverse_k_group;
 mod is_symmetric;
 mod max_profit;
 mod single_number;
+mod min_stack;
