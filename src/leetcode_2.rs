@@ -24,3 +24,4 @@ mod single_number;
 mod min_stack;
 mod majority_element;
 mod is_palindrome;
+mod diameter_of_binary_tree;
