@@ -93,3 +93,4 @@
 * [Easy - 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 * [Easy - 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 * [Easy - 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+* [Easy - 763. Partition Labels](https://leetcode.com/problems/partition-labels/)
