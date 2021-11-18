@@ -27,3 +27,4 @@ mod is_palindrome;
 mod diameter_of_binary_tree;
 mod partition_labels;
 mod daily_temperatures;
+mod coin_change;
