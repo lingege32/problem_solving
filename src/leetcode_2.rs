@@ -28,3 +28,4 @@ mod diameter_of_binary_tree;
 mod partition_labels;
 mod daily_temperatures;
 mod coin_change;
+mod count_substrings;
