@@ -97,3 +97,4 @@
 * [Easy - 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 * [Medium - 322. Coin Change](https://leetcode.com/problems/coin-change/)
 * [Medium - 647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+* [Medium - 494. Target Sum](https://leetcode.com/problems/target-sum/)
