@@ -17,6 +17,7 @@ struct Solution {}
 
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn find_kth_largest(nums: Vec<i32>, k: i32) -> i32 {
         fn kth_elements(nums: &mut [i32], k: i32) -> i32 {
             if nums.len() < 4 {
