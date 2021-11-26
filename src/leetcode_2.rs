@@ -32,3 +32,4 @@ mod count_substrings;
 mod find_target_sum_ways;
 mod subarray_sum;
 mod find_kth_largest;
+mod search_insert;
