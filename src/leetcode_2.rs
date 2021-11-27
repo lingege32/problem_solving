@@ -34,3 +34,4 @@ mod subarray_sum;
 mod find_kth_largest;
 mod search_insert;
 mod find_disappeared_numbers;
+mod oranges_rotting;
