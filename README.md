@@ -109,3 +109,4 @@
 * [Medium - 347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 * [Medium - 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 * [Hard - 85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+* [Medium - 287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)

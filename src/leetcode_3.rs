@@ -3,3 +3,4 @@ mod can_partition;
 mod top_k_frequent;
 mod length_of_lis;
 mod maximal_rectangle;
+mod find_duplicate;
