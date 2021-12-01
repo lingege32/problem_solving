@@ -110,3 +110,4 @@
 * [Medium - 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 * [Hard - 85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 * [Medium - 287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+* [Medium - 279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
