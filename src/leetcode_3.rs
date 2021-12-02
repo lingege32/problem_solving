@@ -6,3 +6,4 @@ mod maximal_rectangle;
 mod find_duplicate;
 mod num_squares;
 mod odd_even_list;
+mod search_matrix;
