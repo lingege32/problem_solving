@@ -5,3 +5,4 @@ mod length_of_lis;
 mod maximal_rectangle;
 mod find_duplicate;
 mod num_squares;
+mod odd_even_list;
