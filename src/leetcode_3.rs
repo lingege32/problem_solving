@@ -7,3 +7,4 @@ mod find_duplicate;
 mod num_squares;
 mod odd_even_list;
 mod search_matrix;
+mod implment_trie;
