@@ -10,3 +10,4 @@ mod search_matrix;
 mod implment_trie;
 mod min_cost_to_move_chips;
 mod product_except_self;
+mod maximal_square;
