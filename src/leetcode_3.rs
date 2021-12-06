@@ -8,3 +8,4 @@ mod num_squares;
 mod odd_even_list;
 mod search_matrix;
 mod implment_trie;
+mod min_cost_to_move_chips;
