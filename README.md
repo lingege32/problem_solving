@@ -117,3 +117,4 @@
 * [Easy - 1217. Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
 * [Medium - 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 * [Medium - 221. Maximal Square](https://leetcode.com/problems/maximal-square/)
+* [Easy - 1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
