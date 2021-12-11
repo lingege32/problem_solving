@@ -15,3 +15,4 @@ mod get_decimal_value;
 mod find_tilt;
 mod can_reach;
 mod max_sliding_window;
+mod nth_magical_number;

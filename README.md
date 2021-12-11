@@ -121,3 +121,4 @@
 * [Easy - 563. Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)
 * [Medium - 1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/)
 * [Hard - 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+* [Hard - 878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)
