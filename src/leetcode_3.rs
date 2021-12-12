@@ -18,3 +18,4 @@ mod max_sliding_window;
 mod nth_magical_number;
 mod num_tilings;
 mod max_path_sum;
+mod largest_rectangle_area;
