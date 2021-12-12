@@ -1,5 +1,6 @@
 struct Solution {}
 impl Solution {
+    #[allow(dead_code)]
     pub fn find_median_sorted_arrays(nums1: Vec<i32>, nums2: Vec<i32>) -> f64 {
         if nums2.len() < nums1.len() {
             Self::find_median_sorted_arrays(nums2, nums1)
