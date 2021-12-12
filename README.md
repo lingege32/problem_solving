@@ -126,3 +126,4 @@
 * [Hard - 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 * [Hard - 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 * [Hard - 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+* [Hard - 72. Edit Distance](https://leetcode.com/problems/edit-distance/)
