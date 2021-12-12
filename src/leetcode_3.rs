@@ -21,3 +21,4 @@ mod max_path_sum;
 mod largest_rectangle_area;
 mod min_window;
 mod min_distance;
+mod stream_find_median;

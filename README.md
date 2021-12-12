@@ -127,3 +127,4 @@
 * [Hard - 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 * [Hard - 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 * [Hard - 72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+* [Hard - 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
