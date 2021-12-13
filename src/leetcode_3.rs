@@ -22,3 +22,4 @@ mod largest_rectangle_area;
 mod min_window;
 mod min_distance;
 mod stream_find_median;
+mod max_power;
