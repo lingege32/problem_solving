@@ -129,3 +129,4 @@
 * [Hard - 72. Edit Distance](https://leetcode.com/problems/edit-distance/)
 * [Hard - 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 * [Easy - 1446. Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)
+* [Easy - 938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
