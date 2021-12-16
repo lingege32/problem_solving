@@ -71,25 +71,29 @@
 
 // my Solution
 
-use std::{collections::HashSet, hash::Hasher};
+
+use std::{collections::HashSet};
 struct Solution();
 struct Graph {
     node_size: usize,
     m_g: Vec<HashSet<usize>>,
 }
 impl Graph {
+    #[allow(dead_code)]
     pub fn with_node_size(n: usize) -> Self {
         Graph {
             node_size: n,
             m_g: vec![HashSet::new(); n],
         }
     }
+    #[allow(dead_code)]
     pub fn add_edges(&mut self, edges: &[Vec<i32>]) {
         edges.iter().for_each(|x| {
             self.m_g[x[0] as usize].insert(x[1] as usize);
             self.m_g[x[1] as usize].insert(x[0] as usize);
         });
     }
+    #[allow(dead_code)]
     pub fn tree_height_by_root(&self, root: usize) -> usize {
         // use bfs, complexity is O(V)
         let mut visited = vec![false; self.node_size];
@@ -112,7 +116,7 @@ impl Graph {
         }
         height
     }
-
+    #[allow(dead_code)]
     pub fn find_min_height_tree(mut self) -> Vec<i32> {
         // complexity O(V+E)
         let mut prev_leaf_vec = Vec::new();
@@ -143,6 +147,7 @@ impl Graph {
     }
 }
 impl Solution {
+    #[allow(dead_code)]
     pub fn find_min_height_trees(n: i32, edges: Vec<Vec<i32>>) -> Vec<i32> {
         if n == 0 {
             return vec![];
