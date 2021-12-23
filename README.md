@@ -133,3 +133,4 @@
 * [Medium - 147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
 * [Hard - 902. Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
 * [Medium - 394. Decode String](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
+* [Easy - 1200. Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)
