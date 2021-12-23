@@ -28,3 +28,4 @@ mod insertion_sort_list;
 mod at_most_n_given_digit_set;
 mod decode_string;
 mod minimum_abs_difference;
+mod is_power_of_two;
