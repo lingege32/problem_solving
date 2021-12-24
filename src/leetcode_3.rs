@@ -31,3 +31,4 @@ mod minimum_abs_difference;
 mod is_power_of_two;
 mod reorder_list;
 mod find_order;
+mod erase_overlap_intervals;
