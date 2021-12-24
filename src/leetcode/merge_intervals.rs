@@ -1,5 +1,6 @@
 struct Solution();
 impl Solution {
+    #[allow(dead_code)]
     pub fn merge(intervals: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         let mut intervals = intervals;
         intervals.sort_unstable_by(|lhs, rhs| match lhs[0].cmp(&rhs[0]) {
