@@ -139,3 +139,4 @@
 * [Medium - 210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 * [Medium - 435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 * [Medium - 227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+* [Medium - 973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
