@@ -36,3 +36,4 @@ mod basic_calculate;
 mod k_closest;
 mod find_complement;
 mod middle_node;
+mod smallest_repunit_div_by_k;
