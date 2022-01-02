@@ -39,3 +39,4 @@ mod middle_node;
 mod smallest_repunit_div_by_k;
 mod max_ancestor_diff;
 mod max_coins;
+mod num_pairs_divisible_by60;
