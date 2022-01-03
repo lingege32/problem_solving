@@ -1,6 +1,3 @@
-mod codewars;
-mod leetcode;
-mod leetcode_2;
 mod leetcode_3;
 
 #[cfg(test)]

@@ -2,6 +2,7 @@ struct Solution {}
 
 // faster algorithm
 impl Solution {
+    #[allow(dead_code)]
     pub fn can_partition(nums: Vec<i32>) -> bool {
         if nums.len() < 2 {
             return false;
