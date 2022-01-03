@@ -30,19 +30,24 @@ impl Solution {
             let n = n_digits[last_idx];
             let mut finish = true;
             'inner: for &digit in digits.iter() {
-                if digit < n {
-                    ans += if last_idx > 0 { dp[last_idx - 1] } else { 1 };
-                } else if digit == n {
-                    if last_idx > 0 {
-                        last_idx-=1;
-                        finish = false;
-                        break 'inner;
-                    } else {
-                        ans += 1;
+                match digit {
+                    d if d == n => {
+                        if last_idx > 0 {
+                            last_idx-=1;
+                            finish = false;
+                            break 'inner;
+                        } else {
+                            ans += 1;
+                            break 'outer;
+                        }
+                    },
+                    d if d < n => {
+                        ans += if last_idx > 0 { dp[last_idx - 1] } else { 1 };
+                    },
+                    _ => {
                         break 'outer;
                     }
-                } else {
-                    break 'outer;
+                    
                 }
             }
             if finish {

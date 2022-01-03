@@ -26,10 +26,7 @@ impl Solution {
                         }
                         '0'..='9' => {
                             let next = (idx + 1..s.len())
-                                .find(|&x| match s[x] as char {
-                                    '0'..='9' => false,
-                                    _ => true,
-                                })
+                                .find(|&x| !matches!(s[x] as char, '0'..='9'))
                                 .unwrap();
                             let n = unsafe {
                                 std::str::from_utf8_unchecked(&s[idx..next])
@@ -56,7 +53,7 @@ impl Solution {
                 (ans, idx)
             }
         }
-        inner(&s).0
+        inner(s).0
     }
 }
 
