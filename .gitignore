@@ -4,3 +4,4 @@ vim-lsp.log
 *.o
 main
 compile_commands.json
+.cache
