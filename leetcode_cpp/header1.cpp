@@ -1,6 +1,9 @@
 #include "header1.h"
 
 int Solution::bitwiseComplement(int n) {
+    if (n==0) {
+        return 1;
+    }
   int ans = 0;
   int mask = 1 << 30;
   while (mask > 0 && (mask & n) == 0) {
