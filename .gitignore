@@ -1,2 +1,6 @@
 /target
 Cargo.lock
+vim-lsp.log
+*.o
+main
+compile_commands.json
