@@ -1,5 +1,6 @@
 #include "header1.h"
 #include <algorithm>
+#include <iterator>
 #include <memory.h>
 #include <string_view>
 
@@ -284,4 +285,63 @@ vector<int> Solution::singleNumber(vector<int> &nums) {
     }
     int second = first ^ bit;
     return {first, second};
+}
+
+string Solution::multiply(string num1, string num2) {
+    if ((num1.size() == 1 && num1[0] == '0') ||
+        (num2.size() == 1 && num2[0] == '0')) {
+        return "0";
+    }
+    string ans(num1.size() + num2.size(), '0');
+    if (num1.size() < num2.size()) {
+        // make num1.size > num2.size
+        num1.swap(num2);
+    }
+    std::reverse(num1.begin(), num1.end());
+    std::reverse(num2.begin(), num2.end());
+    auto add = [](char a, char b, char carry) -> array<char, 2> {
+        array<char, 2> ans;
+        int c = a - '0' + b - '0' + carry - '0';
+
+        ans[0] = (c % 10) + '0';
+        ans[1] = (c / 10) + '0';
+        return ans;
+    };
+    auto mul = [](char a, char b) -> array<char, 2> {
+        array<char, 2> ans;
+        int c = (a - '0') * (b - '0');
+        ans[0] = (c % 10) + '0';
+        ans[1] = (c / 10) + '0';
+        return ans;
+    };
+    for (size_t i = 0; i < num1.size(); ++i) {
+        char char1 = num1[i];
+        string tmp(ans.size(), '0');
+        int carry = 0;
+        for (size_t j = 0; j < num2.size(); ++j) {
+            char char2 = num2[j];
+            auto tmp_mul = mul(char1, char2);
+            tmp[j + i] = tmp_mul[0] + carry;
+            carry = tmp_mul[1] - '0';
+        }
+        if (carry != 0) {
+            tmp[num2.size() + i] = carry + '0';
+        }
+        carry = 0;
+        for (size_t k = 0; k < tmp.size(); ++k) {
+            auto add_num = add(ans[k], tmp[k], '0' + carry);
+            ans[k] = add_num[0];
+            carry = add_num[1] - '0';
+        }
+    }
+    int l = ans.size() - 1;
+    while (l >= 0) {
+        if (ans[l] != '0') {
+            break;
+        }
+        --l;
+    }
+    ans.resize(l + 1);
+    std::reverse(ans.begin(), ans.end());
+    return ans;
 }

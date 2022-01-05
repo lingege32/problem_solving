@@ -18,4 +18,6 @@ int main() {
 	assert(s.partition("efe") == a4);
 	vector<vector<string>> a5 = {{"c","b","b","b","c","c"},{"c","b","b","b","cc"},{"c","b","bb","c","c"},{"c","b","bb","cc"},{"c","bb","b","c","c"},{"c","bb","b","cc"},{"c","bbb","c","c"},{"c","bbb","cc"},{"cbbbc","c"}};
 	assert(s.partition("cbbbcc") == a5);
+
+	std::cout<<s.multiply("2", "3")<<"??"<<std::endl;;
 }

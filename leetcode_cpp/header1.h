@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include <unordered_map>
+#include <vector>
+#include <array>
 using namespace std;
-
 
 /**
  * Definition for a binary tree node.
@@ -18,16 +18,14 @@ struct TreeNode {
         : val(x), left(left), right(right) {}
 };
 
-
 struct Solution {
     int bitwiseComplement(int n);
     vector<vector<string>> partition(string s);
     void solve(vector<vector<char>> &board);
     int uniquePathsIII(vector<vector<int>> &grid);
-    int sumNumbers(TreeNode* root);
-    int sumOfLeftLeaves(TreeNode* root);
-    int arrangeCoins(int n) ;
-    vector<int> singleNumber(vector<int>& nums) ;
+    int sumNumbers(TreeNode *root);
+    int sumOfLeftLeaves(TreeNode *root);
+    int arrangeCoins(int n);
+    vector<int> singleNumber(vector<int> &nums);
+    string multiply(string num1, string num2);
 };
-
-
