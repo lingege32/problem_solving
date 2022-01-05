@@ -25,6 +25,7 @@ struct Solution {
     int uniquePathsIII(vector<vector<int>> &grid);
     int sumNumbers(TreeNode* root);
     int sumOfLeftLeaves(TreeNode* root);
+    int arrangeCoins(int n) ;
 };
 
 

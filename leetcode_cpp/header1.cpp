@@ -243,3 +243,21 @@ int Solution::sumOfLeftLeaves(TreeNode *root) {
     Solution2 s2;
     return s2.sumOfLeftLeaves(root);
 }
+
+int Solution::arrangeCoins(int n) {
+    long lo = 1;
+    long left = lo;
+    long right = n;
+    while (1) {
+        long hi = (left + right) / 2;
+        long area = (1 + hi) * hi / 2;
+        if (n >= area && n < area + hi + 1) {
+            return hi;
+        }
+        if (area > n) {
+            right = hi;
+        } else {
+            left = hi + 1;
+        }
+    }
+}
