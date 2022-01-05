@@ -197,3 +197,27 @@ int Solution::uniquePathsIII(vector<vector<int>> &grid) {
     Solution2 s2;
     return s2.uniquePathsIII(grid);
 }
+
+int Solution::sumNumbers(TreeNode *root) {
+    struct Solution2 {
+        int sum = 0;
+        int sumNumbers(TreeNode *root) {
+            dfs(root, 0);
+            return sum;
+        }
+        void dfs(TreeNode *root, int cur) {
+            if (root) {
+                cur *= 10;
+                cur += root->val;
+                if (!root->left && !root->right){
+                    sum += cur;
+                } else {
+                    dfs(root->left, cur);
+                    dfs(root->right, cur);
+                }
+            }
+        }
+    };
+    Solution2 s2;
+    return s2.sumNumbers(root);
+}
