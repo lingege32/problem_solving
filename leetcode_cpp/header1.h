@@ -6,4 +6,5 @@ struct Solution {
     int bitwiseComplement(int n) ;
     vector<vector<string>> partition(string s);
     void solve(vector<vector<char>>& board);
+    int uniquePathsIII(vector<vector<int>>& grid);
 };

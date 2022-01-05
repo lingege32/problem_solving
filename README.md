@@ -149,3 +149,5 @@
 * [Easy - 997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 * [Easy - 1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) - CPP
 * [Medium - 131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) - CPP
+* [Medium - 130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) - CPP
+* [Hard - 980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) - CPP
