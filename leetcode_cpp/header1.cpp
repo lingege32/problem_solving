@@ -60,3 +60,70 @@ vector<vector<string>> Solution::partition(string s) {
     Solution2 s2;
     return s2.partition(std::move(s));
 }
+
+void Solution::solve(vector<vector<char>> &board) {
+    struct Solution2 {
+      public:
+        int go[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+
+        bool isSafe(int i, int j, int n, int m) {
+            return (i > 0 && i < n && j > 0 && j < m);
+        }
+
+        void dfs(vector<vector<char>> &a, int i, int j, int n, int m) {
+            a[i][j] = 'B';
+
+            for (int k = 0; k < 4; k++) {
+                int newi = i + go[k][0];
+                int newj = j + go[k][1];
+
+                if (isSafe(newi, newj, n, m) && a[newi][newj] == 'O') {
+                    dfs(a, newi, newj, n, m);
+                }
+            }
+        }
+
+        void solve(vector<vector<char>> &a) {
+            int n = a.size();
+            int m = a[0].size();
+
+            for (int i = 0; i < n; i++) {
+                if (a[i][0] == 'O') {
+                    dfs(a, i, 0, n, m);
+                }
+            }
+            for (int i = 0; i < n; i++) {
+                if (a[i][m - 1] == 'O') {
+                    dfs(a, i, m - 1, n, m);
+                }
+            }
+            for (int j = 0; j < m; j++) {
+                if (a[0][j] == 'O') {
+                    dfs(a, 0, j, n, m);
+                }
+            }
+            for (int j = 0; j < m; j++) {
+                if (a[n - 1][j] == 'O') {
+                    dfs(a, n - 1, j, n, m);
+                }
+            }
+
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < m; j++) {
+                    if (a[i][j] == 'O') {
+                        a[i][j] = 'X';
+                    }
+                }
+            }
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < m; j++) {
+                    if (a[i][j] == 'B') {
+                        a[i][j] = 'O';
+                    }
+                }
+            }
+        }
+    };
+    Solution2 s2;
+    return s2.solve(board);
+}

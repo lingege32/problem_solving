@@ -5,4 +5,5 @@ using namespace std;
 struct Solution {
     int bitwiseComplement(int n) ;
     vector<vector<string>> partition(string s);
+    void solve(vector<vector<char>>& board);
 };
