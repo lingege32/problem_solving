@@ -152,3 +152,4 @@
 * [Medium - 130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) - CPP
 * [Hard - 980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) - CPP
 * [Medium - 129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) - CPP
+* [Easy - 404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) - CPP

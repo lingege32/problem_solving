@@ -209,7 +209,7 @@ int Solution::sumNumbers(TreeNode *root) {
             if (root) {
                 cur *= 10;
                 cur += root->val;
-                if (!root->left && !root->right){
+                if (!root->left && !root->right) {
                     sum += cur;
                 } else {
                     dfs(root->left, cur);
@@ -220,4 +220,26 @@ int Solution::sumNumbers(TreeNode *root) {
     };
     Solution2 s2;
     return s2.sumNumbers(root);
+}
+
+int Solution::sumOfLeftLeaves(TreeNode *root) {
+    struct Solution2 {
+        int sum = 0;
+        int sumOfLeftLeaves(TreeNode *root) {
+            dfs(root, false);
+            return sum;
+        }
+        void dfs(TreeNode *root, bool left) {
+            if (root) {
+                if (!root->left && !root->right && left) {
+                    sum += root->val;
+                } else {
+                    dfs(root->left, true);
+                    dfs(root->right, false);
+                }
+            }
+        }
+    };
+    Solution2 s2;
+    return s2.sumOfLeftLeaves(root);
 }

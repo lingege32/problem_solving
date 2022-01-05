@@ -24,6 +24,7 @@ struct Solution {
     void solve(vector<vector<char>> &board);
     int uniquePathsIII(vector<vector<int>> &grid);
     int sumNumbers(TreeNode* root);
+    int sumOfLeftLeaves(TreeNode* root);
 };
 
 
