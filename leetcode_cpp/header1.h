@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <unordered_map>
 using namespace std;
 
 
@@ -26,6 +27,7 @@ struct Solution {
     int sumNumbers(TreeNode* root);
     int sumOfLeftLeaves(TreeNode* root);
     int arrangeCoins(int n) ;
+    vector<int> singleNumber(vector<int>& nums) ;
 };
 
 

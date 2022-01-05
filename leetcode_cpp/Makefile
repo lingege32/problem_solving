@@ -2,7 +2,7 @@ all: main
 
 OBJ = main.o header1.o
 HDR = header1.h
-FLAG = -g
+FLAG = -g -std=c++17
 
 main: ${OBJ}
 	g++ -o main ${OBJ} ${FLAG}

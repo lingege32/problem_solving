@@ -261,3 +261,27 @@ int Solution::arrangeCoins(int n) {
         }
     }
 }
+
+vector<int> Solution::singleNumber(vector<int> &nums) {
+    // one assumption is exact two answer
+    int bit = 0;
+    for (auto i : nums) {
+        bit ^= i;
+    }
+
+    int which_bit = 0;
+    for (int i = 0; i < 32; ++i) {
+        if (bit & (1 << i)) {
+            which_bit = i;
+            break;
+        }
+    }
+    int first = 0;
+    for (auto i : nums) {
+        if ((i & (1 << which_bit)) == 0) {
+            first ^= i;
+        }
+    }
+    int second = first ^ bit;
+    return {first, second};
+}
