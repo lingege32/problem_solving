@@ -157,3 +157,7 @@
 * [Medium - 1094. Car Pooling](https://leetcode.com/problems/car-pooling/) - CPP
 * [Medium - 96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) - CPP
 * [Medium - 122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - CPP
+* [Easy - 1413. Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/) - CPP
+* [Easy - 203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) - CPP
+* [Medium - 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) - CPP
+* [Medium - 1286. Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) - CPP

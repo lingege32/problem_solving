@@ -18,6 +18,14 @@ struct TreeNode {
         : val(x), left(left), right(right) {}
 };
 
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
 struct Solution {
     int bitwiseComplement(int n);
     vector<vector<string>> partition(string s);
@@ -30,5 +38,50 @@ struct Solution {
     string multiply(string num1, string num2);
     bool carPooling(vector<vector<int>> &trips, int capacity);
     int numTrees(int n);
-    int maxProfit(vector<int>& prices);
+    int maxProfit(vector<int> &prices);
+    int minStartValue(vector<int> &nums);
+    ListNode *removeElements(ListNode *head, int val);
+    vector<int> dailyTemperatures(vector<int> &temperatures);
+};
+
+class CombinationIterator {
+    string mcharacters;
+    bool hasNextFlag;
+    string ans;
+    vector<int> arrange;
+
+  public:
+    CombinationIterator(string characters, int combinationLength)
+        : mcharacters(std::move(characters)), hasNextFlag(true),
+          ans(mcharacters.begin(), mcharacters.begin() + combinationLength),
+          arrange(combinationLength, 0) {
+        for (int i = 0; i < arrange.size(); ++i) {
+            arrange[i] = i;
+        }
+    }
+
+    string next() {
+        string tmp = ans;
+        if (arrange[0] == mcharacters.size() - ans.size()) {
+            hasNextFlag = false;
+        } else {
+            int idx = ans.size() - 1;
+            for (; idx >= 0; --idx) {
+                int dis = ans.size() - idx;
+                if (arrange[idx] + dis != mcharacters.size()) {
+                    break;
+                }
+            }
+            int new_val = arrange[idx] + 1;
+            for (int i = idx; i < arrange.size(); ++i) {
+                arrange[i] = new_val++;
+            }
+            for (; idx < arrange.size(); ++idx) {
+                ans[idx] = mcharacters[arrange[idx]];
+            }
+        }
+        return tmp;
+    }
+
+    bool hasNext() { return hasNextFlag; }
 };

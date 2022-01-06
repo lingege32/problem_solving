@@ -414,3 +414,54 @@ int Solution::maxProfit(vector<int> &prices) {
     }
     return ans;
 }
+
+int Solution::minStartValue(vector<int> &nums) {
+    int min = 0;
+    int total = 0;
+    for (int n : nums) {
+        total += n;
+        min = std::min(min, total);
+    }
+    return min < 0 ? -min + 1 : 1;
+}
+
+ListNode *Solution::removeElements(ListNode *head, int val) {
+    ListNode dummy;
+    dummy.next = head;
+    ListNode **h = &dummy.next;
+    while (*h) {
+        if ((*h)->val == val) {
+            *h = (*h)->next;
+        } else {
+            h = &(*h)->next;
+        }
+    }
+    return dummy.next;
+}
+
+vector<int> Solution::dailyTemperatures(vector<int> &temperatures) {
+    vector<int> &temp = temperatures;
+    vector<int> ans(temp.size(), 0);
+    int max = temp.back();
+    for (int idx = ans.size() - 2; idx >= 0; --idx) {
+        if (temp[idx] > max) {
+            max = temp[idx];
+            continue;
+        } else {
+            int target = idx + 1;
+            while (1) {
+                if (temp[target] > temp[idx]) {
+                    ans[idx] = target - idx;
+                    break;
+                } else {
+                    if (ans[target] == 0) {
+                        break;
+                    } else {
+                        target += ans[target];
+                    }
+                }
+            }
+        }
+    }
+    return ans;
+}
