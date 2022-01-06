@@ -30,4 +30,5 @@ struct Solution {
     string multiply(string num1, string num2);
     bool carPooling(vector<vector<int>> &trips, int capacity);
     int numTrees(int n);
+    int maxProfit(vector<int>& prices);
 };

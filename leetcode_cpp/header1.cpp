@@ -402,3 +402,15 @@ int Solution::numTrees(int n) {
     Solution2 s2;
     return s2.numTrees(n);
 }
+
+int Solution::maxProfit(vector<int> &prices) {
+    int ans = 0;
+    for (int idx = 1; idx < prices.size(); ++idx) {
+        int left = prices[idx - 1];
+        int right = prices[idx];
+        if (right > left) {
+            ans += (right - left);
+        }
+    }
+    return ans;
+}
