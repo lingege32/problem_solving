@@ -345,3 +345,32 @@ string Solution::multiply(string num1, string num2) {
     std::reverse(ans.begin(), ans.end());
     return ans;
 }
+
+bool Solution::carPooling(vector<vector<int>> &trips, int capacity) {
+    int trip[1001] = {0};
+
+    int last_in = 0;
+    for (auto& aTrip: trips) {
+        trip[aTrip[1]] += aTrip[0];
+        trip[aTrip[2]] -= aTrip[0];
+        last_in = max(last_in, aTrip[1]);
+    }
+    int passengers = 0;
+    for (int idx=0; idx<=last_in; ++idx) {
+        passengers+=trip[idx];
+        if(passengers > capacity) {
+            return false;
+        }
+    }
+
+    // this is slower algorithm
+    // for (auto& aTrip : trips) {
+    //     for (int idx = aTrip[1]; idx<aTrip[2]; ++idx) {
+    //         trip[idx] += aTrip[0];
+    //         if (trip[idx] > capacity) {
+    //             return false;
+    //         }
+    //     }
+    // }
+    return true;
+}

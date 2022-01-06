@@ -1,8 +1,8 @@
+#include <array>
 #include <iostream>
 #include <string>
 #include <unordered_map>
 #include <vector>
-#include <array>
 using namespace std;
 
 /**
@@ -28,4 +28,5 @@ struct Solution {
     int arrangeCoins(int n);
     vector<int> singleNumber(vector<int> &nums);
     string multiply(string num1, string num2);
+    bool carPooling(vector<vector<int>> &trips, int capacity);
 };
