@@ -155,3 +155,4 @@
 * [Easy - 404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) - CPP
 * [Medium - 260. Single Number III](https://leetcode.com/problems/single-number-iii/) - CPP
 * [Medium - 1094. Car Pooling](https://leetcode.com/problems/car-pooling/) - CPP
+* [Medium - 96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) - CPP

@@ -350,15 +350,15 @@ bool Solution::carPooling(vector<vector<int>> &trips, int capacity) {
     int trip[1001] = {0};
 
     int last_in = 0;
-    for (auto& aTrip: trips) {
+    for (auto &aTrip : trips) {
         trip[aTrip[1]] += aTrip[0];
         trip[aTrip[2]] -= aTrip[0];
         last_in = max(last_in, aTrip[1]);
     }
     int passengers = 0;
-    for (int idx=0; idx<=last_in; ++idx) {
-        passengers+=trip[idx];
-        if(passengers > capacity) {
+    for (int idx = 0; idx <= last_in; ++idx) {
+        passengers += trip[idx];
+        if (passengers > capacity) {
             return false;
         }
     }
@@ -373,4 +373,32 @@ bool Solution::carPooling(vector<vector<int>> &trips, int capacity) {
     //     }
     // }
     return true;
+}
+
+int Solution::numTrees(int n) {
+
+    struct Solution2 {
+        vector<int> dp;
+        int find_dp_n(int n) {
+            if (dp[n] == -1) {
+                for (int left = 0; left < n; ++left) {
+                    int right = n - left - 1;
+                    dp[n] += find_dp_n(left) * find_dp_n(right);
+                }
+            }
+            return dp[n];
+        }
+        int numTrees(int n) {
+            dp = vector<int>(n + 1, -1);
+
+            dp[0] = 1;
+            dp[1] = 1;
+            dp[2] = 2;
+            dp[3] = 5;
+
+            return find_dp_n(n);
+        }
+    };
+    Solution2 s2;
+    return s2.numTrees(n);
 }

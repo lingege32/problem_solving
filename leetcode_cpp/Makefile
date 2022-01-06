@@ -3,13 +3,14 @@ all: main
 OBJ = main.o header1.o
 HDR = header1.h
 FLAG = -g -std=c++17
+CC = clang++
 
 main: ${OBJ}
-	g++ -o main ${OBJ} ${FLAG}
+	${CC} -o main ${OBJ} ${FLAG}
 
 
 %.o: %.cpp ${HDR}
-	g++ ${FLAG} -c $<
+	${CC} ${FLAG} -c $<
 
 test: main
 	./main
