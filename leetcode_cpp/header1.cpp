@@ -465,3 +465,45 @@ vector<int> Solution::dailyTemperatures(vector<int> &temperatures) {
     }
     return ans;
 }
+
+int Solution::cherryPickup(vector<vector<int>> &grid) {
+
+  size_t row = grid.size();
+  size_t col = grid[0].size();
+  int dp[70][71][71];
+  memset(dp, -1, sizeof(dp));
+  dp[0][0][col - 1] = grid[0][0] + grid[0][col - 1];
+  for (size_t r = 1; r < row; r++) {
+    for (int c1 = 0; c1 < col; c1++) {
+      for (int c2 = 0; c2 < col; c2++) {
+        int last = -1;
+
+        for (int c1_tmp = c1 - 1; c1_tmp <= c1 + 1; ++c1_tmp) {
+          for (int c2_tmp = c2 - 1; c2_tmp <= c2 + 1; ++c2_tmp) {
+
+            if (c1_tmp >= 0 && c1_tmp < col && c2_tmp >= 0 && c2_tmp < col) {
+              last = std::max(last, dp[r - 1][c1_tmp][c2_tmp]);
+            }
+          }
+        }
+        if (last == -1)
+          continue;
+        if (c1 == c2) {
+          dp[r][c1][c2] = last + grid[r][c1];
+        } else {
+          dp[r][c1][c2] = last + grid[r][c1] + grid[r][c2];
+        }
+      }
+    }
+  }
+  int ans = 0;
+  for (size_t c1 = 0; c1 < col; ++c1) {
+    for (size_t c2 = 0; c2 < col; ++c2) {
+      if (c1 != c2) {
+        ans = std::max(ans, dp[row - 1][c1][c2]);
+      }
+    }
+  }
+
+  return ans;
+}

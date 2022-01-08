@@ -42,6 +42,7 @@ struct Solution {
     int minStartValue(vector<int> &nums);
     ListNode *removeElements(ListNode *head, int val);
     vector<int> dailyTemperatures(vector<int> &temperatures);
+    int cherryPickup(vector<vector<int>>& grid);
 };
 
 class CombinationIterator {

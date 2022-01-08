@@ -161,3 +161,4 @@
 * [Easy - 203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) - CPP
 * [Medium - 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) - CPP
 * [Medium - 1286. Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) - CPP
+* [Hard - int cherryPickup(vector<vector<int>>& grid)](https://leetcode.com/problems/cherry-pickup-ii/) - CPP
