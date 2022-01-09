@@ -507,3 +507,20 @@ int Solution::cherryPickup(vector<vector<int>> &grid) {
 
   return ans;
 }
+
+bool Solution::isRobotBounded(string instructions) {
+  int x = 0;
+  int y = 0;
+  int d = 0;
+  vector<int> dx{0, -1, 0, 1};
+  vector<int> dy{1, 0, -1, 0};
+  for (char c : instructions) {
+    if (c == 'G') {
+      x += dx[d];
+      y += dy[d];
+    } else {
+      d = (d + (c == 'L' ? 1 : 3)) % 4;
+    }
+  }
+  return x == 0 && y == 0 || d;
+}

@@ -43,6 +43,7 @@ struct Solution {
     ListNode *removeElements(ListNode *head, int val);
     vector<int> dailyTemperatures(vector<int> &temperatures);
     int cherryPickup(vector<vector<int>>& grid);
+    bool isRobotBounded(string instructions);
 };
 
 class CombinationIterator {
