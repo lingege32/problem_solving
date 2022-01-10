@@ -44,6 +44,7 @@ struct Solution {
     vector<int> dailyTemperatures(vector<int> &temperatures);
     int cherryPickup(vector<vector<int>>& grid);
     bool isRobotBounded(string instructions);
+    string addBinary(string a, string b);
 };
 
 class CombinationIterator {
