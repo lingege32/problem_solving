@@ -46,6 +46,7 @@ struct Solution {
     int cherryPickup(vector<vector<int>>& grid);
     bool isRobotBounded(string instructions);
     string addBinary(string a, string b);
+    int sumRootToLeaf(TreeNode* root) ;
 };
 
 class CombinationIterator {

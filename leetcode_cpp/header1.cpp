@@ -583,3 +583,20 @@ string Solution::addBinary(string a, string b) {
     std::reverse(ans.begin(), ans.end());
     return ans;
 }
+
+void sumRootToLeafDfs(TreeNode *root, int tmp, int &ans) {
+    if (root) {
+        int cur_total = tmp * 2 + root->val;
+        if (!root->left && !root->right) {
+            ans += cur_total;
+        } else {
+            sumRootToLeafDfs(root->left, cur_total, ans);
+            sumRootToLeafDfs(root->right, cur_total, ans);
+        }
+    }
+}
+int Solution::sumRootToLeaf(TreeNode *root) {
+    int ans = 0;
+    sumRootToLeafDfs(root, 0, ans);
+    return ans;
+}
