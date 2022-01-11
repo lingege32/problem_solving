@@ -164,3 +164,4 @@
 * [Hard - 1463. Cherry Pickup II)](https://leetcode.com/problems/cherry-pickup-ii/) - CPP
 * [Medium - 1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) - CPP
 * [Easy - 67. Add Binary](https://leetcode.com/problems/add-binary/) - CPP
+* [Hard - 10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) - CPP
