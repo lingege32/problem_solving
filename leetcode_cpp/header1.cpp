@@ -468,17 +468,22 @@ vector<int> Solution::dailyTemperatures(vector<int> &temperatures) {
 
 bool Solution::isMatch(string s, string p) {
 
-    size_t slen=s.size();
-    size_t plen=p.size();
-    vector<vector<bool>> dp(slen+1, vector<bool>(plen+1,false));
+    size_t slen = s.size();
+    size_t plen = p.size();
+    vector<vector<bool>> dp(slen + 1, vector<bool>(plen + 1, false));
     dp[0][0] = true;
 
-    for (size_t sidx=0; sidx<=slen; ++sidx) {
-        for (size_t pidx=1; pidx<=plen; ++pidx) {
-            if (pidx>1 && p[pidx-1]=='*') {
-                dp[sidx][pidx] = dp[sidx][pidx-2] || (sidx>0 && (dp[sidx-1][pidx] && (s[sidx-1] == p[pidx-2] || p[pidx-2] == '.')));
+    for (size_t sidx = 0; sidx <= slen; ++sidx) {
+        for (size_t pidx = 1; pidx <= plen; ++pidx) {
+            if (pidx > 1 && p[pidx - 1] == '*') {
+                dp[sidx][pidx] = dp[sidx][pidx - 2] ||
+                                 (sidx > 0 && (dp[sidx - 1][pidx] &&
+                                               (s[sidx - 1] == p[pidx - 2] ||
+                                                p[pidx - 2] == '.')));
             } else {
-                dp[sidx][pidx] = sidx>0 && dp[sidx-1][pidx-1] && (s[sidx-1] == p[pidx-1] || p[pidx-1]=='.');
+                dp[sidx][pidx] =
+                    sidx > 0 && dp[sidx - 1][pidx - 1] &&
+                    (s[sidx - 1] == p[pidx - 1] || p[pidx - 1] == '.');
             }
         }
     }
