@@ -161,3 +161,6 @@
 * [Easy - 203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) - CPP
 * [Medium - 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) - CPP
 * [Medium - 1286. Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) - CPP
+* [Hard - 1463. Cherry Pickup II)](https://leetcode.com/problems/cherry-pickup-ii/) - CPP
+* [Medium - 1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) - CPP
+* [Easy - 67. Add Binary](https://leetcode.com/problems/add-binary/) - CPP

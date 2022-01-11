@@ -43,6 +43,9 @@ struct Solution {
     ListNode *removeElements(ListNode *head, int val);
     vector<int> dailyTemperatures(vector<int> &temperatures);
     bool isMatch(string s, string p);
+    int cherryPickup(vector<vector<int>>& grid);
+    bool isRobotBounded(string instructions);
+    string addBinary(string a, string b);
 };
 
 class CombinationIterator {
