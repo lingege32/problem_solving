@@ -43,10 +43,11 @@ struct Solution {
     ListNode *removeElements(ListNode *head, int val);
     vector<int> dailyTemperatures(vector<int> &temperatures);
     bool isMatch(string s, string p);
-    int cherryPickup(vector<vector<int>>& grid);
+    int cherryPickup(vector<vector<int>> &grid);
     bool isRobotBounded(string instructions);
     string addBinary(string a, string b);
-    int sumRootToLeaf(TreeNode* root) ;
+    int sumRootToLeaf(TreeNode *root);
+    TreeNode *insertIntoBST(TreeNode *root, int val);
 };
 
 class CombinationIterator {

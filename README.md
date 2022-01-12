@@ -169,3 +169,4 @@
 * [Easy - 67. Add Binary](https://leetcode.com/problems/add-binary/) - CPP
 * [Hard - 10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) - CPP
 * [Easy - 1022. Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) - CPP
+* [Medium - 701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) - CPP
