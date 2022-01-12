@@ -612,3 +612,72 @@ TreeNode *Solution::insertIntoBST(TreeNode *root, int val) {
     }
     return root;
 }
+
+bool Solution::isWildCardMatch(string s, string p) {
+    int pPtr = 0;
+    int sPtr = 0;
+
+    int starPos = -1;
+    int starTextPos = -1;
+
+    while (sPtr < s.size()) {
+        // cout << sPtr << " " << s[sPtr] << " " << pPtr << " " << p[pPtr] <<
+        // endl;
+
+        if (p[pPtr] == '*') {
+            starPos = pPtr;
+            starTextPos = sPtr;
+            ++pPtr;
+
+            if (pPtr >= p.size()) {
+                return true;
+            }
+
+        } else if (p[pPtr] == '?' || p[pPtr] == s[sPtr]) {
+            ++pPtr;
+            ++sPtr;
+        } else {
+            // rollback
+            if (starPos == -1) {
+                return false;
+            }
+            pPtr = starPos + 1;
+            // try one more character
+            ++starTextPos;
+            sPtr = starTextPos;
+        }
+    }
+
+    while (pPtr < p.size()) {
+        if (p[pPtr] != '*') {
+            return false;
+        }
+        ++pPtr;
+    }
+    return true;
+
+    // dp is not good
+    // const size_t slen = s.size();
+    // const size_t plen = p.size();
+    // vector<bool> dp((slen + 1) * (plen + 1), false);
+    // auto take = [&](size_t r, size_t c) -> bool {
+    //     return dp[r * (plen + 1) + c];
+    // };
+    // auto modify = [&](size_t r, size_t c, bool val) {
+    //     dp[r * (plen + 1) + c] = val;
+    // };
+
+    // modify(0, 0, true);
+    // for (size_t r = 0; r <= slen; ++r) {
+    //     for (size_t c = 1; c <= plen; ++c) {
+    //         if (p[c - 1] == '*') {
+    //             modify(r, c, take(r, c - 1) || (r > 0 && take(r - 1, c)));
+    //         } else {
+    //             modify(r, c,
+    //                    r > 0 && take(r - 1, c - 1) &&
+    //                        (s[r - 1] == p[c - 1] || p[c - 1] == '?'));
+    //         }
+    //     }
+    // }
+    // return take(slen, plen);
+}

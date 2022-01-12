@@ -48,6 +48,7 @@ struct Solution {
     string addBinary(string a, string b);
     int sumRootToLeaf(TreeNode *root);
     TreeNode *insertIntoBST(TreeNode *root, int val);
+    bool isWildCardMatch(string s, string p) ;
 };
 
 class CombinationIterator {
