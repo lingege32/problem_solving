@@ -1,7 +1,10 @@
 #include <array>
+#include <climits>
 #include <iostream>
+#include <queue>
 #include <string>
 #include <unordered_map>
+#include <algorithm>
 #include <vector>
 using namespace std;
 
@@ -48,8 +51,9 @@ struct Solution {
     string addBinary(string a, string b);
     int sumRootToLeaf(TreeNode *root);
     TreeNode *insertIntoBST(TreeNode *root, int val);
-    bool isWildCardMatch(string s, string p) ;
-    int findMinArrowShots(vector<vector<int>>& points);
+    bool isWildCardMatch(string s, string p);
+    int findMinArrowShots(vector<vector<int>> &points);
+    int minCostConnectPoints(vector<vector<int>> &points);
 };
 
 class CombinationIterator {

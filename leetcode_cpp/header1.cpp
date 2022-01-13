@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <iterator>
 #include <memory.h>
+#include <queue>
 #include <string_view>
 
 int Solution::bitwiseComplement(int n) {
@@ -711,4 +712,72 @@ int Solution::findMinArrowShots(vector<vector<int>> &points) {
     }
 
     return arrows;
+}
+
+int Solution::minCostConnectPoints(vector<vector<int>> &points) {
+
+    // O((V+E)logV), where E is about V^2 because it's a complete tree.
+    // vector<bool> visited(points.size(), false);
+    // int vsize = points.size();
+    // int ans = 0;
+    // auto dis = [&](int from, int to) -> int {
+    //     return abs(points[from][0] - points[to][0]) +
+    //            abs(points[from][1] - points[to][1]);
+    // };
+    // struct Edge {
+    //     Edge(int f, int t, int w) : from{f}, to{t}, weight{w} {}
+    //     int from;
+    //     int to;
+    //     int weight;
+    //     bool operator<(const Edge &another) const {
+    //         return weight > another.weight;
+    //     }
+    // };
+    // priority_queue<Edge> key;
+    // visited[0] = true;
+    // for (int i = 1; i < vsize; ++i) {
+    //     key.emplace(0, i, dis(0, i));
+    // }
+    // for (int unused_v = 0; unused_v < vsize - 1; ++unused_v) {
+    //     // we need to choose vsize-1 edge
+
+    //     while (visited[key.top().to] == true) {
+    //         key.pop();
+    //     }
+    //     Edge light_weight_edge = key.top();
+    //     key.pop();
+    //     visited[light_weight_edge.to] = true;
+    //     ans += light_weight_edge.weight;
+    //     for (int i = 0; i < vsize; ++i) {
+    //         if (visited[i] == true) {
+    //             continue;
+    //         }
+    //         key.emplace(light_weight_edge.to, i, dis(light_weight_edge.to, i));
+    //     }
+    // }
+
+    // return ans;
+
+    // HuaHua's solution, complexity is about O(V^2)
+    const int n = points.size();
+    auto dist = [](const vector<int> &pi, const vector<int> &pj) {
+        return abs(pi[0] - pj[0]) + abs(pi[1] - pj[1]);
+    };
+    vector<int> ds(n, INT_MAX);
+    for (int i = 1; i < n; ++i)
+        ds[i] = dist(points[0], points[i]);
+
+    int ans = 0;
+    for (int i = 1; i < n; ++i) {
+        auto it = min_element(begin(ds), end(ds));
+        const int v = distance(begin(ds), it);
+        ans += ds[v];
+        ds[v] = INT_MAX; // done
+        for (int i = 0; i < n; ++i) {
+            if (ds[i] == INT_MAX)
+                continue;
+            ds[i] = min(ds[i], dist(points[i], points[v]));
+        }
+    }
+    return ans;
 }

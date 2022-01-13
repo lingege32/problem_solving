@@ -2,7 +2,7 @@ all: main
 
 OBJ = main.o header1.o
 HDR = header1.h
-FLAG = -g -std=c++17 -fsanitize=address
+FLAG = -g -std=c++17 -fsanitize=address -stdlib=libstdc++
 CC = clang++
 
 main: ${OBJ}
