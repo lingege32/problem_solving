@@ -681,3 +681,34 @@ bool Solution::isWildCardMatch(string s, string p) {
     // }
     // return take(slen, plen);
 }
+
+int Solution::findMinArrowShots(vector<vector<int>> &points) {
+    if (points.empty()) {
+        return 0;
+    }
+
+    using point = pair<int, int>;
+    vector<point> pts;
+    pts.reserve(points.size());
+    for (const auto &p : points) {
+        pts.emplace_back(p[0], p[1]);
+    }
+    std::sort(pts.begin(), pts.end(),
+              [](const pair<int, int> &lhs, const pair<int, int> &rhs) {
+                  return lhs.first == rhs.first ? lhs.second < rhs.second
+                                                : lhs.first < rhs.first;
+              });
+    int arrows = 1;
+    int arrow = pts[0].second;
+
+    for (size_t idx = 1; idx < pts.size(); ++idx) {
+        auto [s, e] = pts[idx];
+        arrow = min(arrow, e);
+        if (arrow < s) {
+            arrow = e;
+            arrows++;
+        }
+    }
+
+    return arrows;
+}

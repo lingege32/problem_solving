@@ -49,6 +49,7 @@ struct Solution {
     int sumRootToLeaf(TreeNode *root);
     TreeNode *insertIntoBST(TreeNode *root, int val);
     bool isWildCardMatch(string s, string p) ;
+    int findMinArrowShots(vector<vector<int>>& points);
 };
 
 class CombinationIterator {
