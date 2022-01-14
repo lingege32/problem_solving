@@ -54,6 +54,7 @@ struct Solution {
     bool isWildCardMatch(string s, string p);
     int findMinArrowShots(vector<vector<int>> &points);
     int minCostConnectPoints(vector<vector<int>> &points);
+    int myAtoi(string s);
 };
 
 class CombinationIterator {

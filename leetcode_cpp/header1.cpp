@@ -752,7 +752,8 @@ int Solution::minCostConnectPoints(vector<vector<int>> &points) {
     //         if (visited[i] == true) {
     //             continue;
     //         }
-    //         key.emplace(light_weight_edge.to, i, dis(light_weight_edge.to, i));
+    //         key.emplace(light_weight_edge.to, i, dis(light_weight_edge.to,
+    //         i));
     //     }
     // }
 
@@ -780,4 +781,31 @@ int Solution::minCostConnectPoints(vector<vector<int>> &points) {
         }
     }
     return ans;
+}
+
+int Solution::myAtoi(string str) {
+        //skip the whitespaces
+	int beginIndex = 0;
+	for (; beginIndex != str.size() && str[beginIndex] == ' '; ++beginIndex);
+	if (beginIndex == str.size()) return 0;
+
+	//skip the sign
+	bool isPosNum = true;
+	if (str[beginIndex] == '-')
+	{
+		++beginIndex;
+		isPosNum = false;
+	}
+	else if (str[beginIndex] == '+') ++beginIndex;
+	else if (!isdigit(str[beginIndex])) return 0;
+
+	long long resNum = 0;
+	for (int i = beginIndex; i < str.size(); ++i)
+	{
+		if (!isdigit(str[i])) break;
+		resNum = resNum * 10 + (str[i] - '0');
+		if (resNum > INT_MAX) return (isPosNum ? INT_MAX : INT_MIN);
+	}
+
+	return isPosNum ? resNum : (-1 * resNum);
 }
