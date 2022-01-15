@@ -784,28 +784,70 @@ int Solution::minCostConnectPoints(vector<vector<int>> &points) {
 }
 
 int Solution::myAtoi(string str) {
-        //skip the whitespaces
-	int beginIndex = 0;
-	for (; beginIndex != str.size() && str[beginIndex] == ' '; ++beginIndex);
-	if (beginIndex == str.size()) return 0;
+    // skip the whitespaces
+    int beginIndex = 0;
+    for (; beginIndex != str.size() && str[beginIndex] == ' '; ++beginIndex)
+        ;
+    if (beginIndex == str.size())
+        return 0;
 
-	//skip the sign
-	bool isPosNum = true;
-	if (str[beginIndex] == '-')
-	{
-		++beginIndex;
-		isPosNum = false;
-	}
-	else if (str[beginIndex] == '+') ++beginIndex;
-	else if (!isdigit(str[beginIndex])) return 0;
+    // skip the sign
+    bool isPosNum = true;
+    if (str[beginIndex] == '-') {
+        ++beginIndex;
+        isPosNum = false;
+    } else if (str[beginIndex] == '+')
+        ++beginIndex;
+    else if (!isdigit(str[beginIndex]))
+        return 0;
 
-	long long resNum = 0;
-	for (int i = beginIndex; i < str.size(); ++i)
-	{
-		if (!isdigit(str[i])) break;
-		resNum = resNum * 10 + (str[i] - '0');
-		if (resNum > INT_MAX) return (isPosNum ? INT_MAX : INT_MIN);
-	}
+    long long resNum = 0;
+    for (int i = beginIndex; i < str.size(); ++i) {
+        if (!isdigit(str[i]))
+            break;
+        resNum = resNum * 10 + (str[i] - '0');
+        if (resNum > INT_MAX)
+            return (isPosNum ? INT_MAX : INT_MIN);
+    }
 
-	return isPosNum ? resNum : (-1 * resNum);
+    return isPosNum ? resNum : (-1 * resNum);
+}
+
+int Solution::minJumps(vector<int> &arr) {
+    struct Solution2 {
+        int minJumps(vector<int> &arr) {
+            const int n = arr.size();
+            unordered_map<int, vector<int>> m;
+            for (int i = 0; i < n; ++i)
+                m[arr[i]].push_back(i);
+            vector<int> seen(n);
+            queue<int> q({0});
+            seen[0] = 1;
+            int steps = 0;
+            while (!q.empty()) {
+                int size = q.size();
+                while (size--) {
+                    int i = q.front();
+                    q.pop();
+                    if (i == n - 1)
+                        return steps;
+                    if (i - 1 >= 0 && !seen[i - 1]++)
+                        q.push(i - 1);
+                    if (i + 1 < n && !seen[i + 1]++)
+                        q.push(i + 1);
+                    auto it = m.find(arr[i]);
+                    if (it == m.end())
+                        continue;
+                    for (int nxt : it->second)
+                        if (!seen[nxt]++)
+                            q.push(nxt);
+                    m.erase(it); // no longer needed.
+                }
+                ++steps;
+            }
+            return -1;
+        }
+    };
+    Solution2 s2;
+    return s2.minJumps(arr);
 }

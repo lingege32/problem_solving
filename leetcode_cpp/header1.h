@@ -55,6 +55,7 @@ struct Solution {
     int findMinArrowShots(vector<vector<int>> &points);
     int minCostConnectPoints(vector<vector<int>> &points);
     int myAtoi(string s);
+    int minJumps(vector<int>& arr);
 };
 
 class CombinationIterator {
