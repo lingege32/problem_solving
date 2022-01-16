@@ -1,6 +1,6 @@
 all: main
 
-OBJ = main.o header1.o
+OBJ = main.o header1.o header2.o
 HDR = header1.h
 FLAG = -g -std=c++17 -fsanitize=address -stdlib=libstdc++
 CC = clang++

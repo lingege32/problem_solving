@@ -1,10 +1,10 @@
+#include <algorithm>
 #include <array>
 #include <climits>
 #include <iostream>
 #include <queue>
 #include <string>
 #include <unordered_map>
-#include <algorithm>
 #include <vector>
 using namespace std;
 
@@ -55,7 +55,8 @@ struct Solution {
     int findMinArrowShots(vector<vector<int>> &points);
     int minCostConnectPoints(vector<vector<int>> &points);
     int myAtoi(string s);
-    int minJumps(vector<int>& arr);
+    int minJumps(vector<int> &arr);
+    int maxDistToClosest(vector<int> &seats);
 };
 
 class CombinationIterator {
