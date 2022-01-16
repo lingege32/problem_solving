@@ -6,6 +6,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
+#include <unordered_set>
 using namespace std;
 
 /**
@@ -27,6 +28,24 @@ struct ListNode {
     ListNode() : val(0), next(nullptr) {}
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+class Node {
+public:
+    int val;
+    vector<Node*> neighbors;
+    Node() {
+        val = 0;
+        neighbors = vector<Node*>();
+    }
+    Node(int _val) {
+        val = _val;
+        neighbors = vector<Node*>();
+    }
+    Node(int _val, vector<Node*> _neighbors) {
+        val = _val;
+        neighbors = _neighbors;
+    }
 };
 
 struct Solution {
@@ -57,6 +76,7 @@ struct Solution {
     int myAtoi(string s);
     int minJumps(vector<int> &arr);
     int maxDistToClosest(vector<int> &seats);
+    Node* cloneGraph(Node* node);
 };
 
 class CombinationIterator {

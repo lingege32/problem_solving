@@ -23,3 +23,36 @@ int Solution::maxDistToClosest(vector<int> &seats) {
 
     return max_distance;
 }
+
+Node *Solution::cloneGraph(Node *node) {
+    unordered_set<Node *> done;
+    unordered_map<Node *, Node *> table;
+    queue<Node *> q;
+    table[node] = new Node(node->val);
+    q.push(node);
+
+    while (!q.empty()) {
+        Node *n = q.front();
+        q.pop();
+        if (done.find(n) != done.end()) {
+            continue;
+        } else {
+            done.insert(n);
+        }
+
+        Node *new_cur = table[n];
+        for (auto neighbor : n->neighbors) {
+                q.push(neighbor);
+            auto neiIter = table.find(neighbor);
+            Node *new_neighbor = nullptr;
+            if (neiIter == table.end()) {
+                new_neighbor = new Node(neighbor->val);
+                table[neighbor] = new_neighbor;
+            } else {
+                new_neighbor = neiIter->second;
+            }
+            new_cur->neighbors.push_back(new_neighbor);
+        }
+    }
+    return table[node];
+}

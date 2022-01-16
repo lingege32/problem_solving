@@ -175,3 +175,5 @@
 * [Medium - 1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) - CPP
 * [Medium - 8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) - CPP
 * [Hard - 1345. Jump Game IV](https://leetcode.com/problems/jump-game-iv/) - CPP
+* [Medium - 849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) - CPP
+* [Medium - 133. Clone Graph](https://leetcode.com/problems/clone-graph/) - CPP
