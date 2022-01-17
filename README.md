@@ -177,3 +177,4 @@
 * [Hard - 1345. Jump Game IV](https://leetcode.com/problems/jump-game-iv/) - CPP
 * [Medium - 849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) - CPP
 * [Medium - 133. Clone Graph](https://leetcode.com/problems/clone-graph/) - CPP
+* [Easy - 290. Word Pattern](https://leetcode.com/problems/word-pattern/) - CPP

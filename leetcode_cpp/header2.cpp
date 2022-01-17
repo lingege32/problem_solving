@@ -42,7 +42,7 @@ Node *Solution::cloneGraph(Node *node) {
 
         Node *new_cur = table[n];
         for (auto neighbor : n->neighbors) {
-                q.push(neighbor);
+            q.push(neighbor);
             auto neiIter = table.find(neighbor);
             Node *new_neighbor = nullptr;
             if (neiIter == table.end()) {
@@ -55,4 +55,25 @@ Node *Solution::cloneGraph(Node *node) {
         }
     }
     return table[node];
+}
+
+bool Solution::wordPattern(string pattern, string s) {
+    unordered_map<char, string> m;
+    istringstream in(s);
+    int i = 0, n = pattern.size();
+    for (string word; in >> word; ++i) {
+        if (i >= n)
+            continue;
+        if (m.count(pattern[i])) {
+            if (m[pattern[i]] != word)
+                return false;
+        } else {
+            for (auto& a : m) {
+                if (a.second == word)
+                    return false;
+            }
+            m[pattern[i]] = word;
+        }
+    }
+    return i == n;
 }

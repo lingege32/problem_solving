@@ -3,10 +3,12 @@
 #include <climits>
 #include <iostream>
 #include <queue>
+#include <sstream>
 #include <string>
+#include <string_view>
 #include <unordered_map>
-#include <vector>
 #include <unordered_set>
+#include <vector>
 using namespace std;
 
 /**
@@ -31,18 +33,18 @@ struct ListNode {
 };
 
 class Node {
-public:
+  public:
     int val;
-    vector<Node*> neighbors;
+    vector<Node *> neighbors;
     Node() {
         val = 0;
-        neighbors = vector<Node*>();
+        neighbors = vector<Node *>();
     }
     Node(int _val) {
         val = _val;
-        neighbors = vector<Node*>();
+        neighbors = vector<Node *>();
     }
-    Node(int _val, vector<Node*> _neighbors) {
+    Node(int _val, vector<Node *> _neighbors) {
         val = _val;
         neighbors = _neighbors;
     }
@@ -76,7 +78,8 @@ struct Solution {
     int myAtoi(string s);
     int minJumps(vector<int> &arr);
     int maxDistToClosest(vector<int> &seats);
-    Node* cloneGraph(Node* node);
+    Node *cloneGraph(Node *node);
+    bool wordPattern(string pattern, string s);
 };
 
 class CombinationIterator {
