@@ -80,6 +80,7 @@ struct Solution {
     int maxDistToClosest(vector<int> &seats);
     Node *cloneGraph(Node *node);
     bool wordPattern(string pattern, string s);
+    bool canPlaceFlowers(vector<int>& flowerbed, int n);
 };
 
 class CombinationIterator {

@@ -178,3 +178,4 @@
 * [Medium - 849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) - CPP
 * [Medium - 133. Clone Graph](https://leetcode.com/problems/clone-graph/) - CPP
 * [Easy - 290. Word Pattern](https://leetcode.com/problems/word-pattern/) - CPP
+* [Easy - 605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) - CPP
