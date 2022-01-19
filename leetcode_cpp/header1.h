@@ -81,6 +81,7 @@ struct Solution {
     Node *cloneGraph(Node *node);
     bool wordPattern(string pattern, string s);
     ListNode *detectCycle(ListNode *head);
+    bool canPlaceFlowers(vector<int>& flowerbed, int n);
 };
 
 class CombinationIterator {

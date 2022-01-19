@@ -101,3 +101,19 @@ ListNode *Solution::detectCycle(ListNode *head) {
     }
     return nullptr;
 }
+bool Solution::canPlaceFlowers(vector<int> &flowerbed, int n) {
+    auto it1 = std::find(flowerbed.begin(), flowerbed.end(), 1);
+    if (it1 == flowerbed.end())
+        return (flowerbed.size() + 1) / 2 >= n;
+    int max_flowers = std::distance(flowerbed.begin(), it1) / 2;
+
+    auto it0 = std::find(it1, flowerbed.end(), 0);
+    it1 = std::find(it0, flowerbed.end(), 1);
+    while (it1 != flowerbed.end()) {
+        max_flowers += (std::distance(it0, it1) - 1) / 2;
+        it0 = std::find(it1, flowerbed.end(), 0);
+        it1 = std::find(it0, flowerbed.end(), 1);
+    }
+    max_flowers += (std::distance(it0, it1) / 2);
+    return max_flowers >= n;
+}

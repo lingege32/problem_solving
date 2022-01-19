@@ -179,3 +179,4 @@
 * [Medium - 133. Clone Graph](https://leetcode.com/problems/clone-graph/) - CPP
 * [Easy - 290. Word Pattern](https://leetcode.com/problems/word-pattern/) - CPP
 * [Medium - 142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) - CPP
+* [Easy - 605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) - CPP
