@@ -68,7 +68,7 @@ bool Solution::wordPattern(string pattern, string s) {
             if (m[pattern[i]] != word)
                 return false;
         } else {
-            for (auto& a : m) {
+            for (auto &a : m) {
                 if (a.second == word)
                     return false;
             }
@@ -76,4 +76,28 @@ bool Solution::wordPattern(string pattern, string s) {
         }
     }
     return i == n;
+}
+
+ListNode *Solution::detectCycle(ListNode *head) {
+    ListNode *slow = head;
+    ListNode *fast = head;
+    while (fast) {
+        slow = slow->next;
+        fast = fast->next;
+        if (fast) {
+            fast = fast->next;
+        }
+        if (fast && slow == fast) {
+            break;
+        }
+    }
+    if (fast) {
+        slow = head;
+        while (slow != fast) {
+            slow = slow->next;
+            fast = fast->next;
+        }
+        return slow;
+    }
+    return nullptr;
 }

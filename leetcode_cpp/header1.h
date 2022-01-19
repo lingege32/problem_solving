@@ -80,6 +80,7 @@ struct Solution {
     int maxDistToClosest(vector<int> &seats);
     Node *cloneGraph(Node *node);
     bool wordPattern(string pattern, string s);
+    ListNode *detectCycle(ListNode *head);
 };
 
 class CombinationIterator {
