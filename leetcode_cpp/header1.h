@@ -82,6 +82,7 @@ struct Solution {
     bool wordPattern(string pattern, string s);
     ListNode *detectCycle(ListNode *head);
     bool canPlaceFlowers(vector<int>& flowerbed, int n);
+    int minEatingSpeed(vector<int>& piles, int h);
 };
 
 class CombinationIterator {

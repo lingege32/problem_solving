@@ -1,4 +1,5 @@
 #include "header1.h"
+#include <algorithm>
 
 int Solution::maxDistToClosest(vector<int> &seats) {
     int left_sitting = 0;
@@ -116,4 +117,26 @@ bool Solution::canPlaceFlowers(vector<int> &flowerbed, int n) {
     }
     max_flowers += (std::distance(it0, it1) / 2);
     return max_flowers >= n;
+}
+
+int Solution::minEatingSpeed(vector<int> &piles, int h) {
+    int left = 1;
+    int right = *std::max_element(piles.begin(), piles.end());
+    while (left < right) {
+        int mid = (left + right) / 2;
+        int needHr = 0;
+        for (auto banana : piles) {
+
+            needHr += ((banana / mid) + ((banana % mid) == 0 ? 0 : 1));
+            if (needHr > h) {
+                break;
+            }
+        }
+        if (needHr > h) {
+            left = mid + 1;
+        } else {
+            right = mid;
+        }
+    }
+    return left;
 }
