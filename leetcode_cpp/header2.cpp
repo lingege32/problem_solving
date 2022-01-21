@@ -140,3 +140,16 @@ int Solution::minEatingSpeed(vector<int> &piles, int h) {
     }
     return left;
 }
+
+int Solution::canCompleteCircuit(vector<int> &gas, vector<int> &cost) {
+    const int n = gas.size();
+    int sum = 0, min_sum = std::numeric_limits<int>::max(), min_i = -1;
+    for (int i = 0; i < n; ++i) {
+        sum += gas[i] - cost[i];
+        if (sum < min_sum) {
+            min_sum = sum;
+            min_i = i;
+        }
+    }
+    return sum >= 0 ? ((min_i + 1) % n) : -1;
+}

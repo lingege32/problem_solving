@@ -2,6 +2,7 @@
 #include <array>
 #include <climits>
 #include <iostream>
+#include <numeric>
 #include <queue>
 #include <sstream>
 #include <string>
@@ -81,8 +82,9 @@ struct Solution {
     Node *cloneGraph(Node *node);
     bool wordPattern(string pattern, string s);
     ListNode *detectCycle(ListNode *head);
-    bool canPlaceFlowers(vector<int>& flowerbed, int n);
-    int minEatingSpeed(vector<int>& piles, int h);
+    bool canPlaceFlowers(vector<int> &flowerbed, int n);
+    int minEatingSpeed(vector<int> &piles, int h);
+    int canCompleteCircuit(vector<int> &gas, vector<int> &cost);
 };
 
 class CombinationIterator {
