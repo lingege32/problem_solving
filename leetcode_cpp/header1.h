@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <array>
 #include <climits>
+#include <cstring>
 #include <iostream>
 #include <numeric>
 #include <queue>
@@ -85,6 +86,7 @@ struct Solution {
     bool canPlaceFlowers(vector<int> &flowerbed, int n);
     int minEatingSpeed(vector<int> &piles, int h);
     int canCompleteCircuit(vector<int> &gas, vector<int> &cost);
+    bool winnerSquareGame(int n);
 };
 
 class CombinationIterator {

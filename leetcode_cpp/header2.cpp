@@ -153,3 +153,18 @@ int Solution::canCompleteCircuit(vector<int> &gas, vector<int> &cost) {
     }
     return sum >= 0 ? ((min_i + 1) % n) : -1;
 }
+
+bool Solution::winnerSquareGame(int n) {
+    bool dp[100001];
+    std::memset(dp, false, sizeof(dp));
+    for (int i = 0; i <= n; ++i) {
+        if (dp[n] == true)
+            break;
+        if (!dp[i]) {
+            for (int j = 1; j * j + i <= n; ++j)
+                dp[j * j + i] = true;
+        }
+    }
+
+    return dp[n];
+}
