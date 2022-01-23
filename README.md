@@ -183,3 +183,4 @@
 * [Medium - 875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) - CPP
 * [Medium - 134. Gas Station](https://leetcode.com/problems/gas-station/) - CPP
 * [Hard - 1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv/) - CPP
+* [Medium - 1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) - CPP

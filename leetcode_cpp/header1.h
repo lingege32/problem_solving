@@ -87,6 +87,7 @@ struct Solution {
     int minEatingSpeed(vector<int> &piles, int h);
     int canCompleteCircuit(vector<int> &gas, vector<int> &cost);
     bool winnerSquareGame(int n);
+    vector<int> sequentialDigits(int low, int high);
 };
 
 class CombinationIterator {
