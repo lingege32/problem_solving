@@ -88,6 +88,7 @@ struct Solution {
     int canCompleteCircuit(vector<int> &gas, vector<int> &cost);
     bool winnerSquareGame(int n);
     vector<int> sequentialDigits(int low, int high);
+    bool detectCapitalUse(string word);
 };
 
 class CombinationIterator {

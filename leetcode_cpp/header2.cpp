@@ -1,5 +1,6 @@
 #include "header1.h"
 #include <algorithm>
+#include <cctype>
 
 int Solution::maxDistToClosest(vector<int> &seats) {
     int left_sitting = 0;
@@ -186,4 +187,32 @@ vector<int> Solution::sequentialDigits(int low, int high) {
         }
     }
     return ans;
+}
+
+bool Solution::detectCapitalUse(string word) {
+    if (word.size() <= 1) {
+        return true;
+    } else {
+        short strategy = 0;
+        if (isupper(word[0])) {
+            strategy |= 0x1;
+        }
+        if (islower(word[1])) {
+            strategy |= 0x2;
+        }
+        if (strategy == 1) {
+            return std::all_of(word.begin() + 2, word.end(),
+                               [](char c) { return isupper(c); });
+        } else if (strategy == 2) {
+            return std::all_of(word.begin() + 2, word.end(),
+                               [](char c) { return islower(c); });
+        } else if (strategy == 3) {
+            return std::all_of(word.begin() + 2, word.end(),
+                               [](char c) { return islower(c); });
+        } else {
+            return false;
+        }
+    }
+    // unreachable
+    return false;
 }

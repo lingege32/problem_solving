@@ -184,3 +184,4 @@
 * [Medium - 134. Gas Station](https://leetcode.com/problems/gas-station/) - CPP
 * [Hard - 1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv/) - CPP
 * [Medium - 1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) - CPP
+* [Easy - 520. Detect Capital](https://leetcode.com/problems/detect-capital/) - CPP
