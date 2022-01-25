@@ -3,6 +3,7 @@
 #include <climits>
 #include <cstring>
 #include <iostream>
+#include <limits>
 #include <numeric>
 #include <queue>
 #include <sstream>
@@ -89,6 +90,7 @@ struct Solution {
     bool winnerSquareGame(int n);
     vector<int> sequentialDigits(int low, int high);
     bool detectCapitalUse(string word);
+    bool validMountainArray(vector<int> &arr);
 };
 
 class CombinationIterator {

@@ -185,3 +185,4 @@
 * [Hard - 1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv/) - CPP
 * [Medium - 1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) - CPP
 * [Easy - 520. Detect Capital](https://leetcode.com/problems/detect-capital/) - CPP
+* [Easy - 941. Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) - CPP

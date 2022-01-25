@@ -216,3 +216,24 @@ bool Solution::detectCapitalUse(string word) {
     // unreachable
     return false;
 }
+
+bool Solution::validMountainArray(vector<int> &arr) {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    auto it_mountain = std::max_element(arr.begin(), arr.end());
+    auto mid = std::distance(arr.begin(), it_mountain);
+    if (mid == 0 || mid == arr.size() - 1) {
+        return false;
+    }
+    for (size_t idx = 1; idx <= mid; ++idx) {
+        if (arr[idx - 1] >= arr[idx]) {
+            return false;
+        }
+    }
+    for (size_t idx = mid + 1; idx < arr.size(); ++idx) {
+        if (arr[idx - 1] <= arr[idx]) {
+            return false;
+        }
+    }
+    return true;
+}
