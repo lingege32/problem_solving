@@ -91,6 +91,7 @@ struct Solution {
     vector<int> sequentialDigits(int low, int high);
     bool detectCapitalUse(string word);
     bool validMountainArray(vector<int> &arr);
+    vector<int> getAllElements(TreeNode* root1, TreeNode* root2);
 };
 
 class CombinationIterator {

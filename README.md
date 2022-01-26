@@ -186,3 +186,4 @@
 * [Medium - 1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) - CPP
 * [Easy - 520. Detect Capital](https://leetcode.com/problems/detect-capital/) - CPP
 * [Easy - 941. Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) - CPP
+* [Medium - 1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) - CPP

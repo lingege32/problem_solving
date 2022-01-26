@@ -1,6 +1,7 @@
 #include "header1.h"
 #include <algorithm>
 #include <cctype>
+#include <iterator>
 
 int Solution::maxDistToClosest(vector<int> &seats) {
     int left_sitting = 0;
@@ -236,4 +237,35 @@ bool Solution::validMountainArray(vector<int> &arr) {
         }
     }
     return true;
+}
+
+vector<int> Solution::getAllElements(TreeNode *root1, TreeNode *root2) {
+    std::function<void(TreeNode *, vector<int> &)> in_order_traverse;
+    in_order_traverse = [&](TreeNode *node, vector<int> &v_in_order_traverse) {
+        if (!node) {
+            return;
+        }
+        in_order_traverse(node->left, v_in_order_traverse);
+        v_in_order_traverse.push_back(node->val);
+        in_order_traverse(node->right, v_in_order_traverse);
+    };
+    std::function<size_t(TreeNode *)> treesize = [&](TreeNode *r) -> size_t {
+        if (!r) {
+            return 0;
+        }
+        return treesize(r->left) + 1 + treesize(r->right);
+    };
+    size_t r1_len = treesize(root1);
+    size_t r2_len = treesize(root2);
+
+    vector<int> traverse1, traverse2;
+    traverse1.reserve(r1_len);
+    traverse2.reserve(r2_len);
+    in_order_traverse(root1, traverse1);
+    in_order_traverse(root2, traverse2);
+    vector<int> ans;
+    ans.reserve(traverse1.size() + traverse2.size());
+    std::merge(traverse1.begin(), traverse1.end(), traverse2.begin(),
+               traverse2.end(), std::back_inserter(ans));
+    return ans;
 }
