@@ -2,8 +2,10 @@
 #include <array>
 #include <climits>
 #include <cstring>
+#include <functional>
 #include <iostream>
 #include <limits>
+#include <memory>
 #include <numeric>
 #include <queue>
 #include <sstream>
@@ -91,7 +93,8 @@ struct Solution {
     vector<int> sequentialDigits(int low, int high);
     bool detectCapitalUse(string word);
     bool validMountainArray(vector<int> &arr);
-    vector<int> getAllElements(TreeNode* root1, TreeNode* root2);
+    vector<int> getAllElements(TreeNode *root1, TreeNode *root2);
+    int findMaximumXOR(vector<int> &nums);
 };
 
 class CombinationIterator {

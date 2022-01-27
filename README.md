@@ -187,3 +187,4 @@
 * [Easy - 520. Detect Capital](https://leetcode.com/problems/detect-capital/) - CPP
 * [Easy - 941. Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) - CPP
 * [Medium - 1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) - CPP
+* [Medium - 421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) - CPP
