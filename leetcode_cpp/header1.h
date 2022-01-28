@@ -138,3 +138,49 @@ class CombinationIterator {
 
     bool hasNext() { return hasNextFlag; }
 };
+
+class WordDictionary {
+  public:
+    WordDictionary() {}
+
+    void addWord(string word) {
+        size_t len = word.size();
+        if (word[0] != '.') {
+            database[len][word[0] - 'a'].push_back(word);
+        }
+        database[len][26].push_back(std::move(word));
+    }
+
+    bool search(string word) {
+        size_t len = word.size();
+        vector<string> *tmp;
+        if (word[0] == '.') {
+            tmp = &database[len][26];
+        } else {
+            tmp = &database[len][word[0] - 'a'];
+        }
+        vector<string> &ref = *tmp;
+        if (ref.empty()) {
+            return false;
+        }
+        auto isMatched = [](char w, char p) {
+            return p == '.' ? true : w == p;
+        };
+        for (const string &w : ref) {
+            bool hit = true;
+            for (size_t idx = 0; idx < w.size(); ++idx) {
+                if (!isMatched(w[idx], word[idx])) {
+                    hit = false;
+                    break;
+                }
+            }
+            if (hit) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    vector<string> database[501][27];
+};
