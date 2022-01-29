@@ -9,6 +9,7 @@
 #include <numeric>
 #include <queue>
 #include <sstream>
+#include <stack>
 #include <string>
 #include <string_view>
 #include <unordered_map>
@@ -95,6 +96,7 @@ struct Solution {
     bool validMountainArray(vector<int> &arr);
     vector<int> getAllElements(TreeNode *root1, TreeNode *root2);
     int findMaximumXOR(vector<int> &nums);
+    int largestRectangleArea(vector<int> &heights);
 };
 
 class CombinationIterator {

@@ -292,3 +292,38 @@ int Solution::findMaximumXOR(vector<int> &nums) {
     return helper(nums, nums.begin(), nums.end(), nums.begin(), nums.end(), 0,
                   1 << 30);
 }
+
+int Solution::largestRectangleArea(vector<int> &heights) {
+    int largest = 0;
+    stack<size_t> stack;
+    size_t idx = 0;
+    while (idx < heights.size()) {
+        if (stack.empty() || heights[stack.top()] <= heights[idx]) {
+            stack.push(idx);
+            idx++;
+            continue;
+        }
+        size_t current = stack.top();
+        stack.pop();
+        int width = 0;
+        if (stack.empty()) {
+            width = idx;
+        } else {
+            width = idx - stack.top() - 1;
+        }
+        largest = std::max(largest, width * heights[current]);
+    }
+    while (!stack.empty()) {
+        int width = 0;
+        size_t cur = stack.top();
+        stack.pop();
+        if (stack.empty()) {
+            width = idx;
+        } else {
+            width = idx - stack.top() - 1;
+        }
+        largest = std::max(largest, width * heights[cur]);
+    }
+
+    return largest;
+}
