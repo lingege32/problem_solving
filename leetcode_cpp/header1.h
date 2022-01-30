@@ -97,6 +97,7 @@ struct Solution {
     vector<int> getAllElements(TreeNode *root1, TreeNode *root2);
     int findMaximumXOR(vector<int> &nums);
     int largestRectangleArea(vector<int> &heights);
+    void rotate(vector<int>& nums, int k);
 };
 
 class CombinationIterator {

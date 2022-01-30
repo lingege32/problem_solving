@@ -327,3 +327,8 @@ int Solution::largestRectangleArea(vector<int> &heights) {
 
     return largest;
 }
+
+void Solution::rotate(vector<int> &nums, int k) {
+    k = k % nums.size();
+    std::rotate(nums.begin(), nums.begin() + nums.size() - k, nums.end());
+}
