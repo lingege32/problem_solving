@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <cctype>
 #include <iterator>
+#include <numeric>
 
 int Solution::maxDistToClosest(vector<int> &seats) {
     int left_sitting = 0;
@@ -331,4 +332,12 @@ int Solution::largestRectangleArea(vector<int> &heights) {
 void Solution::rotate(vector<int> &nums, int k) {
     k = k % nums.size();
     std::rotate(nums.begin(), nums.begin() + nums.size() - k, nums.end());
+}
+
+int Solution::maximumWealth(vector<vector<int>> &accounts) {
+    int max = 0;
+    for (const auto &a : accounts) {
+        max = std::max(std::accumulate(a.begin(), a.end(), 0), max);
+    }
+    return max;
 }

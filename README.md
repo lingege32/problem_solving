@@ -191,3 +191,4 @@
 * [Medium - 211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) - CPP
 * [Hard - 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) - CPP
 * [Medium - 189. Rotate Array](https://leetcode.com/problems/rotate-array/) - CPP
+* [Easy - 1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) - CPP

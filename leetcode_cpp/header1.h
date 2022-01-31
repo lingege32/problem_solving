@@ -98,6 +98,7 @@ struct Solution {
     int findMaximumXOR(vector<int> &nums);
     int largestRectangleArea(vector<int> &heights);
     void rotate(vector<int>& nums, int k);
+    int maximumWealth(vector<vector<int>>& accounts);
 };
 
 class CombinationIterator {
