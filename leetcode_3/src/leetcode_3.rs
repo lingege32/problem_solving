@@ -41,3 +41,4 @@ mod max_ancestor_diff;
 mod max_coins;
 mod num_pairs_divisible_by60;
 mod find_judge;
+mod swap_pairs;
