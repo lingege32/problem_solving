@@ -112,25 +112,25 @@ class CombinationIterator {
         : mcharacters(std::move(characters)), hasNextFlag(true),
           ans(mcharacters.begin(), mcharacters.begin() + combinationLength),
           arrange(combinationLength, 0) {
-        for (int i = 0; i < arrange.size(); ++i) {
+        for (size_t i = 0; i < arrange.size(); ++i) {
             arrange[i] = i;
         }
     }
 
     string next() {
         string tmp = ans;
-        if (arrange[0] == mcharacters.size() - ans.size()) {
+        if (arrange[0] == static_cast<int>(mcharacters.size() - ans.size())) {
             hasNextFlag = false;
         } else {
-            int idx = ans.size() - 1;
+            size_t idx = ans.size() - 1;
             for (; idx >= 0; --idx) {
-                int dis = ans.size() - idx;
+                size_t dis = ans.size() - idx;
                 if (arrange[idx] + dis != mcharacters.size()) {
                     break;
                 }
             }
             int new_val = arrange[idx] + 1;
-            for (int i = idx; i < arrange.size(); ++i) {
+            for (size_t i = idx; i < arrange.size(); ++i) {
                 arrange[i] = new_val++;
             }
             for (; idx < arrange.size(); ++idx) {
