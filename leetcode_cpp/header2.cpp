@@ -108,7 +108,7 @@ ListNode *Solution::detectCycle(ListNode *head) {
 bool Solution::canPlaceFlowers(vector<int> &flowerbed, int n) {
     auto it1 = std::find(flowerbed.begin(), flowerbed.end(), 1);
     if (it1 == flowerbed.end())
-        return (flowerbed.size() + 1) / 2 >= n;
+        return (flowerbed.size() + 1) / 2 >= static_cast<size_t>(n);
     int max_flowers = std::distance(flowerbed.begin(), it1) / 2;
 
     auto it0 = std::find(it1, flowerbed.end(), 0);
@@ -180,7 +180,7 @@ vector<int> Solution::sequentialDigits(int low, int high) {
                     45678,   56789,   123456,  234567,   345678,   456789,
                     1234567, 2345678, 3456789, 12345678, 23456789, 123456789};
     vector<int> ans;
-    for (int i = 0; i < sizeof(buffer) / sizeof(int); ++i) {
+    for (size_t i = 0; i < sizeof(buffer) / sizeof(int); ++i) {
         int tmp = buffer[i];
         if (tmp > high) {
             break;
@@ -223,7 +223,7 @@ bool Solution::validMountainArray(vector<int> &arr) {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
     auto it_mountain = std::max_element(arr.begin(), arr.end());
-    auto mid = std::distance(arr.begin(), it_mountain);
+    size_t mid = std::distance(arr.begin(), it_mountain);
     if (mid == 0 || mid == arr.size() - 1) {
         return false;
     }
@@ -280,7 +280,7 @@ int helper(vector<int> &nums, Iter lstart, Iter lend, Iter rstart, Iter rend,
     auto cond = [mask](int num) { return num & mask; };
     auto lmid = partition(lstart, lend, cond),
          rmid = partition(rstart, rend, cond);
-    if (lmid == lend && rmid == rend || lmid == lstart && rmid == rstart)
+    if ((lmid == lend && rmid == rend) || (lmid == lstart && rmid == rstart))
         return helper(nums, lstart, lend, rstart, rend, val, mask >> 1);
     else
         return max(
