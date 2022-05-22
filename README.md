@@ -1,7 +1,7 @@
 # Practice my coding ability
 
---- codewars - https://www.codewars.com/
-
+codewars - https://www.codewars.com/
+---
 * [Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc/train/rust)
 * [Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/train/rust)
 * [Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b/train/rust)
@@ -21,7 +21,8 @@
 * [4kyu Snail](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/train/rust)
 
 
---- LeetCode - https://leetcode.com/
+LeetCode - https://leetcode.com/
+---
 
 * [Medium - 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 * [Medium - 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
@@ -104,6 +105,8 @@
 * [Easy - 448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 * [Medium - 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 * [Medium - 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+## LeetCode 3 module
+---
 * [Medium - 437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 * [Medium - 416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 * [Medium - 347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
@@ -148,6 +151,9 @@
 * [Medium - 1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
 * [Easy - 997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 * [Medium - 24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
+## LeetCode_4 module
+---
 
 # CPP
 
