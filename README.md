@@ -154,6 +154,7 @@ LeetCode - https://leetcode.com/
 
 ## LeetCode_4 module
 ---
+* [Medium - 1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) - shortest_path_binary_matrix
 
 # CPP
 
