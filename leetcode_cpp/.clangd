@@ -1,3 +1,0 @@
-CompileFlags:
-    Add: [-Wextra, -Wall, -std=c++17]
-    Compiler: /uhome/home/lingege32/local/gcc-10/bin/g++
