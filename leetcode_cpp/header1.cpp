@@ -152,8 +152,8 @@ int Solution::uniquePathsIII(vector<vector<int>> &grid) {
             end_c = 0;
             count = 0;
             current_count = 0;
-            for (size_t r = 0; r < row; ++r) {
-                for (size_t c = 0; c < col; ++c) {
+            for (int r = 0; r < row; ++r) {
+                for (int c = 0; c < col; ++c) {
                     if (grid[r][c] != 0) {
                         if (grid[r][c] == 1) {
                             start_r = r;
@@ -406,7 +406,7 @@ int Solution::numTrees(int n) {
 
 int Solution::maxProfit(vector<int> &prices) {
     int ans = 0;
-    for (int idx = 1; idx < prices.size(); ++idx) {
+    for (size_t idx = 1; idx < prices.size(); ++idx) {
         int left = prices[idx - 1];
         int right = prices[idx];
         if (right > left) {
@@ -498,12 +498,12 @@ int Solution::cherryPickup(vector<vector<int>> &grid) {
     memset(dp, -1, sizeof(dp));
     dp[0][0][col - 1] = grid[0][0] + grid[0][col - 1];
     for (size_t r = 1; r < row; r++) {
-        for (int c1 = 0; c1 < col; c1++) {
-            for (int c2 = 0; c2 < col; c2++) {
+        for (size_t c1 = 0; c1 < col; c1++) {
+            for (size_t c2 = 0; c2 < col; c2++) {
                 int last = -1;
 
-                for (int c1_tmp = c1 - 1; c1_tmp <= c1 + 1; ++c1_tmp) {
-                    for (int c2_tmp = c2 - 1; c2_tmp <= c2 + 1; ++c2_tmp) {
+                for (size_t c1_tmp = c1 - 1; c1_tmp <= c1 + 1; ++c1_tmp) {
+                    for (size_t c2_tmp = c2 - 1; c2_tmp <= c2 + 1; ++c2_tmp) {
 
                         if (c1_tmp >= 0 && c1_tmp < col && c2_tmp >= 0 &&
                             c2_tmp < col) {
@@ -547,7 +547,7 @@ bool Solution::isRobotBounded(string instructions) {
             d = (d + (c == 'L' ? 1 : 3)) % 4;
         }
     }
-    return x == 0 && y == 0 || d;
+    return (x == 0 && y == 0) || d;
 }
 string Solution::addBinary(string a, string b) {
     if (a == "0") {
@@ -564,7 +564,7 @@ string Solution::addBinary(string a, string b) {
 
     string ans(b.size() + 1, '0');
     short carry = 0;
-    int idx = 0;
+    size_t idx = 0;
     for (; idx < a.size(); ++idx) {
         short t = a[idx] - '0' + b[idx] - '0' + carry;
         carry = (t & 0x2) ? 1 : 0;
@@ -615,8 +615,8 @@ TreeNode *Solution::insertIntoBST(TreeNode *root, int val) {
 }
 
 bool Solution::isWildCardMatch(string s, string p) {
-    int pPtr = 0;
-    int sPtr = 0;
+    size_t pPtr = 0;
+    size_t sPtr = 0;
 
     int starPos = -1;
     int starTextPos = -1;
@@ -785,7 +785,7 @@ int Solution::minCostConnectPoints(vector<vector<int>> &points) {
 
 int Solution::myAtoi(string str) {
     // skip the whitespaces
-    int beginIndex = 0;
+    size_t beginIndex = 0;
     for (; beginIndex != str.size() && str[beginIndex] == ' '; ++beginIndex)
         ;
     if (beginIndex == str.size())
@@ -802,7 +802,7 @@ int Solution::myAtoi(string str) {
         return 0;
 
     long long resNum = 0;
-    for (int i = beginIndex; i < str.size(); ++i) {
+    for (size_t i = beginIndex; i < str.size(); ++i) {
         if (!isdigit(str[i]))
             break;
         resNum = resNum * 10 + (str[i] - '0');
