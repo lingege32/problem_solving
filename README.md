@@ -155,6 +155,7 @@ LeetCode - https://leetcode.com/
 ## LeetCode_4 module
 ---
 * [Medium - 1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) - shortest_path_binary_matrix
+* [Medium - 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) - find_max_form
 
 # CPP
 
