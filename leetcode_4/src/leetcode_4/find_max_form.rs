@@ -2,6 +2,36 @@ struct Solution {}
 impl Solution {
     #[allow(dead_code)]
     pub fn find_max_form(strs: Vec<String>, m: i32, n: i32) -> i32 {
+        // Self::my_recur_version(strs, m, n)
+        Self::dp_version(strs, m, n)
+    }
+    fn dp_version(strs: Vec<String>, m: i32, n: i32) -> i32 {
+        fn str_to_zero_one(str: String) -> (i32, i32) {
+            let (mut mm, mut nn) = (0, 0);
+            for &s in str.as_bytes() {
+                if s == '0' as u8 {
+                    mm += 1;
+                } else {
+                    nn += 1;
+                }
+            }
+            (mm, nn)
+        }
+        let mut dp = vec![vec![0; (n + 1) as usize]; (m + 1) as usize];
+        for str in strs {
+            let (need_m, need_n) = str_to_zero_one(str);
+            for k in (need_m..=m).rev() {
+                for l in (need_n..=n).rev() {
+                    let tmp = dp[(k - need_m) as usize][(l - need_n) as usize] + 1;
+                    let d = &mut dp[k as usize][l as usize];
+                    *d = tmp.max(*d);
+                }
+            }
+        }
+        dp[m as usize][n as usize]
+    }
+    #[allow(dead_code)]
+    fn my_recur_version(strs: Vec<String>, m: i32, n: i32) -> i32 {
         fn str_to_zero_one(str: String) -> (i32, i32) {
             let (mut mm, mut nn) = (0, 0);
             for &s in str.as_bytes() {
