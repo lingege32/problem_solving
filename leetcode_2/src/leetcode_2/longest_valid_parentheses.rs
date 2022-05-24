@@ -1,5 +1,6 @@
 struct Solution;
 impl Solution {
+    #[allow(dead_code)]
     pub fn longest_valid_parentheses(s: String) -> i32 {
         let mut stack = vec![None];
         let mut max = 0;
@@ -12,8 +13,10 @@ impl Solution {
                     stack.push(Some(idx));
                 } else {
                     max = max.max(
-                        stack.last().unwrap()
-                        .map_or_else(|| (1 + idx) as i32, |last_idx| (idx - last_idx) as i32)
+                        stack
+                            .last()
+                            .unwrap()
+                            .map_or((1 + idx) as i32, |last_idx| (idx - last_idx) as i32),
                     );
                 }
             }
