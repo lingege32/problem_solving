@@ -157,6 +157,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) - shortest_path_binary_matrix
 * [Medium - 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) - find_max_form
 * [Easy - 844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) - backspace_compare
+* [Hard - 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) - max_envelopes
 
 # CPP
 
