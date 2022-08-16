@@ -158,6 +158,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) - find_max_form
 * [Easy - 844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) - backspace_compare
 * [Hard - 354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) - max_envelopes
+* [Hard - 387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) - first_uniq_char
 
 # CPP
 
