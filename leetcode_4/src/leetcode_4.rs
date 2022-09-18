@@ -3,3 +3,4 @@ mod find_max_form;
 mod backspace_compare;
 mod max_envelopes;
 mod first_uniq_char;
+mod trapping_rain_water;
