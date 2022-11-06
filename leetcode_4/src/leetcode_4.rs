@@ -5,3 +5,4 @@ mod max_envelopes;
 mod first_uniq_char;
 mod trapping_rain_water;
 mod word_search_ii;
+mod orderly_queue;
