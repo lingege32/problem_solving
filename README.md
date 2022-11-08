@@ -162,6 +162,7 @@ LeetCode - https://leetcode.com/
 * [Hard - 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - trapping_rain_water
 * [Hard - 212. Word Search II](https://leetcode.com/problems/word-search-ii/description/) - word_search_ii
 * [Hard - 899. Orderly Queue](https://leetcode.com/problems/orderly-queue/description/) - orderly_queue
+* [Easy - 1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) - make_good
 
 # CPP
 
