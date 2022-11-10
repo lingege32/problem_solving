@@ -8,3 +8,4 @@ mod word_search_ii;
 mod orderly_queue;
 mod make_good;
 mod stock_spanner;
+mod remove_duplicates;

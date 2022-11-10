@@ -164,6 +164,7 @@ LeetCode - https://leetcode.com/
 * [Hard - 899. Orderly Queue](https://leetcode.com/problems/orderly-queue/description/) - orderly_queue
 * [Easy - 1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) - make_good
 * [Medium - 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/description/) - stock_spanner
+* [Easy - 1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) - remove_duplicates
 
 # CPP
 
