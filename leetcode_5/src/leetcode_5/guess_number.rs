@@ -17,6 +17,7 @@ struct Solution;
 impl Solution {
     #[allow(dead_code)]
     unsafe fn guess_number(n: i32) -> i32 {
+        
         let (mut left, mut right) = (1,n+1);
         loop {
             let mid = left + (right-left)/2;

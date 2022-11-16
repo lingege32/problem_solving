@@ -1,3 +1,3 @@
 [workspace]
-members = ["leetcode_1", "leetcode_2", "leetcode_3", "leetcode_4"]
+members = ["leetcode_1", "leetcode_2", "leetcode_3", "leetcode_4", "leetcode_5"]
 
