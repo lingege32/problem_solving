@@ -10,3 +10,4 @@ mod make_good;
 mod stock_spanner;
 mod remove_duplicates;
 mod roman_to_int;
+mod guess_number;
