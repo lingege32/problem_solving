@@ -165,8 +165,11 @@ LeetCode - https://leetcode.com/
 * [Easy - 1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) - make_good
 * [Medium - 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/description/) - stock_spanner
 * [Easy - 1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) - remove_duplicates
+
+## LeetCode_5 module
 * [Easy - 13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) - roman_to_int
 * [Easy - 374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) - guessNumber
+* [Hard - 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) - calculate
 
 # CPP
 
