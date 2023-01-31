@@ -5,6 +5,8 @@ impl Solution {
         let mut dp = vec![0; arr.len()];
         let mut stack = Vec::new();
         let mut sum =0 ;
+        let mut a = stack.iter();
+        a.next();
         for idx in 0..arr.len() {
             let v = *unsafe{arr.get_unchecked(idx)};
             while !stack.is_empty() && *unsafe{arr.get_unchecked(*stack.last().unwrap())} >= v {
@@ -20,6 +22,13 @@ impl Solution {
             stack.push(idx);
         }
         sum
+    }
+}
+impl Iterator for Solution {
+    type Item=usize;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        Some(5)
     }
 }
 
