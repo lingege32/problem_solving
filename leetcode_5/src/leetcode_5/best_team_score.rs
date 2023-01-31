@@ -5,9 +5,8 @@ impl Solution {
         let max_age = *ages.iter().max().unwrap();
         let mut dp: Vec<i32> = vec![0; 1 + max_age as usize];
         let mut zip_scores: Vec<_> = scores
-            .iter()
-            .zip(ages.iter())
-            .map(|(x, y)| (*x, *y))
+            .into_iter()
+            .zip(ages.into_iter())
             .collect();
         zip_scores.sort_unstable();
         zip_scores.iter().for_each(|(score, age)| {
