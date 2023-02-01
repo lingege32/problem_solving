@@ -172,6 +172,7 @@ LeetCode - https://leetcode.com/
 * [Hard - 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) - calculate
 * [Medium - 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/) - sum_subarray_mins
 * [Medium - 1626. Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/) - best_team_score
+* [Easy - 1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) - gcd_of_strings
 
 # CPP
 
