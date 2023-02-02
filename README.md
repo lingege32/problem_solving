@@ -173,6 +173,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/) - sum_subarray_mins
 * [Medium - 1626. Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/) - best_team_score
 * [Easy - 1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) - gcd_of_strings
+* [Easy - 953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) - is_alien_sorted
 
 # CPP
 

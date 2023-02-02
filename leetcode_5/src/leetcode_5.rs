@@ -4,3 +4,4 @@ mod calculate;
 mod sum_subarray_mins;
 mod best_team_score;
 mod gcd_of_strings;
+mod is_alien_sorted;
