@@ -171,7 +171,13 @@ LeetCode - https://leetcode.com/
 * [Easy - 374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) - guessNumber
 * [Hard - 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) - calculate
 * [Medium - 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/) - sum_subarray_mins
+<<<<<<< HEAD
 * [Hard - 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/) - job_scheduling
+=======
+* [Medium - 1626. Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/) - best_team_score
+* [Easy - 1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) - gcd_of_strings
+* [Easy - 953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) - is_alien_sorted
+>>>>>>> 4581a0bfcbff1704f6565310e14c2f462ff4ca17
 
 # CPP
 
