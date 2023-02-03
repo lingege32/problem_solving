@@ -171,6 +171,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) - guessNumber
 * [Hard - 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) - calculate
 * [Medium - 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/) - sum_subarray_mins
+* [Hard - 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/) - job_scheduling
 
 # CPP
 
