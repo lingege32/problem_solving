@@ -175,6 +175,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 1626. Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/) - best_team_score
 * [Easy - 1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) - gcd_of_strings
 * [Easy - 953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) - is_alien_sorted
+* [Medium - 6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) - convert
 
 # CPP
 
