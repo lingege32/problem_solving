@@ -176,6 +176,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) - gcd_of_strings
 * [Easy - 953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) - is_alien_sorted
 * [Medium - 6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) - convert
+* [Medium - 567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) - check_inclusion
 
 # CPP
 
