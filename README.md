@@ -177,6 +177,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) - is_alien_sorted
 * [Medium - 6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) - convert
 * [Medium - 567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) - check_inclusion
+* [Medium - 438. Find All Anagrams in a String]https://leetcode.com/problems/find-all-anagrams-in-a-string/) - find_anagrams
 
 # CPP
 
