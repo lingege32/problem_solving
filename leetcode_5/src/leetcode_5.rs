@@ -9,3 +9,4 @@ mod is_alien_sorted;
 mod convert;
 mod check_inclusion;
 mod find_anagrams;
+mod shuffle;
