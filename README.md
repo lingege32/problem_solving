@@ -180,6 +180,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) - find_anagrams
 * [Easy - 1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) - shuffle
 * [Medium - 904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) - total_fruit
+* [Medium - 45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) - jump
 
 # CPP
 
