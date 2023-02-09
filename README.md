@@ -181,6 +181,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) - shuffle
 * [Medium - 904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) - total_fruit
 * [Medium - 45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) - jump
+* [Hard - 2306. Naming a Company](https://leetcode.com/problems/naming-a-company/) - distinct_names
 
 # CPP
 

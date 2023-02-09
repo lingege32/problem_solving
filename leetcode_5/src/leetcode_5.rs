@@ -12,3 +12,4 @@ mod find_anagrams;
 mod shuffle;
 mod total_fruit;
 mod jump;
+mod distinct_names;
