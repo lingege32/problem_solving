@@ -13,3 +13,4 @@ mod shuffle;
 mod total_fruit;
 mod jump;
 mod distinct_names;
+mod max_distance;

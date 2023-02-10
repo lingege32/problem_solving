@@ -182,6 +182,8 @@ LeetCode - https://leetcode.com/
 * [Medium - 904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) - total_fruit
 * [Medium - 45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) - jump
 * [Hard - 2306. Naming a Company](https://leetcode.com/problems/naming-a-company/) - distinct_names
+* [Medium - 1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) - max_distance
+
 
 # CPP
 
