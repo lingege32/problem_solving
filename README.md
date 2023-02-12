@@ -184,6 +184,7 @@ LeetCode - https://leetcode.com/
 * [Hard - 2306. Naming a Company](https://leetcode.com/problems/naming-a-company/) - distinct_names
 * [Medium - 1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) - max_distance
 * [Medium - 1129. Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) - shortest_alternating_paths
+* [Medium - 2477. Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) - minimum_fuel_cost
 
 
 # CPP

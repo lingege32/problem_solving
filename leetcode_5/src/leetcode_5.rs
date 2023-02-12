@@ -15,3 +15,4 @@ mod jump;
 mod distinct_names;
 mod max_distance;
 mod shortest_alternating_paths;
+mod minimum_fuel_cost;
