@@ -1,7 +1,5 @@
 struct Solution;
 
-use std::collections::HashMap;
-
 impl Solution {
     #[allow(dead_code)]
     // other's good readability
