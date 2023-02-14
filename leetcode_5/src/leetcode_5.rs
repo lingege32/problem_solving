@@ -17,3 +17,4 @@ mod max_distance;
 mod shortest_alternating_paths;
 mod minimum_fuel_cost;
 mod count_odds;
+mod add_binary;

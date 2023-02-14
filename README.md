@@ -186,6 +186,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 1129. Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) - shortest_alternating_paths
 * [Medium - 2477. Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) - minimum_fuel_cost
 * [Easy - 1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) - count_odds
+* [Easy - 67. Add Binary](https://leetcode.com/problems/add-binary/) - add_binary
 
 
 # CPP
