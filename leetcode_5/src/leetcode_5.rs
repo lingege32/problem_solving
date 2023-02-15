@@ -18,3 +18,4 @@ mod shortest_alternating_paths;
 mod minimum_fuel_cost;
 mod count_odds;
 mod add_binary;
+mod add_to_array_form;
