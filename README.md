@@ -188,6 +188,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) - count_odds
 * [Easy - 67. Add Binary](https://leetcode.com/problems/add-binary/) - add_binary
 * [Easy - 989. Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) - add_to_array_form
+* [Easy - 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - max_depth
 
 
 # CPP
