@@ -21,3 +21,4 @@ mod add_binary;
 mod add_to_array_form;
 mod max_depth;
 mod min_diff_in_bst;
+mod invert_tree;

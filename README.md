@@ -190,6 +190,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 989. Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) - add_to_array_form
 * [Easy - 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - max_depth
 * [Easy - 783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) - min_diff_in_bst
+* [Easy - 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - invert_tree
 
 
 # CPP
