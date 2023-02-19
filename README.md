@@ -191,6 +191,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - max_depth
 * [Easy - 783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) - min_diff_in_bst
 * [Easy - 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - invert_tree
+* [Medium - 103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) - zigzag_level_order
 
 
 # CPP
