@@ -23,3 +23,4 @@ mod max_depth;
 mod min_diff_in_bst;
 mod invert_tree;
 mod zigzag_level_order;
+mod search_insert;
