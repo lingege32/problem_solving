@@ -193,6 +193,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - invert_tree
 * [Medium - 103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) - zigzag_level_order
 * [Easy - 35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) - search_insert
+* [Medium - 540. Single Element in a Sorted Array](https://www.youtube.com/watch?v=l6KbR88pvHY) - single_non_duplicate
 
 
 # CPP
