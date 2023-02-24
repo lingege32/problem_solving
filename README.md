@@ -195,6 +195,7 @@ LeetCode - https://leetcode.com/
 * [Easy - 35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) - search_insert
 * [Medium - 540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) - single_non_duplicate
 * [Medium - 1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) - ship_within_days
+* [Review - Hard - 1675. Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/) - minimum_deviation
 
 
 # CPP

@@ -26,3 +26,4 @@ mod zigzag_level_order;
 mod search_insert;
 mod single_non_duplicate;
 mod ship_within_days;
+mod minimum_deviation;
