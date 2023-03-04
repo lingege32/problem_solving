@@ -197,6 +197,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) - ship_within_days
 * [Review - Hard - 1675. Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/) - minimum_deviation
 * [Medium - 443. String Compression](https://leetcode.com/problems/string-compression/) - compress
+* [Review - 2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/description/) - count_subarrays
 
 
 # CPP

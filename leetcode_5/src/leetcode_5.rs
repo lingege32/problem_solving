@@ -28,3 +28,4 @@ mod single_non_duplicate;
 mod ship_within_days;
 mod minimum_deviation;
 mod compress;
+mod count_subarrays;
