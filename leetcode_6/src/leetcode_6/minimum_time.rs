@@ -21,6 +21,7 @@ impl Solution {
                 }
             }
             if total >= total_trips as i64 {
+                
                 right = mid;
             } else {
                 left = mid + 1;
