@@ -200,6 +200,8 @@ LeetCode - https://leetcode.com/
 * [Review - Hard - 2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/description/) - count_subarrays
 * [Easy - 1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) - find_kth_positive
 
+## LeetCode_6 module
+* [Medium - 2187. Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) - minimum_time
 
 # CPP
 
