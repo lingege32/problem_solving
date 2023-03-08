@@ -202,6 +202,7 @@ LeetCode - https://leetcode.com/
 
 ## LeetCode_6 module
 * [Medium - 2187. Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) - minimum_time
+* [Medium - 875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) - min_eating_speed
 
 # CPP
 
