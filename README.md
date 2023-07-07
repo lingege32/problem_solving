@@ -204,6 +204,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 2187. Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) - minimum_time
 * [Medium - 875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) - min_eating_speed
 * [Medium - 1161. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/) - max_level_sum
+* [Medium - 2024. Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) - max_consecutive_answers
 
 # CPP
 
