@@ -207,6 +207,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 2024. Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) - max_consecutive_answers
 * [(Need Review) Hard - 2551. Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/) - put_marbles
 * [Hard - 2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/) - largest_variance, algorithm: Kadane
+* [Medium - 1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) - longest_subsequence
 
 # CPP
 
