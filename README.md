@@ -209,6 +209,7 @@ LeetCode - https://leetcode.com/
 * [Hard - 2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/) - largest_variance, algorithm: Kadane
 * [Medium - 1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) - longest_subsequence
 * [Hard - 1751. Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/) - max_value
+* [Medium - 207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) - can_finish
 
 # CPP
 

@@ -6,3 +6,4 @@ mod put_marbles;
 mod largest_variance;
 mod longest_subsequence;
 mod max_value;
+mod can_finish;
