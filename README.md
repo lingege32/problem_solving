@@ -208,6 +208,7 @@ LeetCode - https://leetcode.com/
 * [(Need Review) Hard - 2551. Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/) - put_marbles
 * [Hard - 2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/) - largest_variance, algorithm: Kadane
 * [Medium - 1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) - longest_subsequence
+* [Hard - 1751. Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/) - max_value
 
 # CPP
 
