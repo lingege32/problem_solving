@@ -211,6 +211,7 @@ LeetCode - https://leetcode.com/
 * [Hard - 1751. Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/) - max_value
 * [Medium - 207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) - can_finish
 * [Hard - 1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) - smallest_sufficient_team
+* [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) - all_possible_fbt
 
 # CPP
 
