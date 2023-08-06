@@ -9,3 +9,4 @@ mod max_value;
 mod can_finish;
 mod smallest_sufficient_team;
 mod all_possible_fbt;
+mod num_music_playlists;

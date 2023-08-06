@@ -212,6 +212,7 @@ LeetCode - https://leetcode.com/
 * [Medium - 207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) - can_finish
 * [Hard - 1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) - smallest_sufficient_team
 * [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) - all_possible_fbt
+* [Hard - 920. Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/) - num_music_playlists
 
 # CPP
 
