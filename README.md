@@ -214,6 +214,9 @@ LeetCode - https://leetcode.com/
 * [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) - all_possible_fbt
 * [Hard - 920. Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/) - num_music_playlists
 
+## LeetCode_blind module
+* See the leetcode_blind/README.md
+
 # CPP
 
 * [Easy - 1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) - CPP
