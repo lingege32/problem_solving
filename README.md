@@ -213,6 +213,7 @@ LeetCode - https://leetcode.com/
 * [Hard - 1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) - smallest_sufficient_team
 * [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) - all_possible_fbt
 * [Hard - 920. Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/) - num_music_playlists
+* [Medium - 2369. Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/) - valid_partition
 
 ## LeetCode_blind module
 * See the leetcode_blind/README.md
