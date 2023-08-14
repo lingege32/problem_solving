@@ -8,3 +8,4 @@
 * [Medium - 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) - group_anagrams
 * [Medium - 347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - top_k_frequent
 * [Medium - 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - product_except_self
+* [Medium - 128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - longest_consecutive
