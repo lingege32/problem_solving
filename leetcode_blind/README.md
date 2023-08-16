@@ -10,3 +10,4 @@
 * [Medium - 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - product_except_self
 * [Medium - 128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - longest_consecutive
 * [Easy - 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) - is_palindrome
+* [Medium - 15. 3Sum](https://leetcode.com/problems/3sum/description/) - three_sum
