@@ -7,3 +7,4 @@ mod product_except_self;
 mod longest_consecutive;
 mod is_palindrome;
 mod three_sum;
+mod max_area;
