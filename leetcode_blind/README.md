@@ -9,3 +9,4 @@
 * [Medium - 347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - top_k_frequent
 * [Medium - 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - product_except_self
 * [Medium - 128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - longest_consecutive
+* [Easy - 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) - is_palindrome
