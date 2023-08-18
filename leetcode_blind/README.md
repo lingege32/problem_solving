@@ -14,3 +14,4 @@
 * [Medium - 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - max_area
 * [Easy - 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - max_profit
 * [Medium - 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) - length_of_longest_substring
+* [Medium - 424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) - character_replacement
