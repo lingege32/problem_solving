@@ -8,3 +8,4 @@ mod longest_consecutive;
 mod is_palindrome;
 mod three_sum;
 mod max_area;
+mod max_profit;

@@ -12,3 +12,4 @@
 * [Easy - 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) - is_palindrome
 * [Medium - 15. 3Sum](https://leetcode.com/problems/3sum/description/) - three_sum
 * [Medium - 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - max_area
+* [Easy - 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - max_profit
