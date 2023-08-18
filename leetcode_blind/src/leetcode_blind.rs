@@ -9,3 +9,4 @@ mod is_palindrome;
 mod three_sum;
 mod max_area;
 mod max_profit;
+mod length_of_longest_substring;
