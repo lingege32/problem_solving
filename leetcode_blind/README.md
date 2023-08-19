@@ -16,3 +16,4 @@
 * [Medium - 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) - length_of_longest_substring
 * [Medium - 424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) - character_replacement
 * [Hard - 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) - min_window
+* [Easy - 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - is_valid
