@@ -14,3 +14,4 @@ mod character_replacement;
 mod min_window;
 mod is_valid;
 mod find_min;
+mod search;
