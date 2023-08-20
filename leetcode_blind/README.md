@@ -20,3 +20,4 @@
 * [Medium - 153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - find_min
 * [Medium - 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - search
 * [Easy - 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - reverse_list
+* [Easy - 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) - merge_two_lists
