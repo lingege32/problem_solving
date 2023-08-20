@@ -26,3 +26,4 @@
 * [Hard - 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) - merge_k_lists
 * [Easy - 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - invert_tree
 * [Easy - 100. Same Tree](https://leetcode.com/problems/same-tree/) - is_same_tree
+* [Easy - 572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) - is_subtree
