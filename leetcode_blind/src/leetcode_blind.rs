@@ -20,3 +20,4 @@ mod merge_two_lists;
 mod reorder_list;
 mod remove_nth_from_end;
 mod merge_k_lists;
+mod invert_tree;
