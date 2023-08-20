@@ -23,3 +23,4 @@
 * [Easy - 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) - merge_two_lists
 * [Medium - 143. Reorder List](https://leetcode.com/problems/reorder-list/) - reorder_list
 * [Medium - 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - remove_nth_from_end
+* [Hard - 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) - merge_k_lists
