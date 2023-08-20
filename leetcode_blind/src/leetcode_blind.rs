@@ -18,3 +18,4 @@ mod search;
 mod reverse_list;
 mod merge_two_lists;
 mod reorder_list;
+mod remove_nth_from_end;
