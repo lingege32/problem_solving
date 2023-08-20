@@ -19,3 +19,4 @@
 * [Easy - 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - is_valid
 * [Medium - 153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - find_min
 * [Medium - 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - search
+* [Easy - 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - reverse_list
