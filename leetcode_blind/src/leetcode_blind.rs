@@ -27,3 +27,4 @@ mod lowest_common_ancestor;
 mod level_order;
 mod is_valid_bst;
 mod kth_smallest;
+mod build_tree;
