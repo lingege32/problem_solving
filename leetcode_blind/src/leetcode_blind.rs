@@ -17,3 +17,4 @@ mod find_min;
 mod search;
 mod reverse_list;
 mod merge_two_lists;
+mod lowest_common_ancestor;
