@@ -25,3 +25,4 @@ mod is_same_tree;
 mod is_subtree;
 mod lowest_common_ancestor;
 mod level_order;
+mod is_valid_bst;

@@ -29,3 +29,4 @@
 * [Easy - 572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) - is_subtree
 * [Medium - 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) - lowest_common_ancestor
 * [Medium - 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) - level_order
+* [Medium - 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) - is_valid_bst
