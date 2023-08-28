@@ -32,4 +32,5 @@
 * [Medium - 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) - is_valid_bst
 * [Medium - 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - kth_smallest
 * [Medium - 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) - build_tree
-* [Medium - 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) - max_path_sum
+* [Hard - 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) - max_path_sum
+* [Hard - 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) - serialize_deserialize
