@@ -35,3 +35,4 @@
 * [Hard - 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) - max_path_sum
 * [Hard - 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) - serialize_deserialize
 * [Medium - 39. Combination Sum](https://leetcode.com/problems/combination-sum/) - combination_sum
+* [Medium - 79. Word Search](https://leetcode.com/problems/word-search/) - exist
