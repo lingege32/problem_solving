@@ -36,3 +36,4 @@
 * [Hard - 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) - serialize_deserialize
 * [Medium - 39. Combination Sum](https://leetcode.com/problems/combination-sum/) - combination_sum
 * [Medium - 79. Word Search](https://leetcode.com/problems/word-search/) - exist
+* [Medium - 200. Number of Islands](https://leetcode.com/problems/number-of-islands/) - num_islands

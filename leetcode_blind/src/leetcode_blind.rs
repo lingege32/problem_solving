@@ -32,3 +32,4 @@ mod max_path_sum;
 mod serialize_deserialize;
 mod combination_sum;
 mod exist;
+mod num_islands;
