@@ -5,3 +5,4 @@ mod remove_duplicates2;
 mod majority_element;
 mod rotate;
 mod max_profit2;
+mod can_jump;
