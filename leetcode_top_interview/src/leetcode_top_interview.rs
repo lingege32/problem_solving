@@ -6,3 +6,4 @@ mod majority_element;
 mod rotate;
 mod max_profit2;
 mod can_jump;
+mod can_jump2;
