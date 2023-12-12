@@ -14,3 +14,4 @@
 * [Medium - 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 134. Gas Station](https://leetcode.com/problems/gas-station/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/?envType=study-plan-v2&envId=top-interview-150)
+* [Hard - 135. Candy](https://leetcode.com/problems/candy/?envType=study-plan-v2&envId=top-interview-150)
