@@ -16,3 +16,4 @@
 * [Easy - 13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/?envType=study-plan-v2&envId=top-interview-150)
 * [Hard - 135. Candy](https://leetcode.com/problems/candy/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/?envType=study-plan-v2&envId=top-interview-150)
