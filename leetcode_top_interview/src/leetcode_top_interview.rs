@@ -18,3 +18,4 @@ mod length_of_last_word;
 mod longest_common_prefix;
 mod reverse_words;
 mod str_str;
+mod trap;
