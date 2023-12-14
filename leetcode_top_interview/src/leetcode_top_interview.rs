@@ -19,3 +19,4 @@ mod longest_common_prefix;
 mod reverse_words;
 mod str_str;
 mod trap;
+mod zigzag_convert;
