@@ -20,3 +20,4 @@ mod reverse_words;
 mod str_str;
 mod trap;
 mod zigzag_convert;
+mod full_justify;
