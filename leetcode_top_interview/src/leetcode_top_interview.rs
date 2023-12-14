@@ -23,3 +23,4 @@ mod zigzag_convert;
 mod full_justify;
 mod is_palindrome;
 mod is_subsequence;
+mod two_sum_2;
