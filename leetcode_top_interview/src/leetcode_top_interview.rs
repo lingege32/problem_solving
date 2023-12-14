@@ -21,3 +21,4 @@ mod str_str;
 mod trap;
 mod zigzag_convert;
 mod full_justify;
+mod is_palindrome;
