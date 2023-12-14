@@ -24,3 +24,4 @@
 * [Medium - 6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/?envType=study-plan-v2&envId=top-interview-150)
 * [Hard - 68. Text Justification](https://leetcode.com/problems/text-justification/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 392. Is Subsequence](https://leetcode.com/problems/is-subsequence/?envType=study-plan-v2&envId=top-interview-150)
