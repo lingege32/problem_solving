@@ -25,3 +25,4 @@ mod is_palindrome;
 mod is_subsequence;
 mod two_sum_2;
 mod max_area;
+mod three_sum;
