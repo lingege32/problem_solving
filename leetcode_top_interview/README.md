@@ -34,3 +34,4 @@
 * [Hard - 30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 383. Ransom Note](https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/?envType=study-plan-v2&envId=top-interview-150)
