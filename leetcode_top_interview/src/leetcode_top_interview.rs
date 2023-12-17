@@ -31,3 +31,4 @@ mod length_of_longest_substring;
 mod is_valid_sudoku;
 mod find_substring;
 mod can_construct;
+mod is_isomorphic;
