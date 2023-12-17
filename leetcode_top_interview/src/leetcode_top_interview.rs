@@ -29,3 +29,4 @@ mod three_sum;
 mod min_sub_array_len;
 mod length_of_longest_substring;
 mod is_valid_sudoku;
+mod find_substring;
