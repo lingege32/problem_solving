@@ -40,3 +40,4 @@
 * [Medium - 120. Triangle](https://leetcode.com/problems/triangle/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 66. Plus One](https://leetcode.com/problems/plus-one/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 190. Reverse Bits](https://leetcode.com/problems/reverse-bits/?envType=study-plan-v2&envId=top-interview-150)

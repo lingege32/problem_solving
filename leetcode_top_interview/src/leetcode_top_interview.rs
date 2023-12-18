@@ -38,3 +38,4 @@ mod tree_max_depth;
 mod minimum_total;
 mod plus_one;
 mod trailing_zeroes;
+mod reverse_bits;
