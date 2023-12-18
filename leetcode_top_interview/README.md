@@ -37,3 +37,4 @@
 * [Easy - 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 100. Same Tree](https://leetcode.com/problems/same-tree/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 120. Triangle](https://leetcode.com/problems/triangle/?envType=study-plan-v2&envId=top-interview-150)
