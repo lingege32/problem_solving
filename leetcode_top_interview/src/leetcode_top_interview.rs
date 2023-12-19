@@ -40,3 +40,4 @@ mod plus_one;
 mod trailing_zeroes;
 mod reverse_bits;
 mod spiral_order;
+mod summary_ranges;
