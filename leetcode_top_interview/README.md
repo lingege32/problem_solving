@@ -44,3 +44,4 @@
 * [Medium - 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 * [Easy - 228. Summary Ranges](https://leetcode.com/problems/summary-ranges/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/?envType=study-plan-v2&envId=top-interview-150)
