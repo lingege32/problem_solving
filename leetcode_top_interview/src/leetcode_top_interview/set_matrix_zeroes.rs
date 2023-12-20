@@ -1,26 +1,23 @@
 struct Solution;
-use std::collections::HashSet;
 impl Solution {
     #[allow(dead_code)]
     pub fn set_zeroes(matrix: &mut Vec<Vec<i32>>) {
-        let mut row_store = HashSet::<usize>::new();
-        let mut column_store = HashSet::<usize>::new();
+        let m = matrix.len();
+        let n = matrix[0].len();
+        let mut v = vec![0; m.max(n)];
         for (x, row) in matrix.iter().enumerate() {
             for (y, &val) in row.iter().enumerate() {
                 if val == 0 {
-                    row_store.insert(x);
-                    column_store.insert(y);
+                    v[x] |= 0x1;
+                    v[y] |= 0x2;
                 }
             }
         }
-        for row in row_store {
-            for val in matrix[row].iter_mut() {
-                *val = 0
-            }
-        }
-        for col in column_store {
-            for row in matrix.iter_mut() {
-                row[col] = 0;
+        for (x, row) in matrix.iter_mut().enumerate() {
+            for (y, val) in row.iter_mut().enumerate() {
+                if v[x] & 0x1 != 0 || v[y] & 0x2 != 0 {
+                    *val = 0;
+                }
             }
         }
     }
