@@ -47,3 +47,4 @@ mod right_side_view;
 mod average_of_levels;
 mod rotate_image;
 mod merge_intervals;
+mod simplify_path;
