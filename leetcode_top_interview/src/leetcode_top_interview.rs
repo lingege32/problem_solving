@@ -45,3 +45,4 @@ mod get_minimum_difference;
 mod add_two_numbers;
 mod right_side_view;
 mod average_of_levels;
+mod rotate_image;
