@@ -51,3 +51,4 @@
 * [Medium - 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 71. Simplify Path](https://leetcode.com/problems/simplify-path/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/?envType=study-plan-v2&envId=top-interview-150)
