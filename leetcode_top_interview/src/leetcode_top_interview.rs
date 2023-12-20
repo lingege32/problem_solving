@@ -50,3 +50,4 @@ mod merge_intervals;
 mod simplify_path;
 mod merge_two_lists;
 mod reverse_between;
+mod set_matrix_zeroes;
