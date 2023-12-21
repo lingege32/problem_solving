@@ -54,3 +54,4 @@
 * [Medium - 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/?envType=study-plan-v2&envId=top-interview-150)
