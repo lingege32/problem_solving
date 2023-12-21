@@ -48,3 +48,4 @@
 * [Medium - 199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 199. Binary Tree Right Side View](https://leetcode.com/problems/average-of-levels-in-binary-tree/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 48. Rotate Image](https://leetcode.com/problems/rotate-image/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/?envType=study-plan-v2&envId=top-interview-150)
