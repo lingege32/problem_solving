@@ -54,3 +54,4 @@ mod set_matrix_zeroes;
 mod is_symmetric_tree;
 mod invert_tree;
 mod has_path_sum;
+mod sorted_array_to_bst;

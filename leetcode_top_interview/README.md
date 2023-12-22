@@ -56,3 +56,4 @@
 * [Easy - 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 112. Path Sum](https://leetcode.com/problems/path-sum/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/?envType=study-plan-v2&envId=top-interview-150)
