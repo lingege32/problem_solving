@@ -56,3 +56,4 @@ mod invert_tree;
 mod has_path_sum;
 mod sorted_array_to_bst;
 mod search_insert;
+mod min_path_sum;
