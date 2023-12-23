@@ -59,3 +59,4 @@
 * [Easy - 108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 35. Search Insert Position](https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/?envType=study-plan-v2&envId=top-interview-150)
