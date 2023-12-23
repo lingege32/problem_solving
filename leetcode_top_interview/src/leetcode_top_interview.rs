@@ -58,3 +58,4 @@ mod sorted_array_to_bst;
 mod search_insert;
 mod min_path_sum;
 mod unique_paths_with_obstacles;
+mod climb_stairs;
