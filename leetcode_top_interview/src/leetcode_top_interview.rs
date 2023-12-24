@@ -64,3 +64,4 @@ mod is_happy_num;
 mod contains_nearby_duplicate;
 mod insert_interval;
 mod find_min_arrow_shots;
+mod rotate_right;
