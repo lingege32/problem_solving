@@ -7,3 +7,4 @@
 
 # 2023/12/24
 [Easy - 100148. Minimum Number Game](https://leetcode.com/contest/weekly-contest-377/problems/minimum-number-game/)
+[Medium - 100169. Maximum Square Area by Removing Fences From a Field](https://leetcode.com/contest/weekly-contest-377/problems/maximum-square-area-by-removing-fences-from-a-field/)
