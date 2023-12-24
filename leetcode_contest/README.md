@@ -4,3 +4,6 @@
 [Easy - 100149. Find Missing and Repeated Values](https://leetcode.com/contest/weekly-contest-376/problems/find-missing-and-repeated-values/)
 [Medium - 100161. Divide Array Into Arrays With Max Difference](https://leetcode.com/contest/weekly-contest-376/problems/divide-array-into-arrays-with-max-difference/)
 [Medium - 100151. Minimum Cost to Make Array Equalindromic](https://leetcode.com/contest/weekly-contest-376/problems/minimum-cost-to-make-array-equalindromic/)
+
+# 2023/12/24
+[Easy - 100148. Minimum Number Game](https://leetcode.com/contest/weekly-contest-377/problems/minimum-number-game/)
