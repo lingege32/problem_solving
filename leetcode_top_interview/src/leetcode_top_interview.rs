@@ -61,3 +61,4 @@ mod unique_paths_with_obstacles;
 mod climb_stairs;
 mod game_of_life;
 mod is_happy_num;
+mod contains_nearby_duplicate;

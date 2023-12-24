@@ -63,3 +63,4 @@
 * [Easy - 70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 289. Game of Life](https://leetcode.com/problems/game-of-life/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 202. Happy Number](https://leetcode.com/problems/happy-number/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/?envType=study-plan-v2&envId=top-interview-150)
