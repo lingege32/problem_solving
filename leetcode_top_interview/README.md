@@ -65,3 +65,4 @@
 * [Easy - 202. Happy Number](https://leetcode.com/problems/happy-number/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 57. Insert Interval](https://leetcode.com/problems/insert-interval/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/?envType=study-plan-v2&envId=top-interview-150)
