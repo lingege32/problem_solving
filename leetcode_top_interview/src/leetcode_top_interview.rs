@@ -59,3 +59,4 @@ mod search_insert;
 mod min_path_sum;
 mod unique_paths_with_obstacles;
 mod climb_stairs;
+mod game_of_life;
