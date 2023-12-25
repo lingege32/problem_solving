@@ -77,3 +77,4 @@
 * [Medium - 200. Number of Islands](https://leetcode.com/problems/number-of-islands/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 * [Medium - 148. Sort List](https://leetcode.com/problems/sort-list/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 9. Palindrome Number](https://leetcode.com/problems/palindrome-number/?envType=study-plan-v2&envId=top-interview-150)

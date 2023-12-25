@@ -75,3 +75,4 @@ mod remove_nth_from_end;
 mod num_islands;
 mod is_valid_bst;
 mod sort_list;
+mod is_palindrome_num;
