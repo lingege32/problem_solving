@@ -70,3 +70,4 @@ mod kth_smallest_in_bst;
 mod min_stack;
 mod eval_rpn;
 mod calculate;
+mod longest_consecutive;
