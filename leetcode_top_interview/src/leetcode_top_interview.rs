@@ -73,3 +73,4 @@ mod calculate;
 mod longest_consecutive;
 mod remove_nth_from_end;
 mod num_islands;
+mod is_valid_bst;
