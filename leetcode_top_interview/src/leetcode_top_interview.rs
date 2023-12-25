@@ -67,3 +67,4 @@ mod find_min_arrow_shots;
 mod rotate_right;
 mod level_order;
 mod kth_smallest_in_bst;
+mod min_stack;
