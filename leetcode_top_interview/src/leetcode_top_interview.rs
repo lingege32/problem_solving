@@ -71,3 +71,4 @@ mod min_stack;
 mod eval_rpn;
 mod calculate;
 mod longest_consecutive;
+mod remove_nth_from_end;
