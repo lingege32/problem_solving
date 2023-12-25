@@ -70,3 +70,4 @@
 * [Medium - 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 155. Min Stack](https://leetcode.com/problems/min-stack/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/?envType=study-plan-v2&envId=top-interview-150)
