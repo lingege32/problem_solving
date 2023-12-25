@@ -76,3 +76,4 @@
 * [Medium - 19. Remove Nth Node From End of List](https://leetcode.com/problems/longest-consecutive-sequence/)
 * [Medium - 200. Number of Islands](https://leetcode.com/problems/number-of-islands/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+* [Medium - 148. Sort List](https://leetcode.com/problems/sort-list/?envType=study-plan-v2&envId=top-interview-150)
