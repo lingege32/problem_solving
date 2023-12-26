@@ -80,3 +80,4 @@ mod my_sqrt;
 mod word_pattern;
 mod is_anagram;
 mod group_anagrams;
+mod build_tree_with_preorder_and_inorder;
