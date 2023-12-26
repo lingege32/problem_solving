@@ -83,3 +83,4 @@
 * [Easy - 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/?envType=study-plan-v2&envId=top-interview-150)
