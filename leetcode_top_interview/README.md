@@ -81,3 +81,4 @@
 * [Easy - 69. Sqrt(x)](https://leetcode.com/problems/sqrtx/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 290. Word Pattern](https://leetcode.com/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 49. Group Anagrams](https://leetcode.com/problems/group-anagrams/?envType=study-plan-v2&envId=top-interview-150)
