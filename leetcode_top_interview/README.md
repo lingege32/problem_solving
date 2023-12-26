@@ -79,3 +79,4 @@
 * [Medium - 148. Sort List](https://leetcode.com/problems/sort-list/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 9. Palindrome Number](https://leetcode.com/problems/palindrome-number/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 69. Sqrt(x)](https://leetcode.com/problems/sqrtx/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 290. Word Pattern](https://leetcode.com/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150)
