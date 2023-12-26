@@ -78,3 +78,4 @@ mod sort_list;
 mod is_palindrome_num;
 mod my_sqrt;
 mod word_pattern;
+mod is_anagram;
