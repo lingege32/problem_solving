@@ -89,3 +89,4 @@ mod count_tree_nodes;
 mod delete_duplicates_in_sorted_list;
 mod my_pow;
 mod hamming_weight;
+mod sum_numbers_of_tree;

@@ -91,3 +91,4 @@
 * [Medium - 82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 50. Pow(x, n)](https://leetcode.com/problems/powx-n/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/?envType=study-plan-v2&envId=top-interview-150)
