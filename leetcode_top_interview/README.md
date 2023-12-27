@@ -93,3 +93,4 @@
 * [Easy - 191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/?envType=study-plan-v2&envId=top-interview-150)
