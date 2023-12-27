@@ -86,3 +86,4 @@
 * [Medium - 106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/?envType=study-plan-v2&envId=top-interview-150)
 * [Hard - 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 86. Partition List](https://leetcode.com/problems/partition-list/?envType=study-plan-v2&envId=top-interview-150)
