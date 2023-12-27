@@ -97,3 +97,4 @@
 * [Medium - 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 162. Find Peak Element](https://leetcode.com/problems/find-peak-element/?envType=study-plan-v2&envId=top-interview-150)

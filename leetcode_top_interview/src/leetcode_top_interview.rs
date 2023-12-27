@@ -95,3 +95,4 @@ mod lowest_common_ancestor;
 mod find_kth_largest;
 mod max_sub_array;
 mod search_matrix;
+mod find_peak_element;
