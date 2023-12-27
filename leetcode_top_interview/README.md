@@ -87,3 +87,4 @@
 * [Medium - 114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/?envType=study-plan-v2&envId=top-interview-150)
 * [Hard - 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 86. Partition List](https://leetcode.com/problems/partition-list/?envType=study-plan-v2&envId=top-interview-150)
+* [Easy - 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/?envType=study-plan-v2&envId=top-interview-150)
