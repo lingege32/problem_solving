@@ -87,3 +87,4 @@ mod min_window;
 mod partition_list;
 mod count_tree_nodes;
 mod delete_duplicates_in_sorted_list;
+mod my_pow;

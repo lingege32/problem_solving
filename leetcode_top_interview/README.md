@@ -89,3 +89,4 @@
 * [Medium - 86. Partition List](https://leetcode.com/problems/partition-list/?envType=study-plan-v2&envId=top-interview-150)
 * [Easy - 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 50. Pow(x, n)](https://leetcode.com/problems/powx-n/?envType=study-plan-v2&envId=top-interview-150)
