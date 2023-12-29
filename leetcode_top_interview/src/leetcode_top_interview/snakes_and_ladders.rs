@@ -1,24 +1,22 @@
 struct Solution;
-use std::collections::VecDeque;
 impl Solution {
     #[allow(dead_code)]
     pub fn snakes_and_ladders(board: Vec<Vec<i32>>) -> i32 {
         let n = board.len();
-        let table = Self::prepare_idx_mapping(n);
-        // println!("{:?}", table);
-        let pos_index = |pos: i32| table[(pos - 1) as usize];
+        let board = Self::prepare_new_board(board);
+        let next_of_idx = |pos: i32| board[pos as usize - 1];
+        // println!("board: {:?}", board);
         let mut shortest_step = vec![-1; n * n + 1];
-        let mut queue = VecDeque::new();
+        let mut queue = std::collections::VecDeque::new();
         queue.push_back(1);
         let mut step = 0;
         while !queue.is_empty() && shortest_step[n * n] == -1 {
             let next_size = queue.len();
             for _ in 0..next_size {
                 let mut next = queue.pop_front().unwrap();
-
-                let (x, y) = pos_index(next);
-                if board[x][y] != -1 {
-                    next = board[x][y];
+                let board_value = next_of_idx(next);
+                if board_value != -1 {
+                    next = board_value;
                 }
                 if shortest_step[next as usize] != -1 {
                     continue;
@@ -37,34 +35,21 @@ impl Solution {
         // println!("{:?}", shortest_step);
         shortest_step[n * n]
     }
-    fn prepare_idx_mapping(n: usize) -> Vec<(usize, usize)> {
-        let finish = n * n;
-        let mut ret = vec![(0, 0); finish];
-        let (mut dir, mut col_idx) = if n % 2 == 0 {
-            (true, 0)
-        } else {
-            (false, n - 1)
-        };
-        let mut row_idx = 0;
-        let mut same_row_step = 0;
-        for idx in (1..=n * n).rev() {
-            ret[idx - 1] = (row_idx, col_idx);
 
-            if same_row_step + 1 == n {
-                same_row_step = 0;
-                row_idx += 1;
-                dir = !dir;
-            } else {
-                same_row_step += 1;
-                if dir {
-                    col_idx += 1;
-                } else {
-                    col_idx -= 1;
+    fn prepare_new_board(board: Vec<Vec<i32>>) -> Vec<i32> {
+        // let mut ret = vec![-1];
+        board
+            .into_iter()
+            .rev()
+            .enumerate()
+            .map(|(row_idx, mut a_row)| {
+                if row_idx % 2 == 1 {
+                    a_row.reverse();
                 }
-            }
-        }
-
-        ret
+                a_row
+            })
+            .flatten()
+            .collect::<Vec<_>>()
     }
 }
 
