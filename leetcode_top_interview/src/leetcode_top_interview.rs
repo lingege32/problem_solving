@@ -100,3 +100,4 @@ mod single_number;
 mod single_number_2;
 mod surrounded_regions;
 mod snakes_and_ladders;
+mod rob;
