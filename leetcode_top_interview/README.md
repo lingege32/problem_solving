@@ -105,3 +105,4 @@
 * [Medium - 198. House Robber](https://leetcode.com/problems/house-robber/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 139. Word Break](https://leetcode.com/problems/word-break/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 322. Coin Change](https://leetcode.com/problems/coin-change/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/?envType=study-plan-v2&envId=top-interview-150)
