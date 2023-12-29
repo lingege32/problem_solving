@@ -103,3 +103,4 @@
 * [Medium - 130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 198. House Robber](https://leetcode.com/problems/house-robber/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 139. Word Break](https://leetcode.com/problems/word-break/?envType=study-plan-v2&envId=top-interview-150)
