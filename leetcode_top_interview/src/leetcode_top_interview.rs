@@ -104,3 +104,4 @@ mod rob;
 mod word_break;
 mod coin_change;
 mod letter_combinations;
+mod length_of_lis;

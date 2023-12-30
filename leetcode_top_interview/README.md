@@ -106,3 +106,4 @@
 * [Medium - 139. Word Break](https://leetcode.com/problems/word-break/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 322. Coin Change](https://leetcode.com/problems/coin-change/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/?envType=study-plan-v2&envId=top-interview-150)
