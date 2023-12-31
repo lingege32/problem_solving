@@ -9,3 +9,4 @@ mod maximize_square_area;
 mod has_trailing_zeros;
 mod maximum_length;
 mod maximum_length2;
+mod can_make_palindrome_queries;

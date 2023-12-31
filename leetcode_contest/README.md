@@ -13,3 +13,4 @@
 [Easy - 100166. Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/contest/weekly-contest-378/problems/check-if-bitwise-or-has-trailing-zeros/)
 [Medium - 100185. Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/contest/weekly-contest-378/problems/find-longest-special-substring-that-occurs-thrice-i/)
 [Medium - 100185. Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/contest/weekly-contest-378/problems/find-longest-special-substring-that-occurs-thrice-ii/)
+[Hard - 100129. Palindrome Rearrangement Queries](https://leetcode.com/contest/weekly-contest-378/problems/palindrome-rearrangement-queries/)
