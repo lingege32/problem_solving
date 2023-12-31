@@ -8,3 +8,6 @@
 # 2023/12/24
 [Easy - 100148. Minimum Number Game](https://leetcode.com/contest/weekly-contest-377/problems/minimum-number-game/)
 [Medium - 100169. Maximum Square Area by Removing Fences From a Field](https://leetcode.com/contest/weekly-contest-377/problems/maximum-square-area-by-removing-fences-from-a-field/)
+
+# 2023/12/31
+[Easy - 100166. Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/contest/weekly-contest-378/problems/check-if-bitwise-or-has-trailing-zeros/)
