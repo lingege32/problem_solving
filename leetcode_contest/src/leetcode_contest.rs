@@ -7,3 +7,4 @@ mod minimum_cost;
 mod number_game;
 mod maximize_square_area;
 mod has_trailing_zeros;
+mod maximum_length;
