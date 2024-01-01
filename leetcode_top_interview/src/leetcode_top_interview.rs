@@ -108,3 +108,4 @@ mod length_of_lis;
 mod range_bitwise_and;
 mod k_smallest_pairs;
 mod search_in_rotated_sorted_array;
+mod search_in_rotated_sorted_array_2;
