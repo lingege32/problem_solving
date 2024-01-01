@@ -106,3 +106,4 @@ mod coin_change;
 mod letter_combinations;
 mod length_of_lis;
 mod range_bitwise_and;
+mod k_smallest_pairs;
