@@ -111,3 +111,4 @@ mod search_in_rotated_sorted_array;
 mod search_in_rotated_sorted_array_2;
 mod trie_tree;
 mod combine;
+mod permute;
