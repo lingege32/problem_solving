@@ -112,3 +112,5 @@ mod search_in_rotated_sorted_array_2;
 mod trie_tree;
 mod combine;
 mod reverse_k_group;
+mod permute;
+mod max_path_sum;
