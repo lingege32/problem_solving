@@ -116,3 +116,4 @@ mod permute;
 mod max_path_sum;
 mod min_distance;
 mod search_range;
+mod find_min_in_rotated_sorted_array;

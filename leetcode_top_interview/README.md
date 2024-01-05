@@ -118,3 +118,4 @@
 * [Hard - 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 72. Edit Distance](https://leetcode.com/problems/edit-distance/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/?envType=study-plan-v2&envId=top-interview-150)
