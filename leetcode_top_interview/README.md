@@ -113,3 +113,4 @@
 * [Medium - 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
 * [Medium - 208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 77. Combinations](https://leetcode.com/problems/combinations/?envType=study-plan-v2&envId=top-interview-150)
+* [Hard - 25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/?envType=study-plan-v2&envId=top-interview-150)
