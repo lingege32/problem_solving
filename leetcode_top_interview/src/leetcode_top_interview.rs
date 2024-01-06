@@ -121,3 +121,4 @@ mod max_subarray_sum_circular;
 mod merge_k_lists;
 mod combination_sum;
 mod max_points_on_a_line;
+mod median_finder;

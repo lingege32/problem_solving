@@ -123,3 +123,4 @@
 * [Hard - 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 39. Combination Sum](https://leetcode.com/problems/combination-sum/?envType=study-plan-v2&envId=top-interview-150)
 * [Hard - 149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/?envType=study-plan-v2&envId=top-interview-150)
+* [Hard - 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/?envType=study-plan-v2&envId=top-interview-150)
