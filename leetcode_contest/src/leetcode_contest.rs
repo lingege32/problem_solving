@@ -12,3 +12,4 @@ mod maximum_length2;
 mod can_make_palindrome_queries;
 mod area_of_max_diagonal;
 mod min_moves_to_capture_the_queen;
+mod maximum_set_size;
