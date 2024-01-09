@@ -126,3 +126,4 @@
 * [Hard - 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 79. Word Search](https://leetcode.com/problems/word-search/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 207. Course Schedule](https://leetcode.com/problems/course-schedule/?envType=study-plan-v2&envId=top-interview-150)
