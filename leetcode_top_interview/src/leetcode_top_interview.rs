@@ -125,3 +125,4 @@ mod median_finder;
 mod word_search;
 mod generate_parenthesis;
 mod course_schedule;
+mod course_schedule_2;
