@@ -127,3 +127,4 @@ mod generate_parenthesis;
 mod course_schedule;
 mod course_schedule_2;
 mod word_dictionary;
+mod find_median_sorted_arrays;

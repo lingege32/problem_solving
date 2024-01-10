@@ -129,3 +129,4 @@
 * [Medium - 207. Course Schedule](https://leetcode.com/problems/course-schedule/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 210. Course Schedule 2](https://leetcode.com/problems/course-schedule-ii/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/?envType=study-plan-v2&envId=top-interview-150)
+* [Hard - 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/?envType=study-plan-v2&envId=top-interview-150)
