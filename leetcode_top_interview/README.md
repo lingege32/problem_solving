@@ -134,3 +134,4 @@
 * [Medium - 97. Interleaving String](https://leetcode.com/problems/interleaving-string/description/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 221. Maximal Square](https://leetcode.com/problems/maximal-square/description/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/?envType=study-plan-v2&envId=top-interview-150)
+* [Medium - 103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150)
