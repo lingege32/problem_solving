@@ -133,3 +133,4 @@ mod is_interleave;
 mod maximal_square;
 mod min_mutation;
 mod zigzag_level_order;
+mod max_profit_3;
