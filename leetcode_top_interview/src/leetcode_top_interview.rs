@@ -138,3 +138,4 @@ mod max_profit_4;
 mod lru_cache;
 mod find_words;
 mod find_maximized_capital;
+mod calc_equation;
