@@ -140,3 +140,4 @@ mod find_words;
 mod find_maximized_capital;
 mod calc_equation;
 mod ladder_length;
+mod total_n_queens;

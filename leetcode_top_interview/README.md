@@ -142,3 +142,4 @@
 * [Hard - 502. IPO](https://leetcode.com/problems/ipo/description/?envType=study-plan-v2&envId=top-interview-150)
 * [Medium - 399. Evaluate Division](https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&envId=top-interview-150)
 * [Hard - 127. Word Ladder](https://leetcode.com/problems/word-ladder/description/?envType=study-plan-v2&envId=top-interview-150)
+* [Hard - 52. N-Queens II](https://leetcode.com/problems/n-queens-ii/description/?envType=study-plan-v2&envId=top-interview-150)
