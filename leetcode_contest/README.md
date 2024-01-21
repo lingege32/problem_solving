@@ -24,3 +24,4 @@
 [Easy - 100191. Minimum Number of Pushes to Type Word I](https://leetcode.com/contest/weekly-contest-381/problems/minimum-number-of-pushes-to-type-word-i/)
 [Medium - 100188. Count the Number of Houses at a Certain Distance I](https://leetcode.com/contest/weekly-contest-381/problems/count-the-number-of-houses-at-a-certain-distance-i/)
 [Medium - 100192. Minimum Number of Pushes to Type Word II](https://leetcode.com/contest/weekly-contest-381/problems/count-the-number-of-houses-at-a-certain-distance-i/)
+[Hard - 100213. Count the Number of Houses at a Certain Distance II](https://leetcode.com/contest/weekly-contest-381/problems/count-the-number-of-houses-at-a-certain-distance-ii/)
