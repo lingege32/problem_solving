@@ -11,6 +11,8 @@ impl Solution {
             dis_l_in_circle[tmp_l as usize] += 1;
             dis_r_in_circle[tmp_r as usize] += 1;
         }
+        println!("{:?}", dis_l_in_circle);
+        println!("{:?}", dis_r_in_circle);
         let longest_path = n - 0.max(y - x - 1);
         let circle = y - x + 1;
         let mut suml = 0;
@@ -33,7 +35,7 @@ impl Solution {
 
             // case 3 : one end point is in (x,y) and the other is not.
             ans[idx] += suml + sumr;
-
+            println!("dis: {dis}, suml: {suml}, l1: {l1}, r1: {r1}, sumr: {sumr}, l2: {l2}, r2: {r2}");
             // update suml and sumr by removing outdated distance
             if l1 >= 0 {
                 suml -= dis_l_in_circle[l1 as usize];
@@ -69,6 +71,13 @@ mod test_super {
         let n = 4;
         let x = 1;
         let y = 4;
+        println!("{:?}", Solution::count_of_pairs(n, x, y));
+    }
+    #[test]
+    fn test_1123() {
+        let n = 10;
+        let x = 4;
+        let y = 8;
         println!("{:?}", Solution::count_of_pairs(n, x, y));
     }
     #[test]
