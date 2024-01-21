@@ -19,3 +19,6 @@
 [Easy - 100170. Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/contest/weekly-contest-379/problems/maximum-area-of-longest-diagonal-rectangle/)
 [Medium - 100187. Minimum Moves to Capture The Queen](https://leetcode.com/contest/weekly-contest-379/problems/minimum-moves-to-capture-the-queen/)
 [Medium - 100150. Maximum Size of a Set After Removals](https://leetcode.com/contest/weekly-contest-379/problems/maximum-size-of-a-set-after-removals/)
+
+# 2024/01/21
+[Easy - 100191. Minimum Number of Pushes to Type Word I](https://leetcode.com/contest/weekly-contest-381/problems/minimum-number-of-pushes-to-type-word-i/)
