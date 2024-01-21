@@ -15,3 +15,4 @@ mod min_moves_to_capture_the_queen;
 mod maximum_set_size;
 mod minimum_pushes;
 mod count_of_pairs;
+mod minimum_pushes_2;
