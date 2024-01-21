@@ -22,3 +22,4 @@
 
 # 2024/01/21
 [Easy - 100191. Minimum Number of Pushes to Type Word I](https://leetcode.com/contest/weekly-contest-381/problems/minimum-number-of-pushes-to-type-word-i/)
+[100188. Count the Number of Houses at a Certain Distance I](https://leetcode.com/contest/weekly-contest-381/problems/count-the-number-of-houses-at-a-certain-distance-i/)
