@@ -19,6 +19,7 @@ impl Solution {
         let mut sumr = 0;
         let mut l1 = -(x - 2);
         let mut r1 = 0;
+        
         let mut l2 = -(n - y - 1);
         let mut r2 = 0;
         let mut ans = vec![0; n as usize];
