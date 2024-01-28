@@ -30,6 +30,7 @@ impl Solution {
             }
         }
         let tgt_level = Self::cal(n * n, hm, max) + 1;
+        hm.get_mut(&n).unwrap().1 = tgt_level;
         *max = tgt_level.max(*max);
         return tgt_level;
     }
