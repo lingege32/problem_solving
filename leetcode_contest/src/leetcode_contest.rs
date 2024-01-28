@@ -17,3 +17,4 @@ mod minimum_pushes;
 mod count_of_pairs;
 mod minimum_pushes_2;
 mod count_of_pairs_2;
+mod count_key_changes;

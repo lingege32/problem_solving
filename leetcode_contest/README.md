@@ -25,3 +25,6 @@
 [Medium - 100188. Count the Number of Houses at a Certain Distance I](https://leetcode.com/contest/weekly-contest-381/problems/count-the-number-of-houses-at-a-certain-distance-i/)
 [Medium - 100192. Minimum Number of Pushes to Type Word II](https://leetcode.com/contest/weekly-contest-381/problems/count-the-number-of-houses-at-a-certain-distance-i/)
 [Hard - 100213. Count the Number of Houses at a Certain Distance II](https://leetcode.com/contest/weekly-contest-381/problems/count-the-number-of-houses-at-a-certain-distance-ii/)
+
+# 2024/01/28
+[Easy - 100215. Number of Changing Keys](https://leetcode.com/contest/weekly-contest-382/problems/number-of-changing-keys/)
