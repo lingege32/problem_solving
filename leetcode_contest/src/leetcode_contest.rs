@@ -18,3 +18,4 @@ mod count_of_pairs;
 mod minimum_pushes_2;
 mod count_of_pairs_2;
 mod count_key_changes;
+mod maximum_number_of_elements_in_subset;
