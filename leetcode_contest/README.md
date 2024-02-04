@@ -34,3 +34,4 @@
 # 2024/02/04
 [Easy - 3028. Ant on the Boundary](https://leetcode.com/contest/weekly-contest-383/problems/ant-on-the-boundary/)
 [Medium - 3029. Minimum Time to Revert Word to Initial State I](https://leetcode.com/contest/weekly-contest-383/problems/minimum-time-to-revert-word-to-initial-state-i/)
+[Medium - 3030. Find the Grid of Region Average](https://leetcode.com/contest/weekly-contest-383/problems/find-the-grid-of-region-average/)
