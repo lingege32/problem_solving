@@ -30,3 +30,6 @@
 [Easy - 100215. Number of Changing Keys](https://leetcode.com/contest/weekly-contest-382/problems/number-of-changing-keys/)
 [Medium - 100206. Find the Maximum Number of Elements in Subset](https://leetcode.com/contest/weekly-contest-382/problems/find-the-maximum-number-of-elements-in-subset/)
 [Medium - 100195. Alice and Bob Playing Flower Game](https://leetcode.com/contest/weekly-contest-382/problems/alice-and-bob-playing-flower-game/)
+
+# 2024/02/04
+[Easy - 3028. Ant on the Boundary](https://leetcode.com/contest/weekly-contest-383/problems/ant-on-the-boundary/)
