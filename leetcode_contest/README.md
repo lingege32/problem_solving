@@ -38,3 +38,4 @@
 
 # 2024/03/03
 [Easy - 3069. Distribute Elements Into Two Arrays I](https://leetcode.com/contest/weekly-contest-387/problems/distribute-elements-into-two-arrays-i/)
+[Medium - 3070. Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/contest/weekly-contest-387/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)

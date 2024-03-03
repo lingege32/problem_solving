@@ -24,3 +24,4 @@ mod return_to_boundary_count;
 mod minimum_time_to_initial_state;
 mod result_grid;
 mod result_array;
+mod count_submatrices;
