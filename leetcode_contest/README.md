@@ -35,3 +35,9 @@
 [Easy - 3028. Ant on the Boundary](https://leetcode.com/contest/weekly-contest-383/problems/ant-on-the-boundary/)
 [Medium - 3029. Minimum Time to Revert Word to Initial State I](https://leetcode.com/contest/weekly-contest-383/problems/minimum-time-to-revert-word-to-initial-state-i/)
 [Medium - 3030. Find the Grid of Region Average](https://leetcode.com/contest/weekly-contest-383/problems/find-the-grid-of-region-average/)
+
+# 2024/03/03
+[Easy - 3069. Distribute Elements Into Two Arrays I](https://leetcode.com/contest/weekly-contest-387/problems/distribute-elements-into-two-arrays-i/)
+[Medium - 3070. Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/contest/weekly-contest-387/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)
+[Medium - 3071. Minimum Operations to Write the Letter Y on a Grid](https://leetcode.com/contest/weekly-contest-387/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)
+[Hard - 3072. Distribute Elements Into Two Arrays II](https://leetcode.com/contest/weekly-contest-387/problems/distribute-elements-into-two-arrays-ii/)

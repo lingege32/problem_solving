@@ -30,9 +30,9 @@ impl Solution {
         unsafe {
             let left = left as *const ListNode;
             let left = left as *mut ListNode;
-            let left = &mut *left;
-            let mut n = left.next.take().unwrap();
-            left.next = n.next.take();
+            // let left = &mut *left;
+            let mut n = (*left).next.take().unwrap();
+            (*left).next = n.next.take();
         }
 
         dummy.next.take()

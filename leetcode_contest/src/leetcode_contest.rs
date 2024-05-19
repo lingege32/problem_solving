@@ -23,3 +23,7 @@ mod flower_game;
 mod return_to_boundary_count;
 mod minimum_time_to_initial_state;
 mod result_grid;
+mod result_array;
+mod count_submatrices;
+mod minimum_operations_to_write_y;
+mod result_array_2;
