@@ -1,1 +1,2 @@
-/home/lingege32/myconfig/rustfmt.toml
+unstable_features = true
+binop_separator="Back"
