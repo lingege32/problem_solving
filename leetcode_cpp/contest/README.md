@@ -7,3 +7,5 @@
     * [Easy - 3162. Find the Number of Good Pairs I](https://leetcode.com/contest/weekly-contest-399/problems/find-the-number-of-good-pairs-i/)
     * [Medium - 3163. String Compression III](https://leetcode.com/contest/weekly-contest-399/problems/string-compression-iii/)
     * [Medium - 3164. Find the Number of Good Pairs II](https://leetcode.com/contest/weekly-contest-399/problems/find-the-number-of-good-pairs-ii/)
+* 2024/06/09
+    * [Easy - 3178. Find the Child Who Has the Ball After K Seconds](https://leetcode.com/contest/weekly-contest-401/problems/find-the-child-who-has-the-ball-after-k-seconds/)
