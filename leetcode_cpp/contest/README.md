@@ -9,3 +9,4 @@
     * [Medium - 3164. Find the Number of Good Pairs II](https://leetcode.com/contest/weekly-contest-399/problems/find-the-number-of-good-pairs-ii/)
 * 2024/06/09
     * [Easy - 3178. Find the Child Who Has the Ball After K Seconds](https://leetcode.com/contest/weekly-contest-401/problems/find-the-child-who-has-the-ball-after-k-seconds/)
+    * [Medium - 3179. Find the N-th Value After K Seconds](https://leetcode.com/contest/weekly-contest-401/problems/find-the-n-th-value-after-k-seconds/)
