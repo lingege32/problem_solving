@@ -13,3 +13,4 @@
 * 2024/06/02
     * [Easy - 3168. Minimum Number of Chairs in a Waiting Room](https://leetcode.com/contest/weekly-contest-400/problems/minimum-number-of-chairs-in-a-waiting-room/)
     * [Medium - 3169. Count Days Without Meetings](https://leetcode.com/contest/weekly-contest-400/problems/count-days-without-meetings/)
+    * [Medium - 3170. Lexicographically Minimum String After Removing Stars](https://leetcode.com/contest/weekly-contest-400/problems/lexicographically-minimum-string-after-removing-stars/)
