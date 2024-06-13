@@ -10,3 +10,5 @@
 * 2024/06/09
     * [Easy - 3178. Find the Child Who Has the Ball After K Seconds](https://leetcode.com/contest/weekly-contest-401/problems/find-the-child-who-has-the-ball-after-k-seconds/)
     * [Medium - 3179. Find the N-th Value After K Seconds](https://leetcode.com/contest/weekly-contest-401/problems/find-the-n-th-value-after-k-seconds/)
+* 2024/06/02
+    * [Easy - 3168. Minimum Number of Chairs in a Waiting Room](https://leetcode.com/contest/weekly-contest-400/problems/minimum-number-of-chairs-in-a-waiting-room/)
