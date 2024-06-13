@@ -12,3 +12,4 @@
     * [Medium - 3179. Find the N-th Value After K Seconds](https://leetcode.com/contest/weekly-contest-401/problems/find-the-n-th-value-after-k-seconds/)
 * 2024/06/02
     * [Easy - 3168. Minimum Number of Chairs in a Waiting Room](https://leetcode.com/contest/weekly-contest-400/problems/minimum-number-of-chairs-in-a-waiting-room/)
+    * [Medium - 3170. Lexicographically Minimum String After Removing Stars](https://leetcode.com/contest/weekly-contest-400/problems/lexicographically-minimum-string-after-removing-stars/)
