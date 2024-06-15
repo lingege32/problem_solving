@@ -15,3 +15,5 @@
     * [Medium - 3169. Count Days Without Meetings](https://leetcode.com/contest/weekly-contest-400/problems/count-days-without-meetings/)
     * [Medium - 3170. Lexicographically Minimum String After Removing Stars](https://leetcode.com/contest/weekly-contest-400/problems/lexicographically-minimum-string-after-removing-stars/)
     * [Hard - 3171. Find Subarray With Bitwise OR Closest to K](https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/description/)
+* 2024/06/08 bi-weekly
+    * [Easy - 3174. Clear Digits](https://leetcode.com/contest/biweekly-contest-132/problems/clear-digits/)
