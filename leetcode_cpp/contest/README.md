@@ -17,3 +17,4 @@
     * [Hard - 3171. Find Subarray With Bitwise OR Closest to K](https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/description/)
 * 2024/06/08 bi-weekly
     * [Easy - 3174. Clear Digits](https://leetcode.com/contest/biweekly-contest-132/problems/clear-digits/)
+    * [Medium - 3175. Find The First Player to win K Games in a Row](https://leetcode.com/contest/biweekly-contest-132/problems/find-the-first-player-to-win-k-games-in-a-row/)
