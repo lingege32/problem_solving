@@ -18,3 +18,6 @@
 * 2024/06/08 bi-weekly
     * [Easy - 3174. Clear Digits](https://leetcode.com/contest/biweekly-contest-132/problems/clear-digits/)
     * [Medium - 3175. Find The First Player to win K Games in a Row](https://leetcode.com/contest/biweekly-contest-132/problems/find-the-first-player-to-win-k-games-in-a-row/)
+
+* 2024/06/16
+    * [Easy - 3184. Count Pairs That Form a Complete Day I](https://leetcode.com/contest/weekly-contest-402/problems/count-pairs-that-form-a-complete-day-i/)
