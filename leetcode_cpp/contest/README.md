@@ -29,3 +29,4 @@
     * [Easy - 3146. Permutation Difference between Two Strings](https://leetcode.com/contest/weekly-contest-397/problems/permutation-difference-between-two-strings/)
     * [Medium - 3147. Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/contest/weekly-contest-397/problems/taking-maximum-energy-from-the-mystic-dungeon/)
     * [Medium - 3148. Maximum Difference Score in a Grid](https://leetcode.com/contest/weekly-contest-397/problems/maximum-difference-score-in-a-grid/)
+    * [Hard - 3149. Find the Minimum Cost Array Permutation](https://leetcode.com/contest/weekly-contest-397/problems/find-the-minimum-cost-array-permutation/)
