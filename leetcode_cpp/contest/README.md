@@ -24,3 +24,6 @@
     * [Medium - 3185. Count Pairs That Form a Complete Day II](https://leetcode.com/contest/weekly-contest-402/problems/count-pairs-that-form-a-complete-day-ii/)
     * [Medium - 3186. Maximum Total Damage With Spell Casting](https://leetcode.com/contest/weekly-contest-402/problems/maximum-total-damage-with-spell-casting/)
     * [Hard - 3187. Peaks in Array](https://leetcode.com/contest/weekly-contest-402/problems/peaks-in-array/)
+
+* 2024/05/12
+    * [Easy - 3146. Permutation Difference between Two Strings](https://leetcode.com/contest/weekly-contest-397/problems/permutation-difference-between-two-strings/)
