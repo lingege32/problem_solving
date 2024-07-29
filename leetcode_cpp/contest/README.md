@@ -36,3 +36,6 @@
     * [Medium - 3195. Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/description/)
     * [Medium - 3196. Maximize Total Cost of Alternating Subarrays](https://leetcode.com/problems/maximize-total-cost-of-alternating-subarrays/description/)
     * [Hard - 3197. Find the Minimum Area to Cover All Ones II](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/description/)
+
+* 2024/06/23
+    * [Easy - 3200. Maximum Height of a Triangle](https://leetcode.com/contest/weekly-contest-404/problems/maximum-height-of-a-triangle/)
