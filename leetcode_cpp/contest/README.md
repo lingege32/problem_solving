@@ -40,3 +40,4 @@
 * 2024/06/23
     * [Easy - 3200. Maximum Height of a Triangle](https://leetcode.com/contest/weekly-contest-404/problems/maximum-height-of-a-triangle/)
     * [Medium - 3201. Find the Maximum Length of Valid Subsequence I](https://leetcode.com/contest/weekly-contest-404/problems/find-the-maximum-length-of-valid-subsequence-i/)
+    * [Medium - 3202. Find the Maximum Length of Valid Subsequence II](https://leetcode.com/contest/weekly-contest-404/problems/find-the-maximum-length-of-valid-subsequence-ii/)
