@@ -46,3 +46,4 @@
     * [Easy - 3210. Find the Encrypted String](https://leetcode.com/contest/weekly-contest-405/problems/find-the-encrypted-string/)
     * [Medium - 3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/contest/weekly-contest-405/problems/generate-binary-strings-without-adjacent-zeros/)
     * [Medium - 3212. Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/contest/weekly-contest-405/problems/count-submatrices-with-equal-frequency-of-x-and-y/)
+    * [Need review , Hard - 3213. Construct String with Minimum Cost](https://leetcode.com/contest/weekly-contest-405/problems/construct-string-with-minimum-cost/)
