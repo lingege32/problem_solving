@@ -44,3 +44,4 @@
 
 * 2024/07/07
     * [Easy - 3210. Find the Encrypted String](https://leetcode.com/contest/weekly-contest-405/problems/find-the-encrypted-string/)
+    * [Medium - 3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/contest/weekly-contest-405/problems/generate-binary-strings-without-adjacent-zeros/)
