@@ -47,3 +47,6 @@
     * [Medium - 3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/contest/weekly-contest-405/problems/generate-binary-strings-without-adjacent-zeros/)
     * [Medium - 3212. Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/contest/weekly-contest-405/problems/count-submatrices-with-equal-frequency-of-x-and-y/)
     * [Need review , Hard - 3213. Construct String with Minimum Cost](https://leetcode.com/contest/weekly-contest-405/problems/construct-string-with-minimum-cost/)
+
+* 2024/07/14
+    * [Easy - 3216. Lexicographically Smallest String After a Swap](https://leetcode.com/contest/weekly-contest-406/problems/lexicographically-smallest-string-after-a-swap/)
