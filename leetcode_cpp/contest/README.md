@@ -56,3 +56,4 @@
 
 * 2024/07/21
     * [Easy - 3226. Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/contest/weekly-contest-407/problems/number-of-bit-changes-to-make-two-integers-equal/)
+    * [Medium - 3227. Vowels Game in a String](https://leetcode.com/contest/weekly-contest-407/problems/vowels-game-in-a-string/)
