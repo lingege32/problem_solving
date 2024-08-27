@@ -59,3 +59,6 @@
     * [Medium - 3227. Vowels Game in a String](https://leetcode.com/contest/weekly-contest-407/problems/vowels-game-in-a-string/)
     * [Medium - 3228. Maximum Number of Operations to Move Ones to the End](https://leetcode.com/contest/weekly-contest-407/problems/maximum-number-of-operations-to-move-ones-to-the-end/)
     * [Hard - 3229. Minimum Operations to Make Array Equal to Target](https://leetcode.com/contest/weekly-contest-407/problems/minimum-operations-to-make-array-equal-to-target/)
+
+* 2024/07/28
+    * [Easy - 3232. Find if Digit Game Can Be Won](https://leetcode.com/contest/weekly-contest-408/problems/find-if-digit-game-can-be-won/)
