@@ -62,3 +62,4 @@
 
 * 2024/07/28
     * [Easy - 3232. Find if Digit Game Can Be Won](https://leetcode.com/contest/weekly-contest-408/problems/find-if-digit-game-can-be-won/)
+    * [Medium - 3233. Find the Count of Numbers Which Are Not Special](https://leetcode.com/contest/weekly-contest-408/problems/find-the-count-of-numbers-which-are-not-special/)
