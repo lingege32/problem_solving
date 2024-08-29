@@ -67,3 +67,4 @@
 
 * 2024/08/04
     * [Easy - 3242. Design Neighbor Sum Service](https://leetcode.com/contest/weekly-contest-409/problems/design-neighbor-sum-service/)
+    * [Medium - 3243. Shortest Distance After Road Addition Queries I](https://leetcode.com/contest/weekly-contest-409/problems/shortest-distance-after-road-addition-queries-i/)
