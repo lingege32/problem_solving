@@ -64,3 +64,6 @@
     * [Easy - 3232. Find if Digit Game Can Be Won](https://leetcode.com/contest/weekly-contest-408/problems/find-if-digit-game-can-be-won/)
     * [Medium - 3233. Find the Count of Numbers Which Are Not Special](https://leetcode.com/contest/weekly-contest-408/problems/find-the-count-of-numbers-which-are-not-special/)
     * [Medium - 3234. Count the Number of Substrings With Dominant Ones](https://leetcode.com/contest/weekly-contest-408/problems/count-the-number-of-substrings-with-dominant-ones/)
+
+* 2024/08/04
+    * [Easy - 3242. Design Neighbor Sum Service](https://leetcode.com/contest/weekly-contest-409/problems/design-neighbor-sum-service/)
