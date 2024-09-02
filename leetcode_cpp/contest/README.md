@@ -72,3 +72,4 @@
 
 * 2024/08/11
     * [Easy - 3248. Snake in Matrix](https://leetcode.com/contest/weekly-contest-410/problems/snake-in-matrix/)
+    * [Medium - 3249. Count the Number of Good Nodes](https://leetcode.com/contest/weekly-contest-410/problems/count-the-number-of-good-nodes/)
