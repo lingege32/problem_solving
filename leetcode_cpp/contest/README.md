@@ -75,3 +75,7 @@
     * [Medium - 3249. Count the Number of Good Nodes](https://leetcode.com/contest/weekly-contest-410/problems/count-the-number-of-good-nodes/)
     * [Hard - 3250. Find the Count of Monotonic Pairs I](https://leetcode.com/contest/weekly-contest-410/problems/find-the-count-of-monotonic-pairs-i/)
     * [Need review Hard - 3251. Find the Count of Monotonic Pairs II](https://leetcode.com/contest/weekly-contest-410/problems/find-the-count-of-monotonic-pairs-ii/)
+
+
+* 2024/08/18
+    * [Easy - 3258. Count Substrings That Satisfy K-Constraint I](https://leetcode.com/contest/weekly-contest-411/problems/count-substrings-that-satisfy-k-constraint-i/)
