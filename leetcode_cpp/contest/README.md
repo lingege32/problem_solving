@@ -79,3 +79,4 @@
 
 * 2024/08/18
     * [Easy - 3258. Count Substrings That Satisfy K-Constraint I](https://leetcode.com/contest/weekly-contest-411/problems/count-substrings-that-satisfy-k-constraint-i/)
+    * [Medium - 3259. Maximum Energy Boost From Two Drinks](https://leetcode.com/contest/weekly-contest-411/problems/maximum-energy-boost-from-two-drinks/)
