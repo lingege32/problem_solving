@@ -4,6 +4,9 @@
 [2024/06/19 Medium - 1482. Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/?envType=daily-question&envId=2024-06-19)
 [2024/06/20 Medium - 1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/description/?envType=daily-question&envId=2024-06-20)
 
+# 2024/08
+[0831 Medium - 1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/description/?envType=daily-question&envId=2024-08-31)
+
 # 2024/09
 [0901 Easy - 2022. Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/?envType=daily-question&envId=2024-09-01)
 [0902 Medium - 1894. Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/description/?envType=daily-question&envId=2024-09-02)
