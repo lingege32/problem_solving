@@ -81,3 +81,4 @@
     * [Easy - 3258. Count Substrings That Satisfy K-Constraint I](https://leetcode.com/contest/weekly-contest-411/problems/count-substrings-that-satisfy-k-constraint-i/)
     * [Medium - 3259. Maximum Energy Boost From Two Drinks](https://leetcode.com/contest/weekly-contest-411/problems/maximum-energy-boost-from-two-drinks/)
     * [pure math, Hard - 3260. Find the Largest Palindrome Divisible by K](https://leetcode.com/contest/weekly-contest-411/problems/find-the-largest-palindrome-divisible-by-k/)
+    * [Need review - Hard - 3261. Count Substrings That Satisfy K-Constraint II](https://leetcode.com/contest/weekly-contest-411/problems/count-substrings-that-satisfy-k-constraint-ii/)
