@@ -2,38 +2,40 @@
 using namespace std;
 
 class Solution {
-  private:
-    bool almostEqual(int x, int y) {
-        string s1 = to_string(x), s2 = to_string(y);
-        int n = s1.length(), m = s2.length();
-        int maxLen = max(n, m);
-        // make the lengths of 2 strings equal by adding zeros to the front
-        while (n != maxLen) {
-            s1 = "0" + s1;
-            n++;
+public:
+    int solve(int x,int y){
+        int pos = 0;
+        int x1 = -1,y1 = -1,x2 = -1, y2 = -1;
+        while(x>0 || y>0){
+            if(x%10 != y%10){
+                if(pos>=2) return 0;
+                pos++;
+                if(x1==-1){
+                    x1=x%10;
+                    y1=y%10;
+                }else{
+                    x2=x%10;
+                    y2=y%10;
+                }
+            } 
+            x/=10;
+            y/=10;
         }
-        while (m != maxLen) {
-            s2 = "0" + s2;
-            m++;
-        }
-        int diff = 0;
-        unordered_map<char, int> mp1, mp2;
-        for (int i = 0; i < n; i++) {
-            diff += (s1[i] != s2[i]);
-            mp1[s1[i]]++;
-            mp2[s2[i]]++;
-        }
-        return diff <= 2 && mp1 == mp2;
+        if(x1==y2 && x2==y1) return 1;
+        return 0;
     }
-
-  public:
     int countPairs(vector<int>& nums) {
-        int n = nums.size(), count = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                count += almostEqual(nums[i], nums[j]);
+        int n = nums.size();
+        int ans = 0;
+        for(int i = 0; i < n;i++){
+            for(int j = i+1; j < n;j++){
+                int res = solve(nums[i],nums[j]);
+                // if(res==1){
+                //     cout<<nums[i]<<" "<<nums[j]<<endl;
+                // }
+                ans += res;
             }
         }
-        return count;
+        return ans;
     }
 };
