@@ -85,4 +85,5 @@
 
 * 2024/08/25
     * [Easy - 3264. Final Array State After K Multiplication Operations I](https://leetcode.com/contest/weekly-contest-412/problems/final-array-state-after-k-multiplication-operations-i/)
+    * [Need review - Medium - 3265. Count Almost Equal Pairs I](https://leetcode.com/contest/weekly-contest-412/problems/count-almost-equal-pairs-i/)
     * [Need review - Hard - 3266. Final Array State After K Multiplication Operations II](https://leetcode.com/contest/weekly-contest-412/problems/final-array-state-after-k-multiplication-operations-ii/)
