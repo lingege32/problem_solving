@@ -82,3 +82,6 @@
     * [Medium - 3259. Maximum Energy Boost From Two Drinks](https://leetcode.com/contest/weekly-contest-411/problems/maximum-energy-boost-from-two-drinks/)
     * [pure math, Hard - 3260. Find the Largest Palindrome Divisible by K](https://leetcode.com/contest/weekly-contest-411/problems/find-the-largest-palindrome-divisible-by-k/)
     * [Need review - Hard - 3261. Count Substrings That Satisfy K-Constraint II](https://leetcode.com/contest/weekly-contest-411/problems/count-substrings-that-satisfy-k-constraint-ii/)
+
+* 2024/08/25
+    * [Easy - 3264. Final Array State After K Multiplication Operations I](https://leetcode.com/contest/weekly-contest-412/problems/final-array-state-after-k-multiplication-operations-i/)
