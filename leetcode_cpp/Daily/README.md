@@ -11,3 +11,4 @@
 [0901 Easy - 2022. Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/?envType=daily-question&envId=2024-09-01)
 [0902 Medium - 1894. Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/description/?envType=daily-question&envId=2024-09-02)
 [0903 Easy - 1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/?envType=daily-question&envId=2024-09-03)
+[0904 Medium - 874. Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/?envType=daily-question&envId=2024-09-04)
