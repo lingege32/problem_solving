@@ -90,3 +90,4 @@
 
 * 2024/09/01
     * [Easy - 3274. Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/contest/weekly-contest-413/problems/check-if-two-chessboard-squares-have-the-same-color/)
+    * [Medium - 3275. K-th Nearest Obstacle Queries](https://leetcode.com/contest/weekly-contest-413/problems/k-th-nearest-obstacle-queries/)
