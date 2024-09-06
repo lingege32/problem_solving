@@ -95,3 +95,4 @@
 
 * 2024/08/03 - bi-weekly
     * [Easy - 3238. Find the Number of Winning Players](https://leetcode.com/contest/biweekly-contest-136/problems/find-the-number-of-winning-players/)
+    * [Medium - 3239. Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/contest/biweekly-contest-136/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)
