@@ -92,3 +92,6 @@
     * [Easy - 3274. Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/contest/weekly-contest-413/problems/check-if-two-chessboard-squares-have-the-same-color/)
     * [Medium - 3275. K-th Nearest Obstacle Queries](https://leetcode.com/contest/weekly-contest-413/problems/k-th-nearest-obstacle-queries/)
     * [TLE - Hard - 3276. Select Cells in Grid With Maximum Score](https://leetcode.com/contest/weekly-contest-413/problems/select-cells-in-grid-with-maximum-score/)
+
+* 2024/08/03 - bi-weekly
+    * [Easy - 3238. Find the Number of Winning Players](https://leetcode.com/contest/biweekly-contest-136/problems/find-the-number-of-winning-players/)
