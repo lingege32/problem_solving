@@ -37,6 +37,7 @@ class Solution {
         }
 
         std::array<short, 10001> mp;
+        mp.fill(0);
         for (size_t i = 0; i < stones.size(); i++) {
             if (mp[stones[i][0]]) {
                 unite(i + 1, mp[stones[i][0]]);
