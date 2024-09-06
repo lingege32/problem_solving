@@ -36,6 +36,12 @@ class Solution {
             G[i] = i;  // Initialize Union-Find
         }
 
+
+        /*
+            construct the multi graph.
+            because the stones which can remove each other will be in the same graph.
+            so we can find how many graph in this multi graph.
+        */
         std::array<short, 10001> mp;
         mp.fill(0);
         for (size_t i = 0; i < stones.size(); i++) {
