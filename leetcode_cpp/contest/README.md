@@ -97,3 +97,6 @@
     * [Easy - 3238. Find the Number of Winning Players](https://leetcode.com/contest/biweekly-contest-136/problems/find-the-number-of-winning-players/)
     * [Medium - 3239. Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/contest/biweekly-contest-136/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)
     * [Medium - 3240. Minimum Number of Flips to Make Binary Grid Palindromic II](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/description/)
+
+* 2024/09/08
+    * [Easy - 3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)
