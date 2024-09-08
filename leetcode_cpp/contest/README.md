@@ -100,3 +100,4 @@
 
 * 2024/09/08
     * [Easy - 3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)
+    * [Medium - 3281. Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/description/)
