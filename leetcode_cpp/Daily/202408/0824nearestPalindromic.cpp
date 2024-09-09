@@ -5,7 +5,7 @@ using namespace std;
 
 class Solution {
   public:
-    string nearestPalindromic(const string& numberStr) {
+    static string nearestPalindromic(const string& numberStr) {
         long long number = stoll(numberStr);
 
         // Edge cases for small numbers
@@ -35,7 +35,7 @@ class Solution {
             palindromeCandidates[2] = stoll("1" + string(length - 1, '0') + "1");
         }
         // std::cout<<"length: "<<length<<std::endl;
-        palindromeCandidates[3] = static_cast<long long>(pow(10LL, length-1)) - 1;
+        palindromeCandidates[3] = static_cast<long long>(pow(10LL, length - 1)) - 1;
         palindromeCandidates[4] = static_cast<long long>(pow(10LL, length)) + 1;
 
         long long nearestPalindrome = LLONG_MAX;
