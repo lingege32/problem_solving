@@ -5,6 +5,7 @@
 [2024/06/20 Medium - 1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/description/?envType=daily-question&envId=2024-06-20)
 
 # 2024/08
+[Need Review - 0821 Hard - 664. Strange Printer](https://leetcode.com/problems/strange-printer/description/?envType=daily-question&envId=2024-08-21)
 [0822 Easy - 476. Number Complement](https://leetcode.com/problems/number-complement/description/?envType=daily-question&envId=2024-08-22)
 [0823 Medium - 592. Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/description/?envType=daily-question&envId=2024-08-23)
 [Need Review - 0824 Hard - 564. Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/description/?envType=daily-question&envId=2024-08-24)
