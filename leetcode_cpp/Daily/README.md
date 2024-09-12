@@ -5,6 +5,7 @@
 [2024/06/20 Medium - 1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/description/?envType=daily-question&envId=2024-06-20)
 
 # 2024/08
+[0818 Medium - 264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/?envType=daily-question&envId=2024-08-18)
 [0819 Medium - 650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/?envType=daily-question&envId=2024-08-19)
 [0820 Medium - 1140. Stone Game II](https://leetcode.com/problems/stone-game-ii/description/?envType=daily-question&envId=2024-08-20)
 [Need Review - 0821 Hard - 664. Strange Printer](https://leetcode.com/problems/strange-printer/description/?envType=daily-question&envId=2024-08-21)
