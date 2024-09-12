@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution {
   public:
-    static int countConsistentStrings(string allowed, vector<string>& words) {
+    static int countConsistentStrings(const string& allowed, vector<string>& words) {
         std::array<char, 26> allowedChars;
         allowedChars.fill(0);
         for (auto c : allowed) {
