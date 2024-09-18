@@ -45,3 +45,4 @@
 [0915 Medium - 1371. Find the Longest Substring Containing Vowels in Even](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/?envType=daily-question&envId=2024-09-15)
 [0916 Medium - 539. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/?envType=daily-question&envId=2024-09-16)
 [0917 Easy - 884. Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/?envType=daily-question&envId=2024-09-17)
+[0918 Medium - 179. Largest Number](https://leetcode.com/problems/largest-number/description/?envType=daily-question&envId=2024-09-18)
