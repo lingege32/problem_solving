@@ -49,3 +49,4 @@
 [0916 Medium - 539. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/?envType=daily-question&envId=2024-09-16)
 [0917 Easy - 884. Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/?envType=daily-question&envId=2024-09-17)
 [0918 Medium - 179. Largest Number](https://leetcode.com/problems/largest-number/description/?envType=daily-question&envId=2024-09-18)
+[0919 Medium - 241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/?envType=daily-question&envId=2024-09-19)
