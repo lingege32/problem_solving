@@ -5,6 +5,7 @@
 [2024/06/20 Medium - 1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/description/?envType=daily-question&envId=2024-06-20)
 
 # 2024/08
+[0806 Medium - 3016. Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/?envType=daily-question&envId=2024-08-06)
 [0807 Hard - 273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/?envType=daily-question&envId=2024-08-07)
 [0808 Medium - 885. Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/description/?envType=daily-question&envId=2024-08-08)
 [0809 Medium - 840. Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/description/?envType=daily-question&envId=2024-08-09)
