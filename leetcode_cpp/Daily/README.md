@@ -5,6 +5,7 @@
 [2024/06/20 Medium - 1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/description/?envType=daily-question&envId=2024-06-20)
 
 # 2024/08
+[0801 Easy - 2678. Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/description/?envType=daily-question&envId=2024-08-01)
 [0802 Medium - 2134. Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/description/?envType=daily-question&envId=2024-08-02)
 [0803 Easy - 1460. Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/?envType=daily-question&envId=2024-08-03)
 [Review 0804 Medium - 1508. Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/?envType=daily-question&envId=2024-08-04)
