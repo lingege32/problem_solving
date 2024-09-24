@@ -66,3 +66,4 @@
 [0921 Medium - 386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/?envType=daily-question&envId=2024-09-21)
 [0922 Hard - 440. K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/description/?envType=daily-question&envId=2024-09-22)
 [0923 Medium - 2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/?envType=daily-question&envId=2024-09-23)
+[0924 Medium - 3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/?envType=daily-question&envId=2024-09-24)
