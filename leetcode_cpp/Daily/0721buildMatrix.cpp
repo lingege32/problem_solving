@@ -10,76 +10,50 @@ auto init = []() {
 
 class Solution {
     static auto createCondition(const vector<vector<int>>& cond, int n) {
-        vector<pair<int, unordered_set<int>>> ret(n, {0, unordered_set<int>{}});
+        vector<pair<int, vector<int>>> ret(n, {0, vector<int>{}});
         for (const auto& c : cond) {
             auto f = c[0];
             auto t = c[1];
-            auto it = ret[f].second.insert(t);
-            if (it.second) {
-                ret[t].first++;
-            }
+            ret[f].second.push_back(t);
+            // if (it.second) {
+            ret[t].first++;
+            // }
         }
         return ret;
     }
 
-    static std::optional<vector<vector<int>>> levelization(const vector<vector<int>>& conditions, int n) {
+    static std::optional<vector<int>> levelization(const vector<vector<int>>& conditions, int n) {
         auto cond = createCondition(conditions, n);
-        std::vector<vector<int>> levels;
+        std::vector<int> nLevel(n, -1);
         std::vector<int> cur_level;
         for (int i = 1; i < n; ++i) {
             if (cond[i].first == 0 && !cond[i].second.empty()) {
                 cur_level.push_back(i);
             }
         }
-
+        int level = 0;
         while (!cur_level.empty()) {
             std::vector<int> next;
             for (auto i : cur_level) {
+                nLevel[i] = level++;
                 for (auto adj : cond[i].second) {
                     if (--cond[adj].first == 0) {
                         next.push_back(adj);
                     }
                 }
             }
-            levels.push_back(std::move(cur_level));
-            cur_level = std::move(next);
+            std::swap(cur_level, next);
         }
 
         if (std::ranges::any_of(cond, [](const auto& p) { return p.first != 0; })) {
             return std::nullopt;
         }
-
-        return levels;
-    }
-
-    static std::vector<pair<int, int>> createCoor(const vector<vector<int>>& row, const vector<vector<int>>& col,
-                                                  int n) {
-        std::vector<pair<int, int>> ret(n, {-1, -1});
-        int rowS = row.size();
-        int colS = col.size();
-        int level = 0;
-        for (int i = 0; i < rowS; ++i) {
-            for (auto v : row[i]) {
-                ret[v].first = level++;
-            }
-        }
         for (int i = 1; i < n; ++i) {
-            if (ret[i].first == -1) {
-                ret[i].first = level++;
+            if (nLevel[i] == -1) {
+                nLevel[i] = level++;
             }
         }
-        level = 0;
-        for (int i = 0; i < colS; ++i) {
-            for (auto v : col[i]) {
-                ret[v].second = level++;
-            }
-        }
-        for (int i = 1; i < n; ++i) {
-            if (ret[i].second == -1) {
-                ret[i].second = level++;
-            }
-        }
-        return ret;
+        return nLevel;
     }
 
   public:
@@ -94,12 +68,12 @@ class Solution {
         if (!colLevel) {
             return {};
         }
-
-        auto coor = createCoor(rowLevel.value(), colLevel.value(), n);
         vector<vector<int>> ret(k, vector<int>(k, 0));
+        auto& rl = rowLevel.value();
+        auto& cl = colLevel.value();
         for (int i = 1; i < n; ++i) {
-            auto r = coor[i].first;
-            auto c = coor[i].second;
+            auto r = rl[i];
+            auto c = cl[i];
             ret[r][c] = i;
         }
         return ret;
