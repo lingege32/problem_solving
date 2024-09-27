@@ -7,6 +7,27 @@ auto init = []() {
     return 'c';
 }();
 
+class OtherMyCalendarTwo {
+    vector<pair<int, int>> b;
+    vector<pair<int, int>> db;
+
+  public:
+    bool book(int start, int end) {
+        for (pair<int, int> x : db) {
+            if (start < x.second && end > x.first) {
+                return false;
+            }
+        }
+        for (pair<int, int> x : b) {
+            if (start < x.second && end > x.first) {
+                db.emplace_back(max(start, x.first), min(end, x.second));
+            }
+        }
+        b.emplace_back(start, end);
+        return true;
+    }
+};
+
 class MyCalendarTwo {
   public:
     constexpr static int THRESHOLD = 2;
