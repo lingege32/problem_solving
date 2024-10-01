@@ -94,3 +94,6 @@
 [0928 Medium - 641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/?envType=daily-question&envId=2024-09-28)
 [0929 Hard - 432. All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/description/?envType=daily-question&envId=2024-09-29)
 [0930 Medium - 1381. Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/?envType=daily-question&envId=2024-09-30)
+
+# 2024/10
+[1001 Medium - 1497. Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/?envType=daily-question&envId=2024-10-01)
