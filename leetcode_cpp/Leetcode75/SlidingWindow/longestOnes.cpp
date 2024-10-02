@@ -13,7 +13,7 @@ public:
         int ans = 0;
         int zero = 0;
         int l = 0;
-        for(int r = 0; r < nums.size(); ++r) {
+        for(int r = 0; r < static_cast<int>(nums.size()); ++r) {
             if(nums[r] == 0) {
                 zero++;
             }
