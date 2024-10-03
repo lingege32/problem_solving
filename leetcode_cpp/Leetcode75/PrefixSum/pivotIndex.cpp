@@ -17,11 +17,11 @@ class Solution {
             prev += nums[i - 1];
             prefixSum[i] = prev;
         }
+        int ans = -1;
         if (prefixSum.back() == 0) {
-            return n - 1;
+            ans = n - 1;
         }
         prev = nums.back();
-        int ans = -1;
         for (int i = n - 2; i >= 0; --i) {
             if (prev == prefixSum[i]) {
                 ans = i;
