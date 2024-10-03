@@ -33,3 +33,6 @@
 [Easy - 1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/?envType=study-plan-v2&envId=leetcode-75)
+
+# Stack
+[Medium - 2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75)
