@@ -26,3 +26,4 @@
 
 # Prefix Sum
 [Easy - 1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75)
+[Easy - 724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan-v2&envId=leetcode-75)
