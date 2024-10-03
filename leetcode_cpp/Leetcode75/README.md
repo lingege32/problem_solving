@@ -36,3 +36,4 @@
 
 # Stack
 [Medium - 2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75)
+[Medium - 735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75)
