@@ -100,3 +100,4 @@
 [1002 Easy - 1331. Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question&envId=2024-10-02)
 [1003 Medium - 1590. Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/description/?envType=daily-question&envId=2024-10-03)
 [1004 Medium - 2491. Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/?envType=daily-question&envId=2024-10-04)
+[1005 Medium - 567. Permutation in String](https://leetcode.com/problems/permutation-in-string/description/?envType=daily-question&envId=2024-10-05)
