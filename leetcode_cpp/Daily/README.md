@@ -102,3 +102,4 @@
 [1004 Medium - 2491. Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/?envType=daily-question&envId=2024-10-04)
 [1005 Medium - 567. Permutation in String](https://leetcode.com/problems/permutation-in-string/description/?envType=daily-question&envId=2024-10-05)
 [1006 Meidum - 1813. Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/description/?envType=daily-question&envId=2024-10-06)
+[1007 Easy - 2696. Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/?envType=daily-question&envId=2024-10-07)
