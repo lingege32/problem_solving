@@ -42,3 +42,6 @@
 # Queue
 [Easy - 933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 649. Dota2 Senate](https://leetcode.com/problems/dota2-senate/description/?envType=study-plan-v2&envId=leetcode-75)
+
+# LinkedList
+[Medium - 2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75)
