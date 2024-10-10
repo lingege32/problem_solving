@@ -66,3 +66,6 @@
 [Medium - 547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 399. Evaluate Division](https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&envId=leetcode-75)
+
+# Binary Search Tree
+[Easy - 700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=study-plan-v2&envId=leetcode-75)
