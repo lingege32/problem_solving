@@ -63,3 +63,4 @@
 
 # Graphs - DFS
 [Medium - 841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/?envType=study-plan-v2&envId=leetcode-75)
+[Medium - 547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&envId=leetcode-75)
