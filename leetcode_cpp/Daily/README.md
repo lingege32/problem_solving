@@ -105,3 +105,4 @@
 [1007 Easy - 2696. Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/?envType=daily-question&envId=2024-10-07)
 [1008 Medium - 1963. Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/?envType=daily-question&envId=2024-10-08)
 [1009 Medium - 921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/?envType=daily-question&envId=2024-10-09)
+[1010 Medium - 962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/description/?envType=daily-question&envId=2024-10-10)
