@@ -73,3 +73,4 @@
 
 # Graph - BFS
 [Medium - 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/?envType=study-plan-v2&envId=leetcode-75)
+[Medium - 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/?envType=study-plan-v2&envId=leetcode-75)
