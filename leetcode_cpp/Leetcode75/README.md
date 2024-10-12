@@ -83,3 +83,4 @@
 
 # Binary Search
 [Easy - 374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/?envType=study-plan-v2&envId=leetcode-75)
+[Medium - 2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/?envType=study-plan-v2&envId=leetcode-75)
