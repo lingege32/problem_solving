@@ -111,3 +111,4 @@
 [1013 Hard - 632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/?envType=daily-question&envId=2024-10-13)
 [1014 Medium - 2530. Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/?envType=daily-question&envId=2024-10-14)
 [1015 Medium - 2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/description/?envType=daily-question&envId=2024-10-15)
+[1016 Medium - 1405. Longest Happy String](https://leetcode.com/problems/longest-happy-string/description/?envType=daily-question&envId=2024-10-16)
