@@ -11,7 +11,8 @@ class Solution {
   public:
     static void backtrack(const vector<int> &nums, size_t index, int currentOR, int maxOR, int &count) {
         if (currentOR == maxOR) {
-            count++;
+            count += pow(2, (nums.size() - index));
+            return;
         }
 
         for (size_t i = index; i < nums.size(); ++i) {
