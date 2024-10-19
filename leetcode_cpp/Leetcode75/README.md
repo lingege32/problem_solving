@@ -102,3 +102,6 @@
 [Medium - 1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 72. Edit Distance](https://leetcode.com/problems/edit-distance/description/?envType=study-plan-v2&envId=leetcode-75)
+
+# Trie
+[Medium - 208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=leetcode-75)
