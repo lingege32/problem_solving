@@ -99,3 +99,4 @@
 
 # DP - Multidimensional
 [Medium - 62. Unique Paths](https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&envId=leetcode-75)
+[Medium - 1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/?envType=study-plan-v2&envId=leetcode-75)
