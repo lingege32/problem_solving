@@ -105,3 +105,4 @@
 
 # Trie
 [Medium - 208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=leetcode-75)
+[Medium - 1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/?envType=study-plan-v2&envId=leetcode-75)
