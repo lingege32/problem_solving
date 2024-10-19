@@ -90,3 +90,6 @@
 # Backtracking
 [Medium - 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/?envType=study-plan-v2&envId=leetcode-75)
+
+# DP - 1D
+[Easy - 1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=study-plan-v2&envId=leetcode-75)
