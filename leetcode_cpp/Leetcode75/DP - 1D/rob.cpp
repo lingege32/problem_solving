@@ -10,13 +10,13 @@ auto init = []() {
 class Solution {
   public:
     static int rob(const vector<int>& nums) {
-        vector<std::pair<int, int>> dp(nums.size(), {0, 0});
-        dp[0] = {nums[0], 0};
+        int take = nums[0];
+        int no_take = 0;
         for (size_t idx = 1; idx < nums.size(); ++idx) {
-            auto steal = dp[idx - 1].second + nums[idx];
-            auto no_steal = std::max(dp[idx - 1].first, dp[idx - 1].second);
-            dp[idx] = {steal, no_steal};
+            auto steal = no_take + nums[idx];
+            no_take = std::max(take, no_take);
+            take = steal;
         }
-        return std::max(dp.back().first, dp.back().second);
+        return std::max(take, no_take);
     }
 };
