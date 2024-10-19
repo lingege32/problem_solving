@@ -96,3 +96,6 @@
 [Easy - 746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 198. House Robber](https://leetcode.com/problems/house-robber/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/description/?envType=study-plan-v2&envId=leetcode-75)
+
+# DP - Multidimensional
+[Medium - 62. Unique Paths](https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&envId=leetcode-75)
