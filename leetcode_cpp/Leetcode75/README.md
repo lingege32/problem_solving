@@ -93,3 +93,4 @@
 
 # DP - 1D
 [Easy - 1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=study-plan-v2&envId=leetcode-75)
+[Easy - 746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&envId=leetcode-75)
