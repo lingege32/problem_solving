@@ -115,3 +115,6 @@
 # Intervals
 [Medium - 435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/?envType=study-plan-v2&envId=leetcode-75)
+
+# Monotonic Stack
+[Medium - 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/?envType=study-plan-v2&envId=leetcode-75)
