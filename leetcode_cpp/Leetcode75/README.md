@@ -111,3 +111,6 @@
 [Easy - 338. Counting Bits](https://leetcode.com/problems/counting-bits/description/?envType=study-plan-v2&envId=leetcode-75)
 [Easy - 136. Single Number](https://leetcode.com/problems/single-number/?envType=study-plan-v2&envId=leetcode-75)
 [Medium - 1318. Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/?envType=study-plan-v2&envId=leetcode-75)
+
+# Intervals
+[Medium - 435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/?envType=study-plan-v2&envId=leetcode-75)
