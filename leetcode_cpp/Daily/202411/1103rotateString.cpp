@@ -26,3 +26,10 @@ class Solution {
         return false;
     }
 };
+
+class OptSolution {
+public:
+    static bool rotateString(const string& s, const string& goal) {
+        return s.length() == goal.length() && (s + s).find(goal) != string::npos;
+    }
+};
