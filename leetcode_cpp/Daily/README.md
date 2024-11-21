@@ -146,3 +146,4 @@
 [1115 Medium - 1574. Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/?envType=daily-question&envId=2024-11-15)
 [1116 Medium - 3254. Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/?envType=daily-question&envId=2024-11-16)
 [1117 Hard - 862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/?envType=daily-question&envId=2024-11-17)
+[1118 Easy - 1652. Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/description/?envType=daily-question&envId=2024-11-18)
