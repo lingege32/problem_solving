@@ -22,10 +22,6 @@ struct TwoDArray {
 
     int* operator[](int i) { return &data[i * 3]; }
 
-    [[nodiscard]] bool isDone() const {
-        return data[0] == 1 && data[1] == 2 && data[2] == 3 && data[3] == 4 && data[4] == 5 && data[5] == 0;
-    }
-
     bool operator==(const Self& other) const { return data == other.data; }
 
     void applyNew(std::vector<Self>& q) {
@@ -74,30 +70,41 @@ struct std::hash<TwoDArray> {
     }
 };
 
-class Solution {
-  public:
-    static int slidingPuzzle(vector<vector<int>>& board) {
-        TwoDArray array(board);
-        std::unordered_set<TwoDArray> visited;
+struct Dict {
+    static inline std::unordered_map<TwoDArray, int> mapping;
+    static void bfs() {
+        if (!mapping.empty()) {
+            return;
+        }
+        TwoDArray root({{1, 2, 3}, {4, 5, 0}});
         std::vector<TwoDArray> q;
-        q.push_back(array);
         int depth = 0;
+        q.push_back(root);
         while (!q.empty()) {
             std::vector<TwoDArray> newQ;
             for (auto& arr : q) {
-                auto [it, insert] = visited.insert(arr);
+                auto [it, insert] = mapping.emplace(arr, depth);
                 if (!insert) {
                     continue;
                 }
-                if (arr.isDone()) {
-                    return depth;
-                }
-
                 arr.applyNew(newQ);
             }
             std::swap(newQ, q);
             depth++;
         }
-        return -1;
+    }
+
+    static int get(const TwoDArray& arr) {
+        auto it = mapping.find(arr);
+        return it == mapping.end() ? -1 : it->second;
+    }
+
+};
+
+class Solution {
+  public:
+    static int slidingPuzzle(vector<vector<int>>& board) {
+        Dict::bfs();
+        return Dict::get(TwoDArray(board));
     }
 };
