@@ -154,3 +154,4 @@
 [1123 Medium - 1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/description/?envType=daily-question&envId=2024-11-23)
 [1124 Medium - 1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/description/?envType=daily-question&envId=2024-11-24)
 [1125 Hard - 773. Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/?envType=daily-question&envId=2024-11-25)
+[1126 Medium - 2924. Find Champion II](https://leetcode.com/problems/find-champion-ii/description/?envType=daily-question&envId=2024-11-26)
