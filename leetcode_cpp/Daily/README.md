@@ -156,3 +156,4 @@
 [1125 Hard - 773. Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/?envType=daily-question&envId=2024-11-25)
 [1126 Medium - 2924. Find Champion II](https://leetcode.com/problems/find-champion-ii/description/?envType=daily-question&envId=2024-11-26)
 [1127 Medium - 3243. Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/description/?envType=daily-question&envId=2024-11-27)
+[1128 Hard - 2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/description/?envType=daily-question&envId=2024-11-28)
