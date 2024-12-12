@@ -172,3 +172,4 @@
 [1209 Medium - 3152. Special Array II](https://leetcode.com/problems/special-array-ii/description/?envType=daily-question&envId=2024-12-09)
 [1210 Medium - 2981. Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/?envType=daily-question&envId=2024-12-10)
 [1211 Medium - 2779. Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/description/?envType=daily-question&envId=2024-12-11)
+[1212 Easy - 2558. Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/?envType=daily-question&envId=2024-12-12)
