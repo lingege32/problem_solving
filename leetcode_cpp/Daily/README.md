@@ -175,3 +175,4 @@
 [1212 Easy - 2558. Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/?envType=daily-question&envId=2024-12-12)
 [1213 Medium - 2593. Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/description/?envType=daily-question&envId=2024-12-13)
 [1214 Medium - 2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/description/?envType=daily-question&envId=2024-12-14)
+[1215 Medium - 1792. Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/?envType=daily-question&envId=2024-12-15)
