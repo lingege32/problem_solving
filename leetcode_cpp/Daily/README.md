@@ -186,3 +186,4 @@
 [1223 Medium - 2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/?envType=daily-question&envId=2024-12-23)
 [1224 Hard - 3203. Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/?envType=daily-question&envId=2024-12-24)
 [1225 Medium - 515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/?envType=daily-question&envId=2024-12-25)
+[1226 Medium - 494. Target Sum](https://leetcode.com/problems/target-sum/description/?envType=daily-question&envId=2024-12-26)
