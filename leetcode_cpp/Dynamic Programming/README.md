@@ -12,3 +12,4 @@
 
 # Matrix
 [Medium - 62. Unique Paths](https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&envId=dynamic-programming)
+[Medium - 64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/?envType=study-plan-v2&envId=dynamic-programming)
