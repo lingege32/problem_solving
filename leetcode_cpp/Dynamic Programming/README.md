@@ -20,3 +20,4 @@
 
 # On Strings
 [Medium - 5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/?envType=study-plan-v2&envId=dynamic-programming)
+[Medium - 139. Word Break](https://leetcode.com/problems/word-break/description/?envType=study-plan-v2&envId=dynamic-programming)
