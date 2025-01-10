@@ -15,3 +15,4 @@
 [Medium - 64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/?envType=study-plan-v2&envId=dynamic-programming)
 [Medium - 63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/?envType=study-plan-v2&envId=dynamic-programming)
 [Medium - 120. Triangle](https://leetcode.com/problems/triangle/description/?envType=study-plan-v2&envId=dynamic-programming)
+[Medium - 931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/?envType=study-plan-v2&envId=dynamic-programming)
