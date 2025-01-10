@@ -17,3 +17,6 @@
 [Medium - 120. Triangle](https://leetcode.com/problems/triangle/description/?envType=study-plan-v2&envId=dynamic-programming)
 [Medium - 931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/?envType=study-plan-v2&envId=dynamic-programming)
 [Medium - 221. Maximal Square](https://leetcode.com/problems/maximal-square/description/?envType=study-plan-v2&envId=dynamic-programming)
+
+# On Strings
+[Medium - 5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/?envType=study-plan-v2&envId=dynamic-programming)
