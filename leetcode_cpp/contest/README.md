@@ -112,3 +112,5 @@
     * [Medium - 3295. Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)
     * [Medium - 3296. Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description/)
     * [Medium - 3297. Count Substrings That Can Be Rearranged to Contain a String I](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/description/)
+* 2024/09/29
+    * [Easy - 3304. Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/)
