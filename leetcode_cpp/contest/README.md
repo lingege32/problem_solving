@@ -102,3 +102,6 @@
     * [Easy - 3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/description/)
     * [Medium - 3281. Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/description/)
     * [Medium - 3282. Reach End of Array With Max Score](https://leetcode.com/problems/reach-end-of-array-with-max-score/description/)
+
+* 2024/09/25
+    * [Easy - 3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)
