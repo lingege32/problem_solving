@@ -103,7 +103,10 @@
     * [Medium - 3281. Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/description/)
     * [Medium - 3282. Reach End of Array With Max Score](https://leetcode.com/problems/reach-end-of-array-with-max-score/description/)
 
-* 2024/09/25
+* 2024/09/15
     * [Easy - 3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)
     * [Medium - 3290. Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)
     * [Medium - 3291. Minimum Number of Valid Strings to Form Target I](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i/description/)
+
+* 2024/09/22
+    * [Medium - 3295. Report Spam Message](https://leetcode.com/problems/report-spam-message/description/)
