@@ -105,3 +105,4 @@
 
 * 2024/09/25
     * [Easy - 3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/)
+    * [Medium - 3290. Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/description/)
