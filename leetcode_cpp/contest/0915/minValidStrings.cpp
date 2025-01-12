@@ -54,3 +54,90 @@ class Solution {
         return dp.back();
     }
 };
+
+
+// optimize for Hard.....
+namespace {
+
+constexpr int N = 100000;
+
+struct node {
+    int len, kmp;
+    std::array<int, 26> child;
+};
+
+std::array<node, N> ac;
+int tot;
+std::array<int, N> que;
+
+void insert(const char* s, int n) {
+    int rt = 0;
+    for (int len = 1; len <= n; ++len, ++s) {
+        if (!ac[rt].child[*s - 'a']) {
+            ac[ac[rt].child[*s - 'a'] = tot++] = {.len = len, .kmp = 0, .child = {}};
+        }
+        rt = ac[rt].child[*s - 'a'];
+    }
+}
+
+void kmp() {
+    int h = 0, n = 0;
+    for (int i : ac[0].child) {
+        if (i) {
+            que[n++] = i;
+        }
+    }
+    while (h < n) {
+        int u = que[h++], kmp = ac[u].kmp;
+        for (int i = 0; i < 26; ++i) {
+            if (!ac[u].child[i]) {
+                ac[u].child[i] = ac[kmp].child[i];
+            } else {
+                ac[ac[u].child[i]].kmp = ac[kmp].child[i];
+                que[n++] = ac[u].child[i];
+            }
+        }
+    }
+}
+
+struct Prefix {
+    int last = 0;
+    int flag = 0;
+};
+
+inline std::array<Prefix, 50000> prefix;
+int FLAG;
+}  // namespace
+
+class OptSolution {
+  public:
+    static int minValidStrings(vector<string>& words, string& target) {
+        tot = 1;
+        ac[0] = {};
+        for (auto& s : words) {
+            insert(s.c_str(), min(s.length(), target.length()));
+        }
+        kmp();
+        const int n = target.length();
+        const char* s = target.c_str();
+        ++FLAG;
+        for (int i = 0, u = 0; i < n; ++i, ++s) {
+            u = ac[u].child[*s - 'a'];
+            if (u == 0) {
+                return -1;
+            }
+            prefix[i + 1 - ac[u].len] = {.last = i, .flag = FLAG};
+        }
+        int ans = 0;
+        for (int i = 0, last = -1, right = -1; i < n; ++i) {
+            if (prefix[i].flag == FLAG) {
+                right = max(right, prefix[i].last);
+            }
+            if (i > last) {
+                ++ans;
+                last = right;
+            }
+        }
+        return ans;
+    }
+};
