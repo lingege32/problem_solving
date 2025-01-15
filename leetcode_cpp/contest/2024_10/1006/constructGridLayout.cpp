@@ -116,7 +116,7 @@ std::vector<std::vector<int>> Solution::constructGridLayout(  // NOLINT(readabil
         }
         std::abort();
     };
-    uint16_t const uIndex_corner = (uint16_t)(pNode_deg2 - vNode.data());
+    uint16_t const uIndex_corner = pNode_deg2 - vNode.data();
     uint16_t uIndex_dir0 = vNode[uIndex_corner].get_edge(0) - 1U;
     uint16_t uIndex_dir1 = vNode[uIndex_corner].get_edge(1) - 1U;
     uint16_t uLength_shorter = 2U;
