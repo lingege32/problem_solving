@@ -119,3 +119,4 @@
     * [Hard - 3307. Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/description/)
 * 2024/10/06
     * [Medium - 3309. Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/description/)
+    * [Medium - 3310. Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)
