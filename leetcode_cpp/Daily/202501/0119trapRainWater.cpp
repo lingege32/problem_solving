@@ -29,41 +29,40 @@ class Solution {
         int m = heightMap.size();
         int n = heightMap[0].size();
         TwoDArrInt dp(m, n);
-        std::priority_queue<std::tuple<int, int, int>, std::vector<std::tuple<int, int, int>>, std::greater<>> min_heap;
+        auto getCell = [&](int cell) { return std::make_pair(cell / n, cell % n); };
+        auto cellize = [&](int row, int col) { return (row * n) + col; };
+        std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<>> min_heap;
+        
         if (m > 2) {
             for (int c = 1; c < n - 1; ++c) {
-                min_heap.emplace(heightMap[0][c], 1, c);
-                min_heap.emplace(heightMap[m - 1][c], m - 2, c);
+                min_heap.emplace(heightMap[0][c], cellize(1, c));
+                min_heap.emplace(heightMap[m - 1][c], cellize(m - 2, c));
             }
         }
         if (n > 2) {
             for (int r = 1; r < m - 1; ++r) {
-                min_heap.emplace(heightMap[r][0], r, 1);
-                min_heap.emplace(heightMap[r][n - 1], r, n - 2);
+                min_heap.emplace(heightMap[r][0], cellize(r, 1));
+                min_heap.emplace(heightMap[r][n - 1], cellize(r, n - 2));
             }
         }
         auto ifYes = [&](int x, int y) { return x > 0 && x < m - 1 && y > 0 && y < n - 1; };
+
+        int ret = 0;
         while (!min_heap.empty()) {
-            auto [cboundry, cx, cy] = min_heap.top();
+            auto [cboundry, cell] = min_heap.top();
+            auto [cx, cy] = getCell(cell);
             min_heap.pop();
             cboundry = std::max(cboundry, heightMap[cx][cy]);
             if (dp[cx][cy] <= cboundry) {
                 continue;
             }
             dp[cx][cy] = cboundry;
+            ret += std::max(0, dp[cx][cy] - heightMap[cx][cy]);
             for (int i = 0; i < 4; ++i) {
                 int nx = cx + dx[i];
                 int ny = cy + dy[i];
-                if (ifYes(nx, ny)) {
-                    min_heap.emplace(cboundry, nx, ny);
-                }
-            }
-        }
-        int ret = 0;
-        for (int r = 1; r < m - 1; ++r) {
-            for (int c = 1; c < n - 1; ++c) {
-                if (dp[r][c] != std::numeric_limits<int>::max()) {
-                    ret += dp[r][c] - heightMap[r][c];
+                if (ifYes(nx, ny) && dp[cx][cy] > cboundry) {
+                    min_heap.emplace(cboundry, cellize(nx, ny));
                 }
             }
         }
