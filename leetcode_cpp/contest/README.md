@@ -121,3 +121,6 @@
     * [Medium - 3309. Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/description/)
     * [Medium - 3310. Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/description/)
     * [Hard - 3311. Construct 2D Grid Matching Graph Layout](https://leetcode.com/problems/construct-2d-grid-matching-graph-layout/description/)
+
+* 2024/10/13
+    * [Easy - 3318. Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)
