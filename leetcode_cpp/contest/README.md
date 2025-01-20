@@ -125,3 +125,4 @@
 * 2024/10/13
     * [Easy - 3318. Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)
     * [Medium - 3319. K-th Largest Perfect Subtree Size in Binary Tree](https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree/description/)
+    * [Hard - 3320. Count The Number of Winning Sequences](https://leetcode.com/problems/count-the-number-of-winning-sequences/description/)
