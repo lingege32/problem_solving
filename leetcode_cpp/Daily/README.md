@@ -216,3 +216,4 @@
 [0120 Medium - 2661. First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/description/?envType=daily-question&envId=2025-01-20)
 [0121 Medium - 2017. Grid Game](https://leetcode.com/problems/grid-game/description/?envType=daily-question&envId=2025-01-21)
 [0122 Medium - 1765. Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/description/?envType=daily-question&envId=2025-01-22)
+[0123 Medium - 1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/?envType=daily-question&envId=2025-01-23)
