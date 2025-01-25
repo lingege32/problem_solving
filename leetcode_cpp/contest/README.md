@@ -129,3 +129,4 @@
 
 * 2024/10/20
     * [Medium - 3324. Find the Sequence of Strings Appeared on the Screen](https://leetcode.com/problems/find-the-sequence-of-strings-appeared-on-the-screen/description/)
+    * [Medium - 3325. Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/description/)
