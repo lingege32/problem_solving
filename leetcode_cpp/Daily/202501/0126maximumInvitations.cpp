@@ -13,48 +13,53 @@ class Solution {
         int n = favorites.size();
         vector<int> inDegree(n, 0), chainLengths(n, 0);
         vector<bool> visited(n, false);
-
-        for (int fav : favorites) {
-            inDegree[fav]++;
+        for (int in = 0; in < n; ++in) {
+            inDegree[favorites[in]]++;
         }
 
-        queue<int> q;
-        for (int i = 0; i < n; ++i) {
-            if (inDegree[i] == 0) {
-                q.push(i);
+        // find the start point
+        std::queue<int> q;
+        for (int in = 0; in < n; ++in) {
+            if (inDegree[in] == 0) {
+                q.push(in);
             }
         }
 
         while (!q.empty()) {
-            int node = q.front();
+            int in = q.front();
             q.pop();
-            visited[node] = true;
-
-            int next = favorites[node];
-            chainLengths[next] = chainLengths[node] + 1;
-            if (--inDegree[next] == 0) {
-                q.push(next);
+            visited[in] = true;
+            int out = favorites[in];
+            if (--inDegree[out] == 0) {
+                q.push(out);
             }
+            chainLengths[out] = chainLengths[in] + 1;
         }
 
-        int maxCycle = 0, totalChains = 0;
+        int maxCycle = 0;
+        int totalLength = 0;
         for (int i = 0; i < n; ++i) {
-            if (!visited[i]) {
-                int current = i, cycleLength = 0;
-                while (!visited[current]) {
-                    visited[current] = true;
-                    current = favorites[current];
-                    cycleLength++;
-                }
+            if (visited[i]) {
+                continue;
+            }
 
-                if (cycleLength == 2) {
-                    totalChains += 2 + chainLengths[i] + chainLengths[favorites[i]];
-                } else {
-                    maxCycle = max(maxCycle, cycleLength);
-                }
+            int cycle = 0;
+            int cur = i;
+            while (!visited[cur]) {
+                cycle++;
+                visited[cur] = true;
+                cur = favorites[cur];
+            }
+            if (cycle == 2) {
+                // we can see they are one edge and can connected to single list
+                // 1 --> 2 --> 3 --> 4
+                //       ^-----|
+
+                totalLength += (2 + chainLengths[i] + chainLengths[favorites[i]]);
+            } else {
+                maxCycle = std::max(maxCycle, cycle);
             }
         }
-
-        return max(maxCycle, totalChains);
+        return std::max(maxCycle, totalLength);
     }
 };
