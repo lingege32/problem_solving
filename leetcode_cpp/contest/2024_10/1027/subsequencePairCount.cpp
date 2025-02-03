@@ -7,38 +7,32 @@ auto init = []() {
     return 'c';
 }();
 
+using LL = long long;
+
 class Solution {
-    const int mod = 1e9 + 7;
-    std::array<std::array<std::array<int,201>,201>,200> dp;
+    static constexpr int MOD = 1e9 + 7;
+    std::array<std::array<std::array<int, 201>, 201>, 200> dp;
+    std::vector<int>* vals = nullptr;
 
-  public:
-    int solve(size_t i, vector<int>& nums, int first, int second) {
-        // first == gcd of first subsequence till now
-        // second = gcd of second subsequence till now
-
-        if (i == nums.size()) {
-            return (first && second) && (first == second);
+    int solve(size_t from, int first_gcd, int second_gcd) {
+        if (from == vals->size()) {
+            return first_gcd && second_gcd && first_gcd == second_gcd;
+        }
+        auto& v = dp[from][first_gcd][second_gcd];
+        if (v != -1) {
+            return v;
         }
 
-        if (dp[i][first][second] != -1) {
-            return dp[i][first][second];
-        }
-
-        // Dont include this element in any subsequence
-        int skip = solve(i + 1, nums, first, second);
-
-        // Include this index in the first subsequence
-        int take1 = solve(i + 1, nums, __gcd(first, nums[i]), second);
-
-        // Include this index in the second subsequence
-        int take2 = solve(i + 1, nums, first, __gcd(second, nums[i]));
-
-        // Summing up all the possibilites
-        return dp[i][first][second] = (0LL + skip + take1 + take2) % mod;
+        LL noTake = solve(from + 1, first_gcd, second_gcd);
+        LL takeFirst = solve(from + 1, std::gcd(first_gcd, (*vals)[from]), second_gcd);
+        LL takeSecond = solve(from + 1, first_gcd, std::gcd(second_gcd, (*vals)[from]));
+        return v = (noTake + takeFirst + takeSecond) % MOD;
     }
 
+  public:
     int subsequencePairCount(vector<int>& nums) {
-        memset(dp.data(), -1, sizeof(dp));
-        return solve(0, nums, 0, 0);
+        std::memset(dp.data(), -1, sizeof(dp));
+        vals = &nums;
+        return solve(0, 0, 0);
     }
 };
