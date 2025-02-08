@@ -137,3 +137,6 @@
     * [Medium - 3335. Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/)
     * [Hard - 3336. Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/description/)
     * [Hard - 3337. Total Characters in String After Transformations II](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/description/)
+
+* 2024/11/03
+    * [Easy - 3340. Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)
