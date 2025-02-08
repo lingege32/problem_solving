@@ -140,3 +140,4 @@
 
 * 2024/11/03
     * [Easy - 3340. Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)
+    * [Medium - 3341. Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)
