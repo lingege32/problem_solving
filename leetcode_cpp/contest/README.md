@@ -142,3 +142,6 @@
     * [Easy - 3340. Check Balanced String](https://leetcode.com/problems/check-balanced-string/description/)
     * [Medium - 3341. Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/)
     * [Medium - 3342. Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/description/)
+
+* 2024/11/10
+    * [Easy - 3349. Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/description/)
