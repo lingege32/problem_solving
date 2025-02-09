@@ -145,3 +145,4 @@
 
 * 2024/11/10
     * [Easy - 3349. Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/description/)
+    * [Medium - 3350. Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/description/)
